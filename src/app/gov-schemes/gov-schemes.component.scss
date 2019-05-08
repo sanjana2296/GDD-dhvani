@@ -1,0 +1,72 @@
+mat-card{
+    background-color: rgb(248, 233, 245);
+    float:left;
+    width:100%;
+    color:rgb(233, 214, 217);
+    text-align:left;
+}
+mat-list{
+    width:60%;
+    margin:0 auto 0 auto;
+}
+.matCard{
+    background-color: rgb(193, 221, 255);
+    float:left;
+    width:100%;
+    text-align:left;
+    color:blue;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  .newmatcard{
+      padding:20px;
+      margin:170px;
+      width:40%;
+      background-color: aqua;
+      margin:150 auto 0 auto;
+    
+  }
+
+  mat-list-option {
+      background-color: aquamarine;
+  }
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width:40%;
+    
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

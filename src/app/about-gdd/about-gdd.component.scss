@@ -1,0 +1,396 @@
+
+/* Variables */
+
+$backgroundColor: #f77462;
+$list: #6dc5dd;
+$border: #5ab2ca;
+$geneicons: #fff;
+
+body {
+  background: $backgroundColor;
+  font-family: Lato, sans-serif;
+}
+
+@font-face {
+  font-family: 'Genericons';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.eot');
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.woff') format('woff'),
+     url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.eot') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class*="genericon"] {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  line-height: 1;
+  font-family: 'Genericons';
+  text-decoration: inherit;
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: top;
+}
+
+/* IE7 */
+[class*="genericon"] {
+  *overflow: auto;
+  *zoom: 1;
+  *display: inline;
+}
+
+.container {
+  margin: 100px auto;
+}
+
+.accordion {
+  background: $border;
+  width: 100%;
+  min-width: 950px;
+  display: block;
+  list-style-type: none;
+  overflow: hidden;
+  height: 200px;
+  font-size: 0;
+}
+
+.tabs {
+  display: inline-block;
+  background-color: $list;
+  border-right: $border 1px solid;
+  width: 80px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  font-size: 16px;
+
+  &:hover {
+    width: 450px;
+
+    .social-links {
+      a {
+        &:before {
+          margin-left: -100px;
+        }
+
+        &:after {
+          margin-left: -5px;
+        }
+      }
+    }
+  }
+
+  .paragraph {
+    position: relative;
+    width: 360px;
+    margin-left: 80px;
+    padding: 50px 0 0 10px;
+    height: 200px;
+    background: #fff;
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    } 
+
+    p {
+      font-size: 0.88em;
+      line-height: 1.5em;
+      padding-right: 30px;
+    }
+  }
+}
+
+.social-links {
+  display: block;
+
+  a {
+    display: block;
+    text-indent: -9999px;
+    font-size: 0;
+    line-height: 0;
+
+    &:before, &:after {
+      width: 80px;
+      height: 200px;
+      position: absolute;
+      text-indent: 0;
+      padding-top: 90px;
+      padding-left: 25px;
+      display: block;
+      font: normal 30px Genericons;
+      color: $geneicons;
+    }
+
+    &:after {
+      font-size: 48px;
+      padding-left: 20px;
+      padding-top: 80px;
+      margin-left: 85px;
+    }
+  }
+}
+
+.twitter-icon {
+  a {
+    &:before, &:after {
+      content: '\f202';
+    }
+
+    &:after {
+    }
+  }
+}
+
+.facebook-icon {
+  a {
+    &:before, &:after {
+      content: '\f204';
+    }
+
+    &:after {
+    }
+  }
+}
+
+.linkedin-icon {
+  a {
+    &:before, &:after {
+      content: '\f208';
+    }
+
+    &:after {
+    }
+  }
+}
+
+.insta-icon {
+  a {
+    &:before, &:after {
+      content: '\f215';
+    }
+
+    &:after {
+    }
+  }
+}
+
+.youtube-icon {
+  a {
+    &:before, &:after {
+      content: '\f213';
+    }
+
+    &:after {
+    }
+  }
+}
+
+.tumblr-icon {
+  a {
+    &:before, &:after {
+      content: '\f214';
+    }
+
+    &:after {
+    }
+  }
+}
+
+.dribbble-icon {
+  a {
+    &:before, &:after {
+      content: '\f201';
+    }
+
+    &:after {
+    }
+  }
+}
+
+HTML  CSS  JS Result
+EDIT ON
+ /* RESET-BASIC STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e9ecef;
+}
+
+h3 {
+  color: black;
+  width: 80%;
+  font-size:200%;
+  font-family: 'Ink free';
+  text-align: center;
+  margin: 15px auto;
+  padding: 10px;
+}
+
+ul {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  background: rgb(169, 235, 213);
+}
+
+li {
+  height: 50px;
+  line-height: 50px;
+  border-top: 1px solid #e9ecef;
+}
+
+ul a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  position: relative;
+  -webkit-transition: background .3s;
+          transition: background .3s;
+}
+
+ul a:after {
+  content: '⇢';
+  position: absolute;
+  right: 10px;
+}
+
+ul a:hover {
+  background: #cdcbc4; 
+}
+
+
+
+/* CHECKBOX CONTAINER STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.container { 
+  position: relative; 
+  height: auto;
+  border-top: 0;
+}
+
+[type="checkbox"] {
+  position: absolute;
+  left :  -9999px;   
+}
+
+label {
+  background: #e4e3df;
+  display: block;
+  width: 100%;
+  height: 30px;
+  float:right;
+  cursor: pointer;
+  position: relative;
+  /*
+   * no need to position absolutely the element 
+   * because we are not interested in any transition effect
+   * position: absolute;
+   * top: 0;
+   */
+}
+
+/*
+ * use the rule below for testing purposes
+ * label:hover {
+ *    background: yellow;
+ *  }
+ */
+
+label:before,
+label:after {
+    position: absolute;
+    float:right;
+  
+}
+
+label:before {
+  content: 'Show More';
+  color:blue;
+  left: 10px;
+}
+
+label:after {
+  content: '⇣●';
+  right: 10px;
+  float:right;
+ 
+  -webkit-animation: sudo .85s linear infinite alternate;
+          animation: sudo .85s linear infinite alternate;
+}
+
+@keyframes sudo { 
+    from { 
+    -webkit-transform: translateY(-2px); 
+            transform: translateY(-2px); 
+  }
+    to { 
+    -webkit-transform: translateY(2px); 
+            transform: translateY(2px); 
+  }
+}
+
+input[type="checkbox"] ~ ul {
+  width: 100%;
+    display: none;
+}
+
+
+
+/* CHECKED STATE STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+[type="checkbox"]:checked ~ ul {
+  display: block;
+  
+} 
+
+[type="checkbox"]:checked + label {
+  /**
+   * if we have positioned relatively the element, 
+   * during the "checked" state 
+   * we have to change its type of positioning
+   */
+  position: absolute; 
+  top: 100%;
+  float:right;
+}
+
+[type="checkbox"]:checked + label:before {
+  content: 'Show Less';
+  color:blue;
+  float:right;
+}
+
+[type="checkbox"]:checked + label:after {
+ content: '⇡●'; 
+ float:right;
+}
+
+ul li:last-child {
+  margin-bottom: 50px;
+  float:right;
+}
+
+.matlist{
+  width:80%;
+  margin:0 auto 0 auto;
+}
+
+mat-card{
+  font-size: 130%;
+  font-family: 'corbel';
+}

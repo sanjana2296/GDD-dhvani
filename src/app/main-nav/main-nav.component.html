@@ -1,0 +1,98 @@
+<!--Navbar-->
+
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-light" [containerInside]="false">
+
+    <!-- Navbar brand -->
+    <mdb-navbar-brand style="color:black"><a i18n="@@mainTitle" class="navbar-brand" href="#"></a></mdb-navbar-brand>
+
+    <!-- Collapsible content -->
+    <links>
+  
+      <!-- Links -->
+      <ul  class="navbar-nav mr-auto">
+        
+        <li style="z-index: 4"  class="nav-item dropdown1">
+            <a i18n="@@mainHome" mdbTooltip="Home" class=" nav-link dropdown-toggle waves-light dropbtn1" routerLink="/home" style="color:black">Home</a>
+            <div class="dropdown1-content">
+              <a routerLink="/gov-schemes">Why dhvani.life?</a>
+              <a routerLink="/login">Be a member</a>
+              <a href="#top">Our benchmarks</a>
+          </div>
+          
+      </li>
+        <li  class="nav-item">
+          <a i18n="@@mainMilestones" class="nav-link waves-light" style="color:black" mdbTooltip="Milestones" routerLink="/mile-stone" mdbWavesEffect>Milestones </a>
+        </li>
+       
+        <li style="z-index: 4"  class="nav-item dropdown1">
+            <a i18n="@@mainAboutGdd" mdbTooltip="About GDD" class=" nav-link dropdown-toggle waves-light dropbtn1" routerLink="/home" style="color:black">Home</a>
+            <div class="dropdown1-content">
+              <a routerLink="/about-gdd" >About GDD</a>
+              <a  >Prevelance</a>
+              <a  >Treatment</a>
+          </div>
+          
+      </li>
+        <li style="z-index: 4"  class="nav-item dropdown1">
+          <a i18n="@@mainHelpForGdd" mdbTooltip="Help for GDD" class=" nav-link dropdown-toggle waves-light dropbtn1" style="color:black">Help for GDD</a>
+          <div class="dropdown1-content">
+            <a i18n="@@mainGovSchemes" routerLink="/gov-schemes" >Government schemes</a>
+            <a i18n="@@mainResearchPaper" routerLink="/research-paper">Research paper</a>
+        </div>
+        
+    </li>
+    <li class="nav-item">
+      <a i18n="@@MainSpeakToUs" mdbTooltip="Speak to us" style="color:black" class="nav-link waves-light" routerLink="/feed"  mdbWavesEffect>Speak to us</a>
+    </li>
+    <li class="nav-item">
+      <a i18n="@@mainWhereToGo" mdbTooltip="Where to go" style="color:black" class="nav-link waves-light" routerLink="/where-to-go" mdbWavesEffect>Where to go</a>
+    </li>
+  
+        <li class="nav-item">
+          <a i18n="@@mainDonor" mdbTooltip="Our Donors" style="color:black" class="nav-link waves-light" routerLink="/donate" mdbWavesEffect>Our donors</a>
+        </li>
+      
+        <li class="nav-item">
+          <a i18n="@@mainAboutUs" mdbTooltip="About us" style="color:black" class="nav-link waves-light" routerLink="/about-us"  mdbWavesEffect>About us</a>
+        </li>
+        
+    
+        <!-- Dropdown -->
+        
+        <li style="z-index: 4"  class="nav-item dropdown1">
+            <a i18n="@@mainLanguage" mdbTooltip="Language" class=" nav-link dropdown-toggle waves-light dropbtn1" style="color:black">Language</a>
+            <div class="dropdown1-content">
+                <a href="/fr/"  i18n="@@mainKannada" class="dropdown-item waves-light" mdbWavesEffect >Kannada</a>
+                <a  href="/en/"  i18n="@@mainEnglish" class="dropdown-item waves-light" mdbWavesEffect >English</a>
+                <a href="/es/"  i18n="@@mainFrench" class="dropdown-item waves-light" mdbWavesEffect >Hindi</a>
+             </div>
+          
+      </li>
+      </ul>
+      <!-- Links -->
+  
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+          
+        <li class="nav-item dropdown" dropdown>
+            <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+              <mdb-icon fas icon="user"></mdb-icon> <span *ngIf="!currentUser"  style="width:80%">Hi guest</span><span *ngIf="currentUser"  style="width:2%">Hi {{currentUser.firstName}}!</span><span class="caret"></span></a>
+            <div *dropdownMenu class="dropdown-menu dropdown-menu-right dropdown dropdown-primary" role="menu">
+              <a class="dropdown-item waves-light" routerLink="/profile" mdbWavesEffect href="#">My account</a>
+              <div class="navbar-nav"  *ngIf="!currentUser">
+                  <a class="nav-item nav-link"  routerLink="/login">Login</a>
+              </div>
+              <div class="navbar-nav"  *ngIf="currentUser">
+                  <a class="nav-item nav-link" (click)="logout()">Logout</a>
+              </div>
+            </div>
+            
+        
+          </li>
+      </ul>
+    </links>
+    <!-- Collapsible content -->
+  
+  </mdb-navbar>
+  <!--/.Navbar-->
+  
+<!--/.Navbar-->

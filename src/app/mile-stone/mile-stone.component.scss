@@ -1,0 +1,139 @@
+@mixin tab($col,$tabPos){
+    &::after{
+      content:'';     
+      position:absolute;
+      width:5vw;
+      height:25vh;
+      background:$col;
+      border-radius:0 20px 20px 0;
+      top:$tabPos;
+      right:-4vw;
+    }
+  }
+  @mixin tabAbove($col,$tabPos){
+    &::after{
+      content:'';     
+      position:absolute;
+      width:3vw;
+      height:10vh;
+      background:$col;
+      border-radius:0 20px 20px 0;
+      top:$tabPos;
+      right:-4vw;
+    }
+  }
+  
+  $col1: #E6B098;
+  $col2: #CC4452;
+  $col3: #723147;
+  $col4: #31152B;
+  $col5: #e4aabd;
+  $col6: rgb(228, 114, 125);
+  
+  html,body{
+    height:100%;
+    margin:0;
+  }
+  
+  .tab{
+    height:100%;
+    position:absolute;
+    box-shadow:6px 0px 6px rgba(0,0,0,0.3);
+    transition: all 0.5s ease;
+    &:hover ~ div{
+      transform:translateX(-80vw);
+    }
+  }
+  .tabAbove{
+    height:80%;
+    position: relative;
+    box-shadow:6px 0px 6px rgba(0,0,0,0.3);
+    transition: all 0.5s ease;
+    &:hover ~ div{
+      transform:translateX(-80vw);
+    }
+  }
+  #tab0{
+    @extend .tab;
+    width:80vw;
+  }
+  
+  #tab1{
+    @extend .tab;
+    width:75vw;
+    background:$col4;
+    @include tab($col4,75%);
+  }
+  
+  #tab2{
+    @extend .tab;
+    width:70vw;
+    background:$col3;
+    @include tab($col3,60%);
+  }
+  
+  #tab3{
+    @extend .tab;
+    width:65vw;
+    background:$col2;
+    @include tab($col2,45%);
+  }
+  
+  #tab4{
+    @extend .tab;
+    width:60vw;
+    background:$col1;
+    @include tab($col1,30%);
+  }
+  #tab5{
+    @extend .tab;
+    width:55vw;
+    background:$col6;
+    @include tab($col6,15%);
+  }
+  
+  #tab6{
+    @extend .tab;
+    @extend .tabAbove;
+    width:50vw;
+    background:$col1;
+    @include tab($col1,0);
+   
+  }
+
+  .babymile{
+      width:50%;
+      float:left;
+      margin-top:10%;
+      margin-left:3%;
+  }
+
+  mat-card{
+      background-color: rgb(253, 242, 237);
+      width:8%;
+      color:rgb(87, 15, 27);
+      float:right;
+      margin-top:3%;
+      margin-right: -7%;
+      font-family: "Times New Roman", Times, serif;
+      z-index:4;
+      border-radius:5px 5px;
+      font-size:17px;
+      font-family:ink free;
+      font-style: bold;
+  }
+
+  h1 {
+    background: linear-gradient( 90deg, rgba(246, 114, 128, 0.6) , rgba(255, 255, 255, 0.6));
+    border-left:20px #dd6673 solid;
+    color: #444;
+    text-align: left;
+    line-height: 28px;
+    padding: 15px 0px 15px 20px; 
+  }
+
+  ul{
+  
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
+  }

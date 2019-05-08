@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="mainTitle" datatype="html">
+        <source>Dhvani</source>
+        <target>ದ್ವಾನಿ</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainHome" datatype="html">
+        <source>Dhvani&apos;s Home page<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>ಮುಖಪುಟ</target> <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainMilestones" datatype="html">
+        <source>Milestones </source>
+        <target>
+ಮೈಲಿಗಲ್ಲುಗಳು</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainAboutGdd" datatype="html">
+        <source>About GDD</source>
+        <target>ಜಿಡಿಡಿ ಬಗ್ಗೆ</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainHelpForGdd" datatype="html">
+        <source>Help for gdd</source>
+        <target>
+ಜಿಡಿಡಿ ಗಾಗಿ ಸಹಾಯ</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainGovSchemes" datatype="html">
+        <source>Government schemes</source>
+        <target>
+ಸರ್ಕಾರದ ಯೋಜನೆಗಳು</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainResearchPaper" datatype="html">
+        <source>Research paper</source>
+        <target>
+ಸಂಶೋಧನಾ ಲೇಖನ</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="MainSpeakToUs" datatype="html">
+        <source>Speak to us</source>
+        <target>ನಮಗೆ ಮಾತನಾಡಿ</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainWhereToGo" datatype="html">
+        <source>Where to go</source>
+        <target>
+ಎಲ್ಲಿಗೆ ಹೋಗಬೇಕು</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainDonor" datatype="html">
+        <source>Our donors</source>
+        <target>ನಮ್ಮ ದಾನಿಗಳು</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainAboutUs" datatype="html">
+        <source>About us</source>
+        <target>
+ನಮ್ಮ ಬಗ್ಗೆ</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainLanguage" datatype="html">
+        <source>
+           Language<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+       <target>
+ಭಾಷೆ</target>  <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainKannada" datatype="html">
+        <source>Kannada</source>
+        <target>ಕನ್ನಡ
+</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainEnglish" datatype="html">
+        <source>English</source>
+        <target>ಇಂಗ್ಲಿಷ್</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainFrench" datatype="html">
+        <source>French</source>
+        <target>ಫ್ರೆಂಚ್</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="feedTitle" datatype="html">
+        <source>
+  feed works!
+</source>
+<target>ಫೀಡ್ ಕೃತಿಗಳು!
+</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feed/feed.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="templatesTitle" datatype="html">
+        <source>
+	Templates
+</source>
+<target>ಟೆಂಪ್ಲೇಟ್ಗಳು</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feed/feed.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feed/feed.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="introductionHeader" datatype="html">
+        <source>Hello i18n!</source>
+        <target>
+ಹಲೋ i18n!</target> 
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feed/feed.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feed/feed.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/feed/feed.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">An introduction header for this sample</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

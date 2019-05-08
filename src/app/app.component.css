@@ -1,0 +1,34 @@
+.image{
+    z-index:1;
+    margin-top:1px;
+    float:right;
+    width:5%;
+    background-color: brown;
+}
+
+.image-right{
+    z-index:1;
+    margin-top:1px;
+    float:left;
+    width:5%;
+    background-color: brown;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.button {
+    background-color: darkslateblue;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    width: 10%;
+    margin: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  mdb-icon{
+      float:left;
+      padding:10px;
+  }

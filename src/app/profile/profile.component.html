@@ -1,0 +1,12 @@
+<p>
+  profile works!
+</p>
+
+<h3 *ngIf="currentUser" style="text-align: right">Hi {{currentUser.firstName}}!</h3>
+<h3 *ngIf="!currentUser" style="text-align: right">Hi Guest!</h3>
+<ul *ngIf="currentUser.firstName=='Admin'">
+    <li *ngFor="let user of users">
+        {{user.username}} ({{user.firstName}} {{user.lastName}})
+        - <a (click)="deleteUser(user.id)" class="text-danger">Delete</a>
+    </li>
+</ul>

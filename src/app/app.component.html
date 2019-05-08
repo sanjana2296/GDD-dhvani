@@ -1,0 +1,53 @@
+﻿<!-- nav
+<nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="currentUser">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/">Home</a>
+        <a class="nav-item nav-link" (click)="logout()">Logout</a>
+    </div>
+</nav>
+
+ -->  
+  
+
+<img routerLink="/home" style="margin-left: 45%" src="./assets/blf1.png">
+<!--The content below is only a placeholder and can be replaced. rgb(185, 253, 231)-->
+<div style="text-align:center;background-repeat:no-repeat;  width: 80vw;
+
+margin: 0.5vw auto; 
+background-size: cover;
+
+background-image: url('./assets/l46.jpeg') ">
+
+  <app-main-nav></app-main-nav>
+ <!-- <img class="image" style="z-index:1" src="./assets/baby14.jpg">
+  <img class="image-right" style="z-index:1" src="./assets/baby14.jpg">
+    <img style="z-index:1" src="./assets/gdd-templayout-25-04.jpg">-->
+<!-- <app-home></app-home>--> 
+<alert></alert>
+<router-outlet></router-outlet>
+
+
+<footer class="page-footer font-small ">
+
+ 
+  <div class="footer-copyright text-center py-3" >
+     
+          <a href="https://www.facebook.com/Global-Developmental-Delay-140028059374556/" target="_blank">
+            <mdb-icon fab icon="facebook"></mdb-icon>
+          </a>
+    
+
+      <a href="https://twitter.com/gdduk1?lang=en" target="_blank" >
+        <mdb-icon fab icon="twitter"></mdb-icon>
+      </a>
+   
+  
+      <a href="https://www.instagram.com/developmentaldelays/" target="_blank" >
+        <mdb-icon fab icon="instagram"></mdb-icon>
+      </a>
+   
+    <a i18n="@@footerContent" href="https://mdbootstrap.com/education/bootstrap/"> © 2019 Copyright: dhvani.life</a>
+  </div>
+
+</footer>
+ 
