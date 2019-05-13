@@ -19,6 +19,8 @@ import { GovSchemesComponent } from './gov-schemes/gov-schemes.component';
 import { FeedComponent } from './feed/feed.component';
 import { FilterPipe } from './filter.pipe';
 import { GoogleChartsModule } from 'angular-google-charts';
+//import { ChatroomComponent} from './chatroom/chatroom.component';
+//import { PageNotFoundComponent} from './page-not-found/page-not-found.component';
 //for translation
 import { registerLocaleData } from '@angular/common';
 import localeFr from '@angular/common/locales/fr';
@@ -89,6 +91,8 @@ import { WavesModule, ButtonsModule, InputsModule } from 'angular-bootstrap-md';
         InputsModule,
         LayoutModule,
         FormsModule,
+      //  ChatroomComponent,
+        //PageNotFoundComponent,
         MatToolbarModule,
     MatButtonModule,
     MatSidenavModule,

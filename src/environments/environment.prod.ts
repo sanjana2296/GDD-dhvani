@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://murmuring-gorge-79778.herokuapp.com'
+  apiUrl: 'https://powerful-savannah-34879.herokuapp.com'
 };

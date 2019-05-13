@@ -35,17 +35,18 @@ export class AboutUsComponent implements OnInit {
     const { message, currentUser } = this;
     currentUser.sendMessage({
       text: message,
-      roomId: '31218872',
+      roomId: '21040606',
     });
     this.message = '';
   }
 
   addUser() {
     const { username } = this;
-    axios.post('https://us1.pusherplatform.io/services/chatkit/v2/:b3f948e1-58b3-41cd-b631-c88b1e8bf368/users', { username })
+    console.log("username"+username);
+    axios.post('http://192.168.43.15:5200/users', { username })
       .then(() => {
         const tokenProvider = new Chatkit.TokenProvider({
-          url: 'https://us1.pusherplatform.io/services/chatkit_token_provider/v1/b3f948e1-58b3-41cd-b631-c88b1e8bf368/token'
+          url: 'http://192.168.43.15:5200/authenticate'
         });
 
         const chatManager = new Chatkit.ChatManager({
@@ -58,7 +59,7 @@ export class AboutUsComponent implements OnInit {
           .connect()
           .then(currentUser => {
             currentUser.subscribeToRoom({
-              roomId: '31218872',
+              roomId: '21040606',
               messageLimit: 100,
               hooks: {
                 onMessage: message => {

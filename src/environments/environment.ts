@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://murmuring-gorge-79778.herokuapp.com'
+  apiUrl: 'https://powerful-savannah-34879.herokuapp.com'
 };
 
 /*

@@ -29,6 +29,7 @@ const routes: Routes = [
 { path: 'about-gdd', component:AboutGddComponent},
 { path: '', component: HomeComponent, canActivate: [AuthGuard] },
 { path: 'login', component: LoginComponent },
+{ path: 'contact', component: ContactFormComponent },
 { path: 'register', component: RegisterComponent },
 { path: 'profile', component: ProfileComponent },
 { path: 'new', component: FeedFormComponent },

@@ -24,7 +24,6 @@
               [(ngModel)]="content"
               rows="10"
               cols="70"
-              [disabled]="isSending"
               name="content"
             ></textarea>
           </div>
@@ -34,6 +33,6 @@
       <div class="is-7"></div>
     </div>
 
-    <button (click)="submit()" class="button is-info" [disabled]="isSending">
+    <button (click)="submit()" class="button is-info" >
       Send
     </button>
