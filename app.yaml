@@ -8,7 +8,7 @@ handlers:
 
 - url: /
 
-  static_files: dist/en/index.html
+  static_files: dist/index.html
 
   upload: dist/
 
