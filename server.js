@@ -103,6 +103,6 @@ app.post('/send', function (req, res) {
   });
 });
 
-app.listen(port,"0.0.0.0", function () {
+app.listen(port, function () {
   console.log('Express started on port: ', port);
 });
