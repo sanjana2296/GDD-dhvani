@@ -1,6 +1,6 @@
 
 /* Variables */
-
+/*
 $backgroundColor: #f77462;
 $list: #6dc5dd;
 $border: #5ab2ca;
@@ -34,7 +34,7 @@ body {
   vertical-align: top;
 }
 
-/* IE7 */
+/* IE7 *//*
 [class*="genericon"] {
   *overflow: auto;
   *zoom: 1;
@@ -215,7 +215,7 @@ HTML  CSS  JS Result
 EDIT ON
  /* RESET-BASIC STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+/*
 * {
   padding: 0;
   margin: 0;
@@ -275,7 +275,7 @@ ul a:hover {
 
 /* CHECKBOX CONTAINER STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+/*
 .container { 
   position: relative; 
   height: auto;
@@ -300,8 +300,8 @@ label {
    * because we are not interested in any transition effect
    * position: absolute;
    * top: 0;
-   */
-}
+   
+}*/
 
 /*
  * use the rule below for testing purposes
@@ -309,7 +309,7 @@ label {
  *    background: yellow;
  *  }
  */
-
+/*
 label:before,
 label:after {
     position: absolute;
@@ -352,7 +352,7 @@ input[type="checkbox"] ~ ul {
 
 /* CHECKED STATE STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+/*
 [type="checkbox"]:checked ~ ul {
   display: block;
   
@@ -363,7 +363,7 @@ input[type="checkbox"] ~ ul {
    * if we have positioned relatively the element, 
    * during the "checked" state 
    * we have to change its type of positioning
-   */
+   *//*
   position: absolute; 
   top: 100%;
   float:right;
@@ -393,4 +393,35 @@ ul li:last-child {
 mat-card{
   font-size: 130%;
   font-family: 'corbel';
+}
+*/
+
+
+p {
+  padding: 2%;
+  background: #fff9c6;
+  color: #9b8652;
+  border: 1px solid #fce29f;
+  border-radius: .25em;
+  font-size: 130%;
+  font-family: 'corbel';
+text-align: justify;
+margin:0 auto 0 auto;
+margin-top:2%;
+width:70%;
+}
+.matlist{
+  width:80%;
+  margin:0 auto 0 auto;
+  align-content: left;
+}
+
+.mat{
+  font-size: 130%;
+  font-family: 'corbel';
+text-align: justify;
+}
+
+h3{
+  font-family: ink free;
 }

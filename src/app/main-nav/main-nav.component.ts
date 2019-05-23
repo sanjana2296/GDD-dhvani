@@ -7,7 +7,8 @@ import {  LOCALE_ID, Inject } from '@angular/core';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { first } from 'rxjs/operators';
-
+import {ChatroomComponent} from '../chatroom/chatroom.component';
+import {ContactFormComponent} from '../contact-form/contact-form.component';
 import { User } from '../_models';
 import { UserService, AuthenticationService } from '../_services';
 
@@ -30,6 +31,9 @@ export class MainNavComponent {
       this.authenticationService.currentUser.subscribe(x => this.currentUser = x);
       this.currentUserSubscription = this.authenticationService.currentUser.subscribe(user => {
      this.currentUser = user;
+     ChatroomComponent.user=this.currentUser.firstName;
+     ContactFormComponent.user=this.currentUser.firstName;
+console.log("firstname:"+ChatroomComponent.user);
    }); }
    
    ngOnDestroy() {

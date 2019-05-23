@@ -1,9 +1,17 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { first } from 'rxjs/operators';
-
+import {ChatroomComponent} from '../chatroom/chatroom.component';
 import { User } from '../_models';
 import { UserService, AuthenticationService } from '../_services';
+import {SlimLoadingBarService} from 'ng2-slim-loading-bar';
+import { NavigationCancel,
+        Event,
+        NavigationEnd,
+        NavigationError,
+        NavigationStart,
+        Router } from '@angular/router';
+
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
@@ -15,12 +23,17 @@ export class ProfileComponent implements OnInit {
   users: User[] = [];
 
 constructor( private authenticationService: AuthenticationService,
-  private userService: UserService
+  private userService: UserService,private _loadingBar: SlimLoadingBarService, private _router: Router
 )
 {
  this.currentUserSubscription = this.authenticationService.currentUser.subscribe(user => {
 this.currentUser = user;
-}); }
+ChatroomComponent.user=this.currentUser.firstName;
+console.log("firstname:"+ChatroomComponent.user);
+}); 
+ this._router.events.subscribe((event: Event) => {
+      this.navigationInterceptor(event);
+    });}
 
 ngOnInit() {  console.log("in init"); this.loadAllUsers();
 }
@@ -42,4 +55,20 @@ console.log("in users");
       this.users = users;
   });
 }
+
+private navigationInterceptor(event: Event): void {
+  if (event instanceof NavigationStart) {
+    this._loadingBar.start();
+  }
+  if (event instanceof NavigationEnd) {
+    this._loadingBar.complete();
+  }
+  if (event instanceof NavigationCancel) {
+    this._loadingBar.stop();
+  }
+  if (event instanceof NavigationError) {
+    this._loadingBar.stop();
+  }
 }
+}
+

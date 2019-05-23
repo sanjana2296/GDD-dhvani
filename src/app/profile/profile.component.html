@@ -1,12 +1,27 @@
-<p>
-  profile works!
-</p>
-
+<ng2-slim-loading-bar color="blue"></ng2-slim-loading-bar>
+<nav class="navbar navbar-expand-sm bg-light">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a routerLink="/business/create" class="nav-link" routerLinkActive="active">
+          Create Business
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/business" class="nav-link" routerLinkActive="active">
+          Business
+        </a>
+      </li> 
+    </ul>
+  </div>
+</nav>
 <h3 *ngIf="currentUser" style="text-align: right">Hi {{currentUser.firstName}}!</h3>
 <h3 *ngIf="!currentUser" style="text-align: right">Hi Guest!</h3>
-<ul *ngIf="currentUser.firstName=='Admin'">
-    <li *ngFor="let user of users">
-        {{user.username}} ({{user.firstName}} {{user.lastName}})
-        - <a (click)="deleteUser(user.id)" class="text-danger">Delete</a>
-    </li>
-</ul>
+
+      <table *ngIf="currentUser.firstName=='Admin'" id="customers" style="border:1px solid black">  <tr>
+        <th>UserName</th>
+        <th>First Name</th>
+        <th>Last Name</th>        <th>Delete Users</th>
+      </tr><tr *ngFor="let user of users" ><td> {{user.username}}</td> <td>{{user.firstName}}</td> <td> {{user.lastName}}</td>
+      <td> - <a (click)="deleteUser(user.id)" class="text-danger">Delete</a></td></tr></table>  
+  

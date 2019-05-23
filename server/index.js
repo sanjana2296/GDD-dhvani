@@ -8,11 +8,11 @@ const express = require('express');
     const port = process.env.PORT || 3000;
 
     let pusher = new Pusher({
-      appId: process.env.PUSHER_APP_ID,
-      key: process.env.PUSHER_APP_KEY,
-      secret: process.env.PUSHER_APP_SECRET,
-      encrypted: process.env.PUSHER_APP_SECURE,
-      cluster: process.env.PUSHER_APP_CLUSTER,
+      appId: '777233',
+      key: 'd94d959fbcf448441eb7',
+      secret: 'e11b1f82a499966b35d2',
+      cluster: 'ap2',
+      encrypted: true
     });
 
     app.use(cors());

@@ -27,7 +27,7 @@ export class FeedFormComponent implements OnInit {
     this.infoMsg = 'Processing your request.. Wait a minute';
 
     this.http
-      .post('http://localhost:3000/submit', {
+      .post(' https://protected-castle-59116.herokuapp.com/submit', {
         title: this.title,
         body: this.content,
         

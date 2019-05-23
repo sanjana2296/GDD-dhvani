@@ -7,10 +7,16 @@
         - <a (click)="deleteUser(user.id)" class="text-danger">Delete</a>
     </li>
 </ul>-->
-<div style="margin:2% auto 0 auto;width:40%;height:10%;z-index: 2;">
-    <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+<!-- Default Statcounter code for gdd app 
+https://gddapp-53085.firebaseapp.com/en -->
+
+
+  
+  
+<div class="two" style="margin:2% auto 0 auto;width:64vw;height:30vw;z-index: 2;">
+    <mdb-carousel style="width:80vw;height:10vw" class="carousel slide carousel-fade" [animation]="'fade'">
       <mdb-carousel-item>
-        <div class="view w-100">
+        <div style="width:64vw;height:30vw" class="view w-100">
           <img class="d-block w-100"  src="./assets/ish1.jpg" alt="First slide">
           <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
         </div>
@@ -18,7 +24,7 @@
         </div>
       </mdb-carousel-item>
       <mdb-carousel-item>
-        <div class="view w-100">
+        <div style="width:64vw;height:30vw" class="view w-100">
           <img class="d-block w-100" src="./assets/ish66.JPG" alt="Second slide">
           <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
         </div>
@@ -26,7 +32,7 @@
         </div>
       </mdb-carousel-item>
       <mdb-carousel-item>
-        <div class="view w-100">
+        <div style="width:64vw;height:30vw" class="view w-100">
           <img class="d-block w-100" src="./assets/ish3.JPG" alt="Third slide">
           <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
         </div>
@@ -34,7 +40,7 @@
         </div>
       </mdb-carousel-item>
       <mdb-carousel-item>
-          <div class="view w-100">
+          <div style="width:64vw;height:30vw" class="view w-100">
             <img class="d-block w-100" src="./assets/ish2.jpg" alt="Fourth slide">
             <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
           </div>
@@ -42,7 +48,7 @@
           </div>
         </mdb-carousel-item>
         <mdb-carousel-item>
-            <div class="view w-100">
+            <div style="width:64vw;height:30vw" class="view w-100">
               <img class="d-block w-100" src="./assets/ish77.JPG" alt="Fifth slide">
               <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
             </div>
@@ -51,34 +57,65 @@
           </mdb-carousel-item>
     </mdb-carousel>
     </div>
-    <h3 i18n="@@homeDhvani">Team@dhvani.life</h3>
+    <h3 style="margin: 3%" i18n="@@homeDhvani">Team@dhvani.life</h3>
 
 <mat-list class="matlist">
  
       <div>
           <input type="checkbox" class="read-more-state" id="post-1" />
         
-          <p i18n="@@homeContent" class="read-more-wrap mat">Dear Visitor,<br/>
+          <p i18n="@@homeContent" class="read-more-wrap mat"> <span *ngIf="!currentUser"  style="width:80%">Hi Visitor,</span><span *ngIf="currentUser"  style="width:2%">Dear {{currentUser.firstName}},</span><br/>
 
             Namaste!<br/>
             
-            If you’ve reached here, I’m thinking it’s either because you have googled “GDD” or “Global Development Delay.” Are you doing the right thing looking for help. Yes, you are doing the right thing to learn more of what may seem different in your child as compared to his/her age group.
-            
-            <br/>This website “dhvani.life” is an application for connecting parents of children with GDD. I designed this website as a support system for parents especially mothers of such innocent angels. I consider “support” a necessity and I believe a strong and “aware” mother will help the family (which may include other normal siblings and the father) to carry on as a normal family. Every mother hopes that her child is growing according to milestones of a normal child. But what do you do if you notice a delay?
+            If you’ve reached here, I’m thinking it’s either because you have googled “GDD”
+or “Global Development Delay” or “developmental delay”. Are you doing the right
+thing looking for help? Yes, <b><i>you are</i></b> doing the right thing! You want to learn more
+of what may seem different in your child as compared to children in his/her age
+group, so that I feel “is a step in the right direction!.” 
+            <br/>This website “dhvani.life” is a forum, for connecting parents of children with GDD.
+            I designed this website as a support system for parents especially mothers of such
+            innocent angels. I consider <b><i>“support”</i></b> a necessity and I believe a strong and “aware”
+            mother will help the entire family (which may include other normal siblings and
+            the father) to carry on as a normal family. Every mother hopes that her child is
+            growing according to the milestones of a normal child. But what do you do if you
+            notice a delay?
             
               <span class="read-more-target"><br/>Being a mother of a child with a generic name for her condition called “degenerative neuroregression” I can completely empathize with this constant need to become aware, to know more and to find a way to help our bundle of joy.
-                <br/>We (my team and I) have tried to include resources that will benefit you and your loved ones. In India especially, there is a lack of awareness of rare conditions such as the one my daughter suffered from, I wish that mothers like me do not have to struggle as I did with no direction on how to manage my child.
-      
-                <br/> Please feel free to sharing real life stories via images, videos or blogs. If you request anonymity, we will honor that. Let’s build a community that respects and helps one another. Come become a group member!
-                 <br/></span></p>
+                <br/>We (my team and I) have tried to include resources that will benefit you and your
+                loved ones. In India especially, there is a lack of <span style="background: yellow">awareness of rare conditions such
+                as the one my daughter, Ishaani had been categorized under.</span> I wish that the other mothers unlike
+                me do not have to struggle as much as I did with no information or direction on
+                how to manage such a child. My daughter is no more with us, she passed away on
+                June 4th, 2019 at 10 years and 2 months. She was a “fighter” and fought her way
+                during the years she was with us. She brought serenity, joy and love to all those
+                who had the chance to be with her. She is my inspiration and my strength along
+                with my son, her elder brother.
+                <br/> I hope that this website will help some of you mothers out there, if not all, to know
+                that there are others just like you. You are not alone. Most of the content that you
+                will find here is based on my personal experience that I would like to share with
+                you.
+                <br/>
+                Those of you, who have arrived at this website <span style="background: yellow"><i>and are not parents or are casual
+visitors,</i></span> help us in reaching out to those who need help.
+<br/>
+Please feel free to share your real life stories via images, videos or blogs. If you
+request anonymity, we will honor that. Let’s build a community that respects and
+helps one another by becoming a member!
+<br/>
+We have also created social media outlets via Facebook, Twitter and Instagram
+(links are below in the footer), I request you to share these links with your family
+and friends.
+                 <br/><br/><br/></span> <span style="float:right; margin-top:-5%"><i>Ishaani’s</i> mother,<br/>
+                  Poornima</span></p>
           
           <label for="post-1" class="read-more-trigger"></label>
-          <h3 i18n="@@homeBenchmarks" id="top"> Bench marks</h3>
+         <!-- <h3 i18n="@@homeBenchmarks" id="top"> Bench marks</h3>
           <br/>
          <p i18n="@@homeBenchMarksSub" class="mat"> Nonprofit advocacy <br/>
           Anonymity if expected <br/>
           Run by group members <br/>
-          Online community</p>
+          Online community</p>-->
         </div>
         
      

@@ -22,6 +22,7 @@ import { GoogleChartsModule } from 'angular-google-charts';
 //import { ChatroomComponent} from './chatroom/chatroom.component';
 //import { PageNotFoundComponent} from './page-not-found/page-not-found.component';
 //for translation
+
 import { registerLocaleData } from '@angular/common';
 import localeFr from '@angular/common/locales/fr';
 import localeFrExtra from '@angular/common/locales/extra/fr';
@@ -66,7 +67,7 @@ import {
     MatTooltipModule,
     MatTreeModule,
   } from '@angular/material';
-  
+  import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AlertComponent } from './_components';
 import { JwtInterceptor, ErrorInterceptor } from './_helpers';
 import { LoginComponent } from './login';
@@ -77,6 +78,31 @@ import{ ContactFormComponent} from './contact-form/contact-form.component';
 import{ DashboardComponent} from './dashboard/dashboard.component';
 // MDB Angular Free
 import { WavesModule, ButtonsModule, InputsModule } from 'angular-bootstrap-md';
+import { ChatroomComponent } from './chatroom/chatroom.component';
+import { BenchmarkComponent } from './benchmark/benchmark.component';
+import { MilestoneForNormalChildComponent } from './milestone-for-normal-child/milestone-for-normal-child.component';
+import { VaccinateYourChildComponent } from './vaccinate-your-child/vaccinate-your-child.component';
+import { DoctorVisitComponent } from './doctor-visit/doctor-visit.component';
+import { ThingsToKnowComponent } from './things-to-know/things-to-know.component';
+import {InspirationComponent} from './inspiration/inspiration.component';
+import{DisclaimerComponent} from './disclaimer/disclaimer.component';
+import{ WhatAreMilestonesComponent} from './what-are-milestones/what-are-milestones.component';
+import { CheckYourMilestonesComponent } from './check-your-milestones/check-your-milestones.component';
+import { RehabilateComponent } from './rehabilate/rehabilate.component';
+import { PhysiotherapyComponent } from './physiotherapy/physiotherapy.component';
+import { OccupationaltherapyComponent } from './occupationaltherapy/occupationaltherapy.component';
+import { SpeechtherapyComponent } from './speechtherapy/speechtherapy.component';
+import { AdditionalmonetaryComponent } from './additionalmonetary/additionalmonetary.component';
+import { BecomeDonorComponent } from './become-donor/become-donor.component';
+import { DonorSheetComponent } from './donor-sheet/donor-sheet.component';
+import { AcknowledgementComponent } from './acknowledgement/acknowledgement.component';
+import{TipsForParentsComponent} from './tips-for-parents/tips-for-parents.component';
+import { GstAddComponent } from './gst-add/gst-add.component';
+import { GstGetComponent } from './gst-get/gst-get.component';
+import { GstEditComponent } from './gst-edit/gst-edit.component';
+import { SlimLoadingBarModule } from 'ng2-slim-loading-bar';
+import { BusinessService } from './business.service';
+
 @NgModule({
     imports: [
         
@@ -100,8 +126,12 @@ import { WavesModule, ButtonsModule, InputsModule } from 'angular-bootstrap-md';
     MatInputModule,
     MatListModule,
     MatCardModule, 
+    MatTabsModule,
+    MatTableModule,
     MatSelectModule,
-    GoogleChartsModule
+    BrowserAnimationsModule,
+    GoogleChartsModule,
+    SlimLoadingBarModule
     ],
     declarations: [
         HomeComponent,
@@ -122,8 +152,32 @@ import { WavesModule, ButtonsModule, InputsModule } from 'angular-bootstrap-md';
     LoginComponent,
     RegisterComponent,
     ProfileComponent,
-        MainNavComponent    ],
-    providers: [
+        MainNavComponent ,
+        ChatroomComponent ,
+        BenchmarkComponent ,
+        MilestoneForNormalChildComponent ,
+        VaccinateYourChildComponent,
+        DoctorVisitComponent,
+        ThingsToKnowComponent,
+        InspirationComponent,
+        DisclaimerComponent,
+        WhatAreMilestonesComponent,
+        CheckYourMilestonesComponent ,
+        RehabilateComponent ,
+        PhysiotherapyComponent ,
+        OccupationaltherapyComponent ,
+        SpeechtherapyComponent,
+        AdditionalmonetaryComponent,
+        BecomeDonorComponent,
+        DonorSheetComponent,
+        AcknowledgementComponent,
+        TipsForParentsComponent,
+        GstAddComponent,
+        GstGetComponent,
+        GstEditComponent],
+       
+        
+    providers: [BusinessService,
         { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
         { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
         { provide: LOCALE_ID, useValue: 'fr' }

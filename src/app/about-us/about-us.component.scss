@@ -1,118 +1,166 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,600';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
 
-    html {
-      box-sizing: border-box;
-    }
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #999;
+  background-color: #fff;
+}
 
-    *, *::before, *::after {
-      box-sizing: inherit;
-      margin: 0;
-      padding: 0;
-    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 20px 0;
+  text-transform: none;
+  color: rgba(254, 82, 76, 1);
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
 
-    body {
-      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-    }
+a:link,
+a:active,
+a:visited{
+  color:rgba(255,255,255,1);
+}
 
-    .App {
-      width: 100%;
-      max-width: 960px;
-      height: 500px;
-      margin: 0 auto;
-      display: flex;
-      border: 1px solid #ccc;
-      margin-top: 30px;
-    }
+a:hover{
+  color:rgba(255,255,255,0.6);
+}
 
-    ul {
-      list-style: none;
-    }
+.gray {
+  color: #a5a5a5;
+}
 
-    .sidebar {
-      flex-basis: 30%;
-      background-color: #cce8ff;
-      color: #fff;
-      padding: 5px 10px;
-    }
+.team{
+  margin:40px;
+}
 
-    .sidebar section {
-      margin-bottom: 20px;
-    }
+.team-member {
+  margin: 15px 0;
+  padding: 0;
+}
 
-    .sidebar h2 {
-      margin-bottom: 10px;
-    }
+.team-member figure {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
 
-    .user-list li {
-      margin-bottom: 10px;
-      font-size: 16px;
-      display: flex;
-      align-items: center;
-    }
+.team-member figure img {
+  min-width: 100%;
+}
 
-    .presence {
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      background-color: #fff;
-      margin-right: 10px;
-      border-radius: 50%;
-    }
+.team-member figcaption p {
+  font-size: 16px;
+}
 
-    .presence.online {
-      background-color: green;
-    }
+.team-member figcaption ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
-    .chat-window {
-      flex-grow: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
+.team-member figcaption ul {
+  visibility: visible;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
 
-    .chat-window > * {
-      padding: 10px 20px;
-    }
+.team-member figcaption ul li {
+  display: inline-block;
+  padding: 10px;
+}
 
-    .chat-header, .chat-footer {
-      display: flex;
-      align-items: center;
-    }
+.team-member h4 {
+  margin: 10px 0 0;
+  padding: 0;
+}
 
-    .chat-header {
-      border-bottom: 1px solid #ccc;
-    }
+.team-member figcaption {
+  padding: 50px;
+  color: transparent;
+  background-color: transparent;
+  position: absolute;
+  z-index: 996;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 
-    .chat-session {
-      flex-grow: 1;
-      display: flex;
-      overflow: hidden;
-    }
+.team-member figure:hover figcaption {
+  visibility: visible;
+  color: #fff;
+  background: rgba(230, 78, 62, 0.9);
+  /* Primary color, can be changed via colors.css */
+  
+  height: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 
-    .message-list {
-      flex-grow: 1;
-      overflow-y: auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-    }
+.team-member figure:hover figcaption ul li a:hover {
+  color: rgba(49, 49, 49, .97);
+}
 
-    .user-message {
-      margin-top: 10px;
-    }
+.team-member figure img {
+  -webkit-transform: scale(1) rotate(0) translateY(0);
+  -moz-transform: scale(1) rotate(0) translateY(0);
+  -o-transform: scale(1) rotate(0) translateY(0);
+  -ms-transform: scale(1) rotate(0) translateY(0);
+  transform: scale(1) rotate(0) translateY(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
 
-    .user-message span {
-      display: block;
-    }
+.team-member figure:hover img {
+  -webkit-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -moz-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -o-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -ms-transform: scale(1.1) rotate(1deg) translateY(12px);
+  transform: scale(1.1) rotate(1deg) translateY(12px);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
 
-    .user-id {
-      font-weight: bold;
-      margin-bottom: 3px;
-    }
-
-    .chat-footer {
-      border-top: 1px solid #ccc;
-    }
-
-    .chat-footer form, .chat-footer input {
-      width: 100%;
-    }
+.div1 {
+  padding: 2%;
+  background: #fff9c6;
+  color: #9b8652;
+  border: 1px solid #fce29f;
+  border-radius: .25em;
+  font-size: 130%;
+  font-family: 'corbel';
+text-align: justify;
+margin:0 auto 0 auto;
+margin-top:2%;
+width:70%;
+}

@@ -1,38 +1,77 @@
-<div class="App">
-    <aside class="sidebar">
-      <section  *ngIf="!currentUser" class="join-chat">
-        <h2>Join Chat</h2>
-        <form (ngSubmit)="addUser()">
-          <input placeholder="Enter your username" type="text" name="username" [(ngModel)]="username" />
-        </form>
-      </section>
-      <section class="online-members">
-        <h2>Room Users</h2>
-        <ul class="user-list">
-          <li *ngFor="let user of users">
-            <span class="presence {{ user.presence.state }}"></span>
-            <span>{{ user.name }}</span>
-          </li>
-        </ul>
-      </section>
-    </aside>
-    <main class="chat-window">
-      <header class="chat-header">
-        <h1>Chat</h1>
-        <span class="participants"></span>
-      </header>
-      <section class="chat-session">
-        <ul class="message-list">
-          <li class="user-message" *ngFor="let message of messages">
-            <span class="user-id">{{ message.senderId }}</span>
-            <span>{{ message.text }}</span>
-          </li>
-        </ul>
-      </section>
-      <footer class="chat-footer">
-        <form (ngSubmit)='sendMessage()'>
-          <input placeholder="Type a message. Hit Enter to send" type="text" name="message" [(ngModel)]="message">
-        </form>
-      </footer>
-    </main>
-  </div>
+<!-- Our team Section -->
+<p class="div1">This website would not have been possible without the work and
+    contribution of so many people.<br/> I have listed them down here.<br/><br/>
+    I take this opportunity to thank each one of them for helping me out
+    to get this to where it is today.<br/><br/> Thank you!</p>
+<section id="team" class="team content-section">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h2>Our Team</h2>
+          <h3 class="caption gray">Meet the people who make awesome stuffs</h3>
+        </div><!-- /.col-md-12 -->
+  
+        <div class="container">
+          <div class="row">
+  
+            <div class="col-md-4">
+              <div class="team-member">
+                <figure>
+                  <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/lauren-cox.jpg" alt="" class="img-responsive">
+                  <figcaption>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.</p>
+                    <ul>
+                      <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                      <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                      <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                    </ul>
+                  </figcaption>
+                </figure>
+                <h4>Sanjana Poojary</h4>
+                <p>Developer</p>
+              </div><!-- /.team-member-->
+            </div><!-- /.col-md-4 -->
+  
+            <div class="col-md-4">
+              <div class="team-member">
+                <figure>
+                  <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/jessie-barnett.jpg" alt="" class="img-responsive">
+                  <figcaption>
+                    <p>Neque minima ea, a praesentium saepe nihil maxime quod esse numquam explicabo eligendi.</p>
+                    <ul>
+                      <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                      <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                      <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                    </ul>
+                  </figcaption>
+                </figure>
+                <h4>Poornima Panduranga Kundapur</h4>
+                <p>Ideation and designer</p>
+              </div><!-- /.team-member-->
+            </div><!-- /.col-md-4 -->
+  
+            <div class="col-md-4">
+              <div class="team-member">
+                <figure>
+                  <img src="http://www.mauritiusdsilva.com/themes/hallooou/assets/images/terry-fletcher.jpg" alt="" class="img-responsive">
+                  <figcaption>
+                    <p>Temporibus dolor, quisquam consectetur molestias, veniam voluptatum. Beatae alias omnis totam.</p>
+                    <ul>
+                      <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                      <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                      <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                    </ul>
+                  </figcaption>
+                </figure>
+                <h4>Terry Fletcher</h4>
+                <p>Web Developer</p>
+              </div><!-- /.team-member-->
+            </div><!-- /.col-md-4 -->
+  
+  
+          </div><!-- /.row -->
+        </div><!-- /.container -->
+  
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+  </section><!-- /.our-team -->

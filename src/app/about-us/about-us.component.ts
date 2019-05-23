@@ -43,10 +43,10 @@ export class AboutUsComponent implements OnInit {
   addUser() {
     const { username } = this;
     console.log("username"+username);
-    axios.post('http://192.168.43.15:5200/users', { username })
+    axios.post('https://35.244.58.240/users', { username })
       .then(() => {
         const tokenProvider = new Chatkit.TokenProvider({
-          url: 'http://192.168.43.15:5200/authenticate'
+          url: 'https://35.244.58.240/authenticate'
         });
 
         const chatManager = new Chatkit.ChatManager({

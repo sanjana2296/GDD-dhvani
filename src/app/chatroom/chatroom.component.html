@@ -1,0 +1,140 @@
+<!--
+<div class="App">
+  <aside class="sidebar">
+    <section  *ngIf="!currentUser" class="join-chat">
+      <h6>Join Chat</h6>
+      <form (ngSubmit)="addUser()">
+        <input placeholder="Enter your username" type="text" name="username" [(ngModel)]="username"/>
+        <button mdbBtn  color="info" outline="true" block="true" class="z-depth-0 my-4 waves-effect"
+        mdbWavesEffect (ngSubmit)="addUser()" >Join</button>
+      </form>
+    </section>
+    <section class="online-members">
+       
+      <h6>Room Users</h6>
+      <ul class="user-list">
+        <li *ngFor="let user of users | paginate: { itemsPerPage: 10, currentPage: p }">
+          <span class="presence {{ user.presence.state }}"></span>
+          <span>{{ user.name }}</span>
+        </li>
+        <pagination-controls (pageChange)="p = $event"></pagination-controls>
+      </ul>
+    </section>
+  </aside>
+  <main class="chat-window">
+    <header class="chat-header">
+      <h6>Chat</h6><br/>
+      <span class="participants"></span>
+    </header>
+    <section class="chat-session">
+      <ul class="message-list">
+        <li class="user-message" *ngFor="let message of messages">
+          <span class="user-id">{{ message.senderId }}</span>
+          <span>{{ message.text }}</span>
+        </li>
+      </ul>
+    </section>
+    <footer class="chat-footer">
+      <form (ngSubmit)='sendMessage()'>
+        <input placeholder="Type a message. Hit Enter to send" type="text" name="message" [(ngModel)]="message">
+      </form>
+    </footer>
+  </main>
+</div>-->
+<p i18n="@@ChatoomContent"> This forum is open for discussion between all members and guest
+    users. Talk to us or anyone who is available online. We are here for
+    you.<br/>
+    We have a public chat room where all current online users can be
+    viewed and you can carry on a conversation or if you prefer a private
+    chat room with selected contacts, that is also possible. The idea is
+    for you to be able discuss or share or speak to one another.</p>
+<div class="App">
+    <aside class="sidebar left-sidebar">
+      <section *ngIf="!currentUser.id" class="join-chat">
+        <h4>Join Chat</h4>
+        <form (ngSubmit)="addUser()">
+          <input placeholder="Enter your username" type="text" name="userid" [(ngModel)]="userId" />
+          <button mdbBtn  color="info" outline="true" block="true" class="z-depth-0 my-4 waves-effect"
+        mdbWavesEffect (ngSubmit)="addUser()" >Join</button>
+        </form>
+      </section>
+      <section *ngIf="currentUser.id" class="room-members">
+        <h4>Room Users</h4>
+        <ul class="user-list">
+          <li *ngFor="let user of roomUsers">
+            <span class="presence {{ user.presence.state }}"></span>
+            <span>{{ user.name }}</span>
+          </li>
+        </ul>
+      </section>
+      <form *ngIf="currentRoom.isPrivate" (ngSubmit)="addUserToRoom()">
+        <label for="user-name">Add user to {{ currentRoom.name }}</label>
+        <input type="text" class="newUser-input" [(ngModel)]="newUser" name="user-name" id="user-name" placeholder="Enter username">
+      </form>
+    </aside>
+  
+    <main class="chat-window">
+      <header class="chat-header">
+        <h4 *ngIf="!currentRoom.name; else roomName">Chat</h4>
+        <ng-template #roomName>
+          <h4>{{ currentRoom.name }}</h4>
+        </ng-template>
+        <span class="participants"></span>
+      </header>
+      <section class="chat-session">
+        <ul class="message-list">
+          <li class="user-message" *ngFor="let message of messages">
+            <span class="user-id">{{ message.senderId }}:  </span>
+            <span style="padding-left: 5%">{{ message.text }}</span>
+          </li>
+        </ul>
+      </section>
+      <footer *ngIf="currentUser.id" class="chat-footer">
+        <form class="message-form" (ngSubmit)='sendMessage()'>
+          <input class="message-input" placeholder="Type a message. Hit Enter to send" type="text" name="message" [(ngModel)]="newMessage" />
+        </form>
+      </footer>
+    </main>
+  
+    <aside class="sidebar right-sidebar">
+      <section class="room-section">
+        <section *ngIf="currentUser.id" class="user-rooms">
+            <h4>Rooms</h4>
+            <ul class="room-list">
+              <li *ngFor="let room of userRooms">
+                <div [class.active]="room.id==currentRoom.id" (click)="connectToRoom(room.id)" class="room">
+                  <span class="room-status" *ngIf="room.isPrivate; else publicRoom">🔒</span>
+                  <ng-template #publicRoom>
+                    <span>🌐</span>
+                  </ng-template>
+                  <span class="room-name">{{ room.name }}</span>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section *ngIf="joinableRooms.length > 0" class="joinable-rooms">
+              <h4>Joinable rooms</h4>
+              <ul class="room-list">
+                  <li *ngFor="let room of joinableRooms">
+                    <div class="room" (click)="joinRoom(room.id)">
+                      <span class="room-status" *ngIf="room.isPrivate; else publicRoom">🔒</span>
+                      <ng-template #publicRoom>
+                        <span>🌐</span>
+                      </ng-template>
+                      <span class="room-name">{{ room.name }}</span>
+                    </div>
+                  </li>
+                </ul>
+          </section>
+      </section>
+      <section *ngIf="currentUser.id" class="create-room">
+        <form (ngSubmit)="createRoom()">
+          <input type="text" [(ngModel)]="newRoom.name" name="room-name" id="room-name" placeholder="Create a room">
+          <label for="is-private">
+              <input type="checkbox" [(ngModel)]="newRoom.isPrivate" name="is-private" id="is-private">
+              <span>Is this room private?</span>
+          </label>
+        </form>
+      </section>
+    </aside>
+  </div>
