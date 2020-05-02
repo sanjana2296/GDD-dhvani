@@ -1,0 +1,76 @@
+<form [formGroup]="this.ordersService.form" (ngSubmit)="onSubmit()"> 
+    <!--<button class="waves-effect waves-light btn col s4" 
+    *ngFor="let coffee of coffees" 
+    (click)="addCoffee(coffee)">
+  {{coffee}}
+  </button>-->
+  <ul class="collection">
+  <!--<li *ngFor="let coffee of coffeeOrder">
+    <span class="col s11"> {{ coffee }} </span>
+    <a class="col s1" (click)="removeCoffee(coffee)">x</a>
+  </li>-->
+  </ul>
+  <H5>Enter a new post</H5>
+  <input placeholder="Username" 
+         formControlName="userName" 
+         type="text" 
+         class="input-field col s12">
+  <input placeholder="Title" 
+         formControlName="parentType" 
+         type="text" 
+         class="input-field col s12">
+         <input placeholder="Enter text here..." 
+         formControlName="DOB" 
+         type="text" 
+         style="height:50%; width:50%"
+         class="input-field col s12">
+       <!--  <input placeholder="Age" 
+         formControlName="age" 
+         type="text" 
+         class="input-field col s12">
+  <input placeholder="Number of children" 
+         formControlName="NoOfChildren" 
+         type="text" 
+         class="input-field col s12">
+         <input placeholder="Marital status(Single/Married)" 
+         formControlName="Marital" 
+         type="text" 
+         class="input-field col s12">
+         <H5>Enter your child details</H5>
+         <input placeholder="Child Name" 
+         formControlName="childName" 
+         type="text" 
+         class="input-field col s12">
+  
+         <input placeholder="child Date of Birth" 
+         formControlName="childDOB" 
+         type="text" 
+         class="input-field col s12">
+         <input placeholder="child Age" 
+         formControlName="childage" 
+         type="text" 
+         class="input-field col s12">
+  <input placeholder="Symtoms of the child" 
+         formControlName="symtoms" 
+         type="text" 
+         class="input-field col s12">
+         <H5>Enter other details</H5>
+         <input placeholder="City" 
+         formControlName="city" 
+         type="text" 
+         class="input-field col s12">
+         <input placeholder="State" 
+         formControlName="state" 
+         type="text" 
+         class="input-field col s12">
+  <input placeholder="Country" 
+         formControlName="country" 
+         type="text" 
+         class="input-field col s12">-->
+         <br/><br/>
+  <button 
+  class="waves-effect waves-light btn col s12" style="width:30%; margin-left:-300px"
+  (click)="onSubmit()">
+  Submit
+  </button>
+  </form>

@@ -9,8 +9,8 @@ member. Join us in helping those who do not have a voice. We are
 looking for social workers, teachers and anyone else who can help
 mothers of children with GDD. Let us make a difference, come
 become a member!</p><br/><br/>
-<h2>Register</h2>
-<form style="width:35%; margin:0 auto 0 auto; background-color: white; padding:5%;box-shadow: 5px 10px 18px #888888;" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+<h2 style="width:35%;margin-left:50%;">Register</h2>
+<form style="width:35%;margin-left:50%; background-color: white; padding:5%;box-shadow: 5px 10px 18px #888888;" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
     <div class="form-group">
         <label for="firstName">First Name</label>
         <input type="text" formControlName="firstName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.firstName.errors }" />

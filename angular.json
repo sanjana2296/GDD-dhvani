@@ -21,7 +21,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
+              "src/favicon.png",
               "src/assets"
             ],
             "styles": [
@@ -130,7 +130,7 @@
             "scripts": ["//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js",
              "//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"],
             "assets": [
-              "src/favicon.ico",
+              "src/favicon.png",
               "src/assets"
             ]
           }

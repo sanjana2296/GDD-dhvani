@@ -9,7 +9,15 @@
     border: 1px solid #ddd;
     padding: 8px;
   }
-  
+#_ngcontent-c4{
+  list-style-type: none;
+}
+  .col{
+    list-style-type: none;
+  }
+  ul{
+    list-style-type: none;
+  }
   #customers tr:nth-child(even){background-color: #f2f2f2;}
   
   #customers tr:hover {background-color: #ddd;}

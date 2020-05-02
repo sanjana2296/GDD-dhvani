@@ -1,12 +1,28 @@
 <div class="bench"><h3 i18n="@@homeBenchmarks" id="top"> Bench marks</h3>
 <br/>
 
-<p i18n="@@homeBenchMarksSub" class="mat"> <span>Nonprofit advocacy: </span>We do not believe in making profits or money out of this. <br/>
+<p i18n="@@BenchMarksSub" class="mat"> <span>Nonprofit advocacy: </span>We do not believe in making profits or money out of this. <br/>
   <span>Anonymity if expected:</span> We respect that you do not want to disclose your identity. <br/>
   <span>Run by group members:</span> Only the administrator and group members are part of this
 website development team. <br/>
 <span>Online community:</span> Our aim is to build an online support group</p>
 
+<!--The content below is only a placeholder and can be replaced.-->
+
+  <div style="max-width: 500px; display: inline-block;">
+    <emoji-input [(model)]="text"
+                 [inputClass]="'white'"
+                 [searchClass]="'blue'"
+                 [closeAfterSelection]="false"
+                 style="display: inline-block;"
+                 (click)="openPopup(false)"
+                 (setPopupAction)="setPopupAction($event)">
+    </emoji-input>
+    <button type="button" name="button"  style="display: inline-block;" (click)="openPopup()">
+      Click me :)
+    </button>
+  </div>
+  
 <!--
 <table>
  

@@ -1,0 +1,272 @@
+<!--<div class="example-container">
+  <mat-form-field>
+  
+  <input matInput [(ngModel)]="titleModel" placeholder="Title">
+  </mat-form-field>
+  <br>
+  
+  <mat-form-field>
+  
+  <input matInput [(ngModel)]="contentModel" placeholder="Enter your content">
+  </mat-form-field>
+  <br>
+  
+  <mat-form-field>
+  
+  <input matInput [(ngModel)]="todoModel" placeholder="What to do">
+  </mat-form-field>
+  
+  </div>
+  
+  <br>
+  
+  <button mat-raised-button color="accent" (click)="createQuicknotes()"> Add Note</button>
+  
+  <hr>
+  
+  <p *ngFor="let i of quicknotes">
+  <mat-card-title> {{ i.title }} </mat-card-title>
+  <mat-card> {{ i.content }} </mat-card>
+  <mat-card> {{ i.todo }} </mat-card></p>-->
+  <div class="row">
+    <div class="column large-12">
+      <h3>MILESTONES CHART</h3>
+      
+      <div class="hide-for-small-only">
+        <!-- 'show-for-small-only' is a utility class for the foundation 6 framework which only displays on view ports larger than small -->
+  
+        <div class="" style="max-width: 100%;overflow-x: auto;">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th><b>6 months</b></th>
+                <th><b>9 months</b></th>
+                <th><b>12 months</b></th>
+                <th><b>18 months<span></span></b></th>
+                <th><b>2 years</b></th>
+                <th><b>3 years</b></th>
+                <th><b>4 years</b></th>
+                <th><b>5 years</b></th>
+                <th><b>Red flags at any stage</b></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="background-color: rgb(182, 243, 243)">
+                <td>
+                  <img src="./assets/note1.jpg" > 
+                <b>Social/Emotional</b> </td>
+                   <td>
+                      <li>Does not smile or squeal on response to people</li>
+                     </td>
+                    <td>
+                        <li>Not sharing enjoyment with others using eye contact or facial expression</li> </td>
+                      <td>
+                          <li> Does not notive someone new </li>
+                          <li> Does not play early turn taking games(e.g.peekaboo,rolling a ball)</li>
+                        </td>
+                        <td>
+                            <li> Lacks interest in playing and interacting with others </li></td>
+                          <td>
+                              <li> When playing with toys tends to bang, drop, or throw them rather than use them for theeir purpose(e.g cuddle doll, build blocks)</li> </td>
+                <td>
+                    <li> No interest in pretend play or other children</li>
+                    <li> Difficulties in noticing and understanding feelings in themselves and others(e.g. happy,sad)</li> </td>
+  
+                <td>
+                    <li> Unwilling/unable to play cooperatively</li> </td>
+                <td>
+                    <li>Play is different than their friends</li></td>
+                    <td rowspan="5"><li>Not achieving developmental miledtones</li><li>Strong parent concerns</li><li>Significant loss of skills</li><li>Lack of response to sound or visual stimuli</li><li>Poor interaction with adults or other children</li><li>Difference between right and left sides of body in strength, movement or tone</li><li>Loose and floppy movements(low tone) or stiff and tense(high tone)</li></td>   </tr>
+            <tr>
+                <td rowspan="2" >
+                    <img src="./assets/note2.png" > 
+                    <b>Communication</b> </td>
+                <td style="background-color: red; color:white" colspan="8">Lack of limited eye contact</td>
+           
+            </tr>  <tr style="background-color: rgb(229, 182, 243)">
+                
+         
+                  <td>
+                      <li> Not staring to babble(e.g. adah;oogoo)</li> </td>
+                    <td>
+                        <li> No gestures(e.g. pointing,showing,waving)</li>
+                        <li> Not using 2 part babble(e.g. gaga,arma)</li>
+                      </td>
+                      <td>
+                          <li> No babbled phrases that sound like talking</li>
+                          <li> No response to familiar words</li> </td>
+                        <td>
+                            <li> No clear words</li>
+                        <li>Cannot understand short requests eg. "Where is the ball?"</li></td>
+                          <td>
+                              <li> Does not have at least 50 words</li>
+                              <li> Not putting words together eg. 'push car'</li>
+                              <li> Most of what is said is not easily understood</li>
+                            </td>
+                <td>
+                    <li> Speech difficult to understand</li>
+                    <li> Not using simple sentences eg. big car go</li></td>
+  
+                <td>
+                    <li> Speech difficult to understand</li>
+                    <li> Unable to follow directions with 2 steps</li> </td>
+                <td>
+                    <li> Difficulty telling a parent what is wrong</li>
+                    <li> Cannot answer in a simple conversation</li></td>
+                </tr>
+              <tr style="background-color: rgb(182, 243, 243)">
+                <td>
+                  <img src="./assets/anote2.jpg" >
+                  <b>Fine Motor and Cognition</b>  </td>
+          
+                  <td>
+                      <li> Not reaching for and holding(grasping) toys</li>
+                      <li> Hands frequently clenched</li> </td>
+                    <td>
+                        <li> Unable to hold and/or release toys</li>
+                        <li>Cannot move toy from one hand to another </li></td>
+                      <td>
+                          <li>Majority of nutition still liquid/puree</li>
+                          <li>Cannot chew solid food</li>
+                          <li>Unablr to pick up small items using index finger and thumb</li>
+                        </td>
+                        <td>
+                            <li>Not holding or scribbing with a crayon</li> 
+                            <li>Does not attempt to tower blocks</li> 
+                          </td>
+                          <td>
+                              <li> No interest in self care skills eg. feeding , dressing</li></td>
+                <td>
+                    <li> Difficulty helping with self care skills (eg. feeding, dressing)</li> 
+                    <li>Difficulty manipulating small objects e.g. threading beads</li> </td>
+  
+                <td>
+                    <li> Not toilet trained by day</li> 
+                    <li>Unable to draw lines and circles</li> </td>
+                <td>
+                    <li>Concerns from teacher and school readliness </li>
+                    <li>Not independent with eating and dressing</li>
+                    <li>Cannot draw simple pictures (e.g. stick person)</li>  </td>
+               </tr>
+              <tr style="background-color: rgb(182, 243, 243)">
+                <td>
+                  <img src="./assets/note4.jpg" > 
+                  <b>Gross Motor</b> </td>
+             
+                  <td>
+                      <li> Not rolling</li>
+                      <li> Not holding head and shoulders up when on tummy</li>  </td>
+                    <td>
+                        <li> Not sitting without support</li>
+                        <li> Not moving eg. creeping or crawling motion</li> 
+                        <li> Does not take weight well on legs when held by an adult</li> 
+                      </td>
+                      <td>
+                          <li>Not crawling or bottom shuffling</li>
+                          <li>Not pulling to stand</li>
+                          <li> Not standing , holding on to furniture</li>  </td>
+                        <td>
+                            <li>Not attempting to walk without support</li>
+                            <li> Not standing alone</li> </td>
+                          <td>
+                              <li> Unable to run</li>
+                              <li> Unable to use stairs holding on</li>
+                              <li> Unable to throw a ball</li> </td>
+                <td>
+                    <li> Not running well</li> 
+                    <li> Cannot walk up and down stairs</li> 
+                    <li> Cannot kick or throw a ball</li> <li> Cannot jump with 2 feet together</li>
+                   </td>
+
+  
+                <td>
+                    <li> Cannot pedal a tricycle</li> 
+                    <li> Cannot catch, throw or kick a ball</li>
+                    <li> Cannot balance well standing on one leg</li></td>
+                <td>
+                    <li>Awkward when walking, running, climbing and using stairs</li>
+                    <li> Ball skills are very different to their peers<br/>
+                    Unable to hop 5 times on each foot</li>
+               
+                   </td>
+             
+              </tr>
+              
+  
+            </tbody>
+          </table>
+        </div>
+      </div>    
+    </div>
+  </div>  
+  <div id="content" #content>  
+      <mat-card>  
+          
+        <div class="alert alert-info">  
+           <a routerLink="/mile-stone"> <strong>Check your milestone</strong>  </a>
+        </div>  
+        
+      </mat-card>  
+    </div>  
+    <div >  
+      <mat-card>  
+        
+     <!-- <table id="contentToConvert">  
+            <tr>  
+              <th>Column1</th>  
+              <th>Column2</th>  
+              <th>Column3</th>  
+            </tr>  
+            <tr>  
+              <td>Row 1</td>  
+              <td>Row 1</td>  
+              <td>Row 1</td>  
+            </tr>  
+            <tr>  
+              <td>Row 2</td>  
+              <td>Row 2</td>  
+              <td>Row 2</td>  
+            </tr>  
+            <tr>  
+              <td>Row 3</td>  
+              <td>Row 3</td>  
+              <td>Row 3</td>  
+            </tr>  
+            <tr>  
+              <td>Row 4</td>  
+              <td>Row 4</td>  
+              <td>Row 4</td>  
+            </tr>  
+            <tr>  
+              <td>Row 5</td>  
+              <td>Row 5</td>  
+              <td>Row 5</td>  
+            </tr>  
+            <tr>  
+              <td>Row 6</td>  
+              <td>Row 6</td>  
+              <td>Row 6</td>  
+            </tr>  
+          </table>  
+            --> 
+      </mat-card>  
+
+    </div>  
+     <input mdbBtn  color="primary" mdbWavesEffect type="button" value="Download your note" (click)="capture()"/>  
+      
+    <div id="contentToConvert" style="padding-top: 20px">
+        <textarea id="story" name="story" style="margin-left:1%"
+        rows="5" cols="33">
+3 months..
+</textarea>
+        <button mdbBtn id="newnotebutton" type="button" color="primary" mdbWavesEffect (click)="addTextarea()">Add New Note</button>
+        <form>
+            <div *ngFor="let textarea of textAreasList; let textarea_index= index">
+                <textarea name="{{textarea}}"></textarea>
+                <button id="removenotebutton" mdbBtn type="button" color="primary" mdbWavesEffect (click)="removeTextArea(textarea_index)">Remove Note</button>
+            </div>
+        </form>
+        <div>  
+               </div>  
+        </div>

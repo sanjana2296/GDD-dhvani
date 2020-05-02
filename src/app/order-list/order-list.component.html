@@ -1,0 +1,63 @@
+<table id="customers">
+  <thead>
+    <tr>
+      <th>UserName</th>
+      <th>ParentType</th>
+      <th>DOB</th>
+      <th>Age</th>
+      <th>No. of children</th>
+      <th>Marital</th>
+      <th>Child Name</th>
+      <th>Child DOB</th>
+      <th>Child Age</th>
+      <th>Symtoms</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Country</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+
+  <tbody >
+    <tr *ngFor="let order of coffeeOrders">
+      <td>
+        {{ order.payload.doc.data().userName }}
+      </td>
+      <td>{{ order.payload.doc.data().parentType }}</td>
+      
+          <td>
+              {{ order.payload.doc.data().DOB }}
+            </td>
+          <td>
+              {{ order.payload.doc.data().age }}
+            </td>
+            <td>{{ order.payload.doc.data().NoOfChildren }}</td>
+            <td>{{ order.payload.doc.data().Marital }}</td>
+            <td>{{ order.payload.doc.data().childName }}</td>
+            <td>{{ order.payload.doc.data().childDOB }}</td>
+            <td>{{ order.payload.doc.data().childage }}</td>
+            <td>{{ order.payload.doc.data().symtoms }}</td>
+            <td>{{ order.payload.doc.data().city }}</td>
+            <td>{{ order.payload.doc.data().state }}</td>
+            <td>{{ order.payload.doc.data().country }}</td>
+          <!--  <td>
+        <span *ngFor="let coffee of order.payload.doc.data().coffeeOrder">
+          {{ coffee }}
+        </span>
+      </td>
+      <td
+        [hidden]="order.payload.doc.data().completed"
+        (click)="markCompleted(order)"
+      >
+        <i class="material-icons">check</i>
+      </td>-->
+      <td
+        [hidden]="order.payload.doc.data().completed"
+        (click)="deleteOrder(order)"
+      >
+        <i class="material-icons" style="color:red">delete</i>
+      </td>
+    </tr>
+  </tbody>
+</table>
+

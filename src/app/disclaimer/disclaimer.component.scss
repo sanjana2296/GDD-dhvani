@@ -21,3 +21,73 @@ p {
   text-align: justify;
   }
   
+  span{
+    text-align: center;
+}
+
+.engraved {
+    font-size: 50px;
+    margin-left:27%;
+    font-family: Futura;
+    background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(245,245,245,0.5) 3px 5px 1px;
+ }
+
+.embossed{
+  color: #f0f0f0;
+  font-size: 100px;
+  font-family: Futura;
+  background-color: #666666;
+  text-shadow: 1px 4px 4px #555;
+  text-align: center;
+  -webkit-background-clip: text;
+    -moz-background-clip: text;
+
+}
+
+div{
+  float: left;
+  font-family: Gordona;
+  background: grey;
+  text-align: center;
+  height: 60px;
+  width: 300px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+#black{
+  text-shadow: -1px -1px rgba(0,0,0,0.5), 1px 1px rgba(255,255,255,0.5);
+  color: rgba(0,0,0,0.5);
+  border: ridge 5px grey;
+
+}
+
+#tan{
+  text-shadow: -1.5px -2px rgba(1,1,1,1.5), 1.5px 1.5px rgba(255,255,255,1.5);
+  color: tan;
+  border: ridge 5px tan;
+
+
+}
+
+#black2{
+  text-shadow: -1px -1px rgba(0,0,0,1), 1px 1px rgba(255,255,255,1);
+  color: rgba(0,0,0,1);
+  border: ridge 5px darkgrey;
+
+}
+
+#brown{
+  text-shadow: -1.5px -1.5px rgba(1,1,1,1.5), .5px 1.5px rgba(255,255,255,1.5);
+  color: rgba(139,69,19,1);
+  border: ridge 5px darkgrey;
+
+}
+

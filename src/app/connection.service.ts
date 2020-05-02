@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 providedIn: 'root'
 })
 export class ConnectionService {
-url: string = 'https://35.244.53.45/send';
+url: string = 'https://mysterious-basin-25994.herokuapp.com/send';
 constructor(private http: HttpClient) { }
 
 sendMessage(messageContent: any) {
@@ -15,4 +15,4 @@ sendMessage(messageContent: any) {
   { headers: new HttpHeaders({ 'Content-Type': 'application/json' }), responseType: 'text' });
 
 }
-}
+}                 

@@ -2,253 +2,1450 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-    <trans-unit id="homeDhvani" datatype="html">
+      <trans-unit id="homeDhvani" datatype="html">
         <source>Team@dhvani.life</source>
-          <target>
-Team@dhvani.life</target>
+         <target>Team@dhvani.life</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">54</context>
+          <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeContent" datatype="html">
-        <source>Dear Visitor,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+       
+                  <source> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Hi Visitor,<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>Dear <x id="INTERPOLATION" equiv-text="{{currentUser.firstName}}"/>,<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 
             Namaste!<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
             
-            If you’ve reached here, I’m thinking it’s either because you have googled “GDD” or “Global Development Delay.” Are you doing the right thing looking for help. Yes, you are doing the right thing to learn more of what may seem different in your child as compared to his/her age group.
+            If you’ve reached here, I’m thinking it’s either because you have googled “GDD”
+or “Global Development Delay” or “developmental delay”. Are you doing the right
+thing looking for help? Yes, <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>you are<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> doing the right thing! You want to learn more
+of what may seem different in your child as compared to children in his/her age
+group, so that I feel “is a step in the right direction!.” 
+            <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>This website “dhvani.life” is a forum, for connecting parents of children with GDD.
+            I designed this website as a support system for parents especially mothers of such
+            innocent angels. I consider <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>“support”<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> a necessity and I believe a strong and “aware”
+            mother will help the entire family (which may include other normal siblings and
+            the father) to carry on as a normal family. Every mother hopes that her child is
+            growing according to the milestones of a normal child. But what do you do if you
+            notice a delay?
             
-            <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>This website “dhvani.life” is an application for connecting parents of children with GDD. I designed this website as a support system for parents especially mothers of such innocent angels. I consider “support” a necessity and I believe a strong and “aware” mother will help the family (which may include other normal siblings and the father) to carry on as a normal family. Every mother hopes that her child is growing according to milestones of a normal child. But what do you do if you notice a delay?
-            
-              <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Being a mother of a child with a generic name for her condition called “degenerative neuroregression” I can completely empathize with this constant need to become aware, to know more and to find a way to help our bundle of joy.
-                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>We (my team and I) have tried to include resources that will benefit you and your loved ones. In India especially, there is a lack of awareness of rare conditions such as the one my daughter suffered from, I wish that mothers like me do not have to struggle as I did with no direction on how to manage my child.
-      
-                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Please feel free to sharing real life stories via images, videos or blogs. If you request anonymity, we will honor that. Let’s build a community that respects and helps one another. Come become a group member!
-                 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-         <target>ಆತ್ಮೀಯ ಪ್ರವಾಸಿ,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-
-            ನಮಸ್ತೆ!<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-            
-           
-ನೀವು ಇಲ್ಲಿಗೆ ತಲುಪಿದಲ್ಲಿ, ನೀವು "ಜಿಡಿಡಿ" ಅಥವಾ "ಜಾಗತಿಕ ಅಭಿವೃದ್ಧಿ ವಿಳಂಬ" ಗೆ ಹೋಗಿರುವ ಕಾರಣದಿಂದಾಗಿ ನಾನು ಯೋಚಿಸುತ್ತಿದ್ದೇನೆ. ನೀವು ಸಹಾಯಕ್ಕಾಗಿ ನೋಡುತ್ತಿರುವ ಸರಿಯಾದ ವಿಷಯ ಮಾಡುತ್ತಿದ್ದೀರಾ. ಹೌದು, ನಿಮ್ಮ ವಯಸ್ಕರಿಗೆ ಹೋಲಿಸಿದರೆ ನಿಮ್ಮ ಮಗುವಿನ ವಿಭಿನ್ನವಾದವುಗಳ ಬಗ್ಗೆ ಹೆಚ್ಚು ತಿಳಿಯಲು ನೀವು ಸರಿಯಾದ ಕೆಲಸವನ್ನು ಮಾಡುತ್ತಿದ್ದೀರಿ.
-            
-            <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>ಈ ವೆಬ್ಸೈಟ್ "dhvani.life" ಜಿಡಿಡಿಯೊಂದಿಗೆ ಮಕ್ಕಳ ಪೋಷಕರನ್ನು ಸಂಪರ್ಕಿಸಲು ಒಂದು ಅಪ್ಲಿಕೇಶನ್ ಆಗಿದೆ. ನಾನು ಅಂತಹ ಮುಗ್ಧ ದೇವದೂತರ ತಾಯಿಗಳ ಪೋಷಕರಿಗೆ ಈ ವೆಬ್ಸೈಟ್ ಅನ್ನು ಒಂದು ಬೆಂಬಲ ವ್ಯವಸ್ಥೆಯಾಗಿ ವಿನ್ಯಾಸಗೊಳಿಸಿದೆ. ನಾನು ಅವಶ್ಯಕತೆಯನ್ನು "ಬೆಂಬಲ" ಎಂದು ಪರಿಗಣಿಸುತ್ತೇನೆ ಮತ್ತು ಸಾಮಾನ್ಯ ಕುಟುಂಬವಾಗಿ ಸಾಗಿಸಲು ಬಲವಾದ ಮತ್ತು "ಅರಿವು" ತಾಯಿ ಕುಟುಂಬಕ್ಕೆ ಸಹಾಯ ಮಾಡುತ್ತಾರೆ (ಇತರ ಸಾಮಾನ್ಯ ಒಡಹುಟ್ಟಿದವರು ಮತ್ತು ತಂದೆಗಳನ್ನು ಒಳಗೊಂಡಿರಬಹುದು). ಸಾಮಾನ್ಯ ಮಗುವಿನ ಮೈಲಿಗಲ್ಲುಗಳ ಪ್ರಕಾರ ತನ್ನ ಮಗು ಬೆಳೆಯುತ್ತಿದೆ ಎಂದು ಪ್ರತಿ ತಾಯಿ ಭರವಸೆ ನೀಡುತ್ತಾರೆ. ವಿಳಂಬವನ್ನು ನೀವು ಗಮನಿಸಿದರೆ ನೀವು ಏನು ಮಾಡುತ್ತೀರಿ?
-            
-              <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-ಮಗುವಿನ ತಾಯಿಯೊಬ್ಬಳು ತನ್ನ ಸ್ಥಿತಿಯ ಸಾಮಾನ್ಯ ಹೆಸರಿನೊಂದಿಗೆ "ಕ್ಷೀಣಗೊಳ್ಳುವ ನರಗ್ರಹಿಕೆ" ಎಂದು ಕರೆಯುತ್ತಿದ್ದಾನೆ, ನಮ್ಮ ಅರಿವಿನ ಕೊಟ್ಟಿಗೆಗೆ ಸಹಾಯ ಮಾಡಲು ಹೆಚ್ಚು ತಿಳಿಯಲು ಮತ್ತು ತಿಳಿದುಕೊಳ್ಳಲು ನಾನು ಈ ನಿರಂತರ ಅಗತ್ಯವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಅರಿತುಕೊಳ್ಳಬಹುದು.
+              <x id="START_TAG_SPAN_3" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Being a mother of a child with a generic name for her condition called “degenerative neuroregression” I can completely empathize with this constant need to become aware, to know more and to find a way to help our bundle of joy.
+                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>We (my team and I) have tried to include resources that will benefit you and your
+                loved ones. In India especially, there is a lack of <x id="START_TAG_SPAN_2" ctype="x-span" equiv-text="&lt;span&gt;"/>awareness of rare conditions such
+                as the one my daughter, Ishaani had been categorized under.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> I wish that the other mothers unlike
+                me do not have to struggle as much as I did with no information or direction on
+                how to manage such a child. My daughter is no more with us, she passed away on
+                June 4th, 2019 at 10 years and 2 months. She was a “fighter” and fought her way
+                during the years she was with us. She brought serenity, joy and love to all those
+                who had the chance to be with her. She is my inspiration and my strength along
+                with my son, her elder brother.
+                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> I hope that this website will help some of you mothers out there, if not all, to know
+                that there are others just like you. You are not alone. Most of the content that you
+                will find here is based on my personal experience that I would like to share with
+                you.
                 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-ನಾವು (ನನ್ನ ತಂಡ ಮತ್ತು ನಾನು) ನೀವು ಮತ್ತು ನಿಮ್ಮ ಪ್ರೀತಿಪಾತ್ರರ ಪ್ರಯೋಜನವನ್ನು ಪಡೆಯುವ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಸೇರಿಸಲು ಪ್ರಯತ್ನಿಸಿದ್ದಾರೆ. ವಿಶೇಷವಾಗಿ ಭಾರತದಲ್ಲಿ, ನನ್ನ ಮಗಳು ಅನುಭವಿಸಿದ ಅಪರೂಪದ ಪರಿಸ್ಥಿತಿಗಳ ಅರಿವಿನ ಕೊರತೆಯಿದೆ, ನನ್ನ ಮಗುವನ್ನು ಹೇಗೆ ನಿರ್ವಹಿಸುವುದು ಎಂಬುದರ ಕುರಿತು ಯಾವುದೇ ನಿರ್ದೇಶನವಿಲ್ಲದಂತೆಯೇ ನನ್ನಂತೆಯೇ ತಾಯಂದಿರಿಗೆ ಹೋರಾಟ ಮಾಡಬೇಕಾಗಿಲ್ಲ ಎಂದು ನಾನು ಬಯಸುತ್ತೇನೆ.
-      
-                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> ಚಿತ್ರಗಳು, ವೀಡಿಯೊಗಳು ಅಥವಾ ಬ್ಲಾಗ್ಗಳ ಮೂಲಕ ನಿಜ ಜೀವನದ ಕಥೆಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಮುಕ್ತವಾಗಿರಿ. ನೀವು ಅನಾಮಧೇಯತೆಯನ್ನು ವಿನಂತಿಸಿದರೆ, ನಾವು ಅದನ್ನು ಗೌರವಿಸುತ್ತೇವೆ. ಪರಸ್ಪರ ಗೌರವಿಸುವ ಮತ್ತು ಸಹಾಯ ಮಾಡುವ ಸಮುದಾಯವನ್ನು ನಿರ್ಮಿಸೋಣ. ನೀವು ಗುಂಪಿನ ಸದಸ್ಯರಾಗುವಿರಿ!
-                 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+                Those of you, who have arrived at this website <x id="START_TAG_SPAN_2" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>and are not parents or are casual
+visitors,<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> help us in reaching out to those who need help.
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Please feel free to share your real life stories via images, videos or blogs. If you
+request anonymity, we will honor that. Let’s build a community that respects and
+helps one another by becoming a member!
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+We have also created social media outlets via Facebook, Twitter and Instagram
+(links are below in the footer), I request you to share these links with your family
+and friends.
+                 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> <x id="START_TAG_SPAN_4" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>Ishaani’s<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> mother,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                  Poornima<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+                   <target> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+ಹಾಯ್ ವಿಸಿಟರ್,<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>
+ಪ್ರೀತಿಯ <x id="INTERPOLATION" equiv-text="{{currentUser.firstName}}"/>,<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+            
+ನಮಸ್ತೆ!<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            
+           ನೀವು ಇಲ್ಲಿಗೆ ತಲುಪಿದಲ್ಲಿ, ನಾನು "GDD" ಗೆ ಹೋಗಿರುವುದರಿಂದ ನಾನು ಅದನ್ನು ಯೋಚಿಸುತ್ತೇನೆ
+ಅಥವಾ "ಜಾಗತಿಕ ಅಭಿವೃದ್ಧಿ ವಿಳಂಬ" ಅಥವಾ "ಅಭಿವೃದ್ಧಿ ವಿಳಂಬ". ನೀವು ಸರಿಯಾದ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೀರಾ?
+ಸಹಾಯ ಹುಡುಕುತ್ತಿದ್ದೀರಾ? ಹೌದು, <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>ನೀವು<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+ಸರಿಯಾದ ಕೆಲಸ ಮಾಡುತ್ತಿರುವುದು! ನೀವು ಇನ್ನಷ್ಟು ತಿಳಿದುಕೊಳ್ಳಲು ಬಯಸುತ್ತೀರಿ
+ಅವನ / ಅವಳ ವಯಸ್ಸಿನಲ್ಲಿರುವ ಮಕ್ಕಳೊಂದಿಗೆ ಹೋಲಿಸಿದರೆ ನಿಮ್ಮ ಮಗುವಿನ ವಿಭಿನ್ನವಾಗಿ ಕಾಣಿಸಬಹುದು
+ಗುಂಪು, ಆದ್ದರಿಂದ ನಾನು "ಸರಿಯಾದ ದಿಕ್ಕಿನಲ್ಲಿ ಒಂದು ಹೆಜ್ಜೆ!"
+            <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ಈ ವೆಬ್ಸೈಟ್ "dhvani.life" GDD ಯ ಮಕ್ಕಳ ಪೋಷಕರನ್ನು ಸಂಪರ್ಕಿಸಲು ಒಂದು ವೇದಿಕೆಯಾಗಿದೆ.
+            ನಾನು ಈ ವೆಬ್ಸೈಟ್ ಅನ್ನು ವಿಶೇಷವಾಗಿ ಪೋಷಕರ ಪೋಷಕರಿಗೆ ಬೆಂಬಲ ವ್ಯವಸ್ಥೆಯಾಗಿ ವಿನ್ಯಾಸಗೊಳಿಸಿದೆ
+            ಮುಗ್ಧ ದೂತರು. ನಾನು ಪರಿಗಣಿಸುತ್ತೇನೆ <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>"ಬೆಂಬಲ"<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> 
+ಒಂದು ಅವಶ್ಯಕ ಮತ್ತು ನಾನು ಬಲವಾದ ಮತ್ತು "ಅರಿವು"
+            ತಾಯಿ ಇಡೀ ಕುಟುಂಬಕ್ಕೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ (ಇದು ಇತರ ಸಾಮಾನ್ಯ ಒಡಹುಟ್ಟಿದವರನ್ನೂ ಒಳಗೊಳ್ಳಬಹುದು
+            ತಂದೆ) ಸಾಮಾನ್ಯ ಕುಟುಂಬವಾಗಿ ಸಾಗಿಸಲು. ಪ್ರತಿ ಮಗು ತನ್ನ ಮಗು ಎಂದು ಭಾವಿಸುತ್ತಾನೆ
+            ಸಾಮಾನ್ಯ ಮಗುವಿನ ಮೈಲಿಗಲ್ಲುಗಳ ಪ್ರಕಾರ ಬೆಳೆಯುತ್ತಿದೆ. ಆದರೆ ನೀವು ಏನು ಮಾಡುತ್ತೀರಿ
+            ವಿಳಂಬ ಗಮನಿಸಿ?
+              <x id="START_TAG_SPAN_3" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>ಮಗುವಿನ ತಾಯಿಯೊಬ್ಬಳು ತನ್ನ ಸ್ಥಿತಿಯ ಸಾಮಾನ್ಯ ಹೆಸರಿನೊಂದಿಗೆ "ಕ್ಷೀಣಗೊಳ್ಳುವ ನರಗ್ರಹಿಕೆ" ಎಂದು ಕರೆಯುತ್ತಿದ್ದಾನೆ, ನಮ್ಮ ಅರಿವಿನ ಕೊಟ್ಟಿಗೆಗೆ ಸಹಾಯ ಮಾಡಲು ಹೆಚ್ಚು ತಿಳಿಯಲು ಮತ್ತು ತಿಳಿದುಕೊಳ್ಳಲು ನಾನು ಈ ನಿರಂತರ ಅಗತ್ಯವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಅರಿತುಕೊಳ್ಳಬಹುದು.
+                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>ನಾವು (ನನ್ನ ತಂಡ ಮತ್ತು ನಾನು) ನಿಮ್ಮ ಮತ್ತು ನಿಮ್ಮ ಪ್ರಯೋಜನಕ್ಕಾಗಿ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಸೇರಿಸಲು ಪ್ರಯತ್ನಿಸಿದ್ದಾರೆ
+                ಪ್ರೀತಿಪಾತ್ರರ. ವಿಶೇಷವಾಗಿ ಭಾರತದಲ್ಲಿ, ಕೊರತೆ ಇದೆ <x id="START_TAG_SPAN_2" ctype="x-span" equiv-text="&lt;span&gt;"/>
+ಇಂತಹ ಅಪರೂಪದ ಪರಿಸ್ಥಿತಿಗಳ ಅರಿವು
+                ನನ್ನ ಮಗಳಾದ ಇಶಾನಿಯನ್ನು ವರ್ಗೀಕರಿಸಲಾಗಿದೆ.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+ಇತರ ತಾಯಂದಿರು ಭಿನ್ನವಾಗಿಲ್ಲ ಎಂದು ನಾನು ಬಯಸುತ್ತೇನೆ
+                ನಾನು ಯಾವುದೇ ಮಾಹಿತಿ ಅಥವಾ ದಿಕ್ಕಿನಲ್ಲಿ ಮಾಡದೆ ಇರುವಷ್ಟು ಹೆಚ್ಚು ಹೋರಾಟ ಮಾಡಬೇಕಾಗಿಲ್ಲ
+                ಅಂತಹ ಮಗುವನ್ನು ಹೇಗೆ ನಿರ್ವಹಿಸುವುದು. ನನ್ನ ಮಗಳು ನಮ್ಮೊಂದಿಗೆ ಇನ್ನೂ ಇಲ್ಲ, ಅವಳು ಹೊರಟುಹೋದಳು
+                ಜೂನ್ 4, 2019 10 ವರ್ಷ ಮತ್ತು 2 ತಿಂಗಳು. ಅವಳು "ಹೋರಾಟಗಾರ" ಮತ್ತು ಅವಳ ರೀತಿಯಲ್ಲಿ ಹೋರಾಡಿದರು
+                ವರ್ಷಗಳಲ್ಲಿ ಅವರು ನಮ್ಮೊಂದಿಗೆ ಇದ್ದರು. ಅವರು ಎಲ್ಲರಿಗೂ ಪ್ರಶಾಂತತೆ, ಸಂತೋಷ ಮತ್ತು ಪ್ರೀತಿಯನ್ನು ತಂದರು
+                ಆಕೆಯು ಅವಳೊಂದಿಗೆ ಇರುವ ಅವಕಾಶವನ್ನು ಹೊಂದಿದ್ದಳು. ಅವಳು ನನ್ನ ಸ್ಫೂರ್ತಿ ಮತ್ತು ನನ್ನ ಶಕ್ತಿ
+                ನನ್ನ ಮಗ, ಅವಳ ಹಿರಿಯ ಸಹೋದರನೊಂದಿಗೆ.
+                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> 
+ಈ ವೆಬ್ಸೈಟ್ ನಿಮಗೆ ಕೆಲವು ತಾಯಂದಿರನ್ನು ಅಲ್ಲಿಗೆ ತಲುಪಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ, ಎಲ್ಲರೂ ಅಲ್ಲ, ತಿಳಿಯಲು
+                ಇತರರು ನಿಮ್ಮಂತೆಯೇ ಇದ್ದಾರೆ ಎಂದು. ನೀವು ಒಬ್ಬರೇ ಅಲ್ಲ. ನೀವು ಹೊಂದಿರುವ ಹೆಚ್ಚಿನ ವಿಷಯ
+                ನಾನು ಹಂಚಿಕೊಳ್ಳಲು ಬಯಸುವ ನನ್ನ ವೈಯಕ್ತಿಕ ಅನುಭವದ ಆಧಾರದ ಮೇಲೆ ಇಲ್ಲಿ ಕಾಣುವಿರಿ
+                ನೀನು.
+                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                ಈ ವೆಬ್ಸೈಟ್ಗೆ ಬಂದವರು ಯಾರು? <x id="START_TAG_SPAN_2" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>ಮತ್ತು ಪೋಷಕರು ಅಲ್ಲ ಅಥವಾ ಸಾಂದರ್ಭಿಕ
+ಸಂದರ್ಶಕರು,<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+ಸಹಾಯ ಅಗತ್ಯವಿರುವವರಿಗೆ ತಲುಪಲು ನಮಗೆ ಸಹಾಯ ಮಾಡಿ.
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ಚಿತ್ರಗಳು, ವೀಡಿಯೊಗಳು ಅಥವಾ ಬ್ಲಾಗ್ಗಳ ಮೂಲಕ ನಿಮ್ಮ ನೈಜ ಜೀವನದ ಕಥೆಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಮುಕ್ತವಾಗಿರಿ. ನೀನೇನಾದರೂ
+ಅನಾಮಧೇಯತೆಯನ್ನು ವಿನಂತಿಸಿ, ನಾವು ಅದನ್ನು ಗೌರವಿಸುತ್ತೇವೆ. ಗೌರವಿಸುವ ಸಮುದಾಯವನ್ನು ನಿರ್ಮಿಸಲು ಮತ್ತು
+ಸದಸ್ಯರಾಗುವ ಮೂಲಕ ಪರಸ್ಪರರಲ್ಲಿ ಸಹಾಯ ಮಾಡುತ್ತದೆ!
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ನಾವು ಫೇಸ್ಬುಕ್, ಟ್ವಿಟರ್ ಮತ್ತು Instagram ಮೂಲಕ ಸಾಮಾಜಿಕ ಮಾಧ್ಯಮದ ಅಂಗಗಳನ್ನು ಸಹ ರಚಿಸಿದ್ದೇವೆ
+(ಲಿಂಕ್ಗಳು ​​ಅಡಿಟಿಪ್ಪಣಿ ಕೆಳಗೆ), ನಿಮ್ಮ ಕುಟುಂಬದೊಂದಿಗೆ ಈ ಲಿಂಕ್ಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ನಾನು ನಿಮ್ಮನ್ನು ವಿನಂತಿಸುತ್ತೇನೆ
+ಮತ್ತು ಸ್ನೇಹಿತರು.
+                 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> <x id="START_TAG_SPAN_4" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+ಇಶಾನಿಯವರ<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> ತಾಯಿ,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                  ಪೂರ್ಣಿಮಾ<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="homeBenchmarks" datatype="html">
-        <source> Bench marks</source>
-           <target>
-ಬೆಂಚ್ ಮಾರ್ಕ್ಸ್</target>
+       <trans-unit id="feedContent" datatype="html">
+        <source>This page has the stories of “dhvani.life” members, other families,
+    our well-wishers who wish to contribute to the growing community. Go
+    ahead and have a read!</source>
+    <target>
+ಈ ಪುಟವು "dhvani.life" ಸದಸ್ಯರು, ಇತರ ಕುಟುಂಬಗಳು,
+    ಬೆಳೆಯುತ್ತಿರುವ ಸಮುದಾಯಕ್ಕೆ ಕೊಡುಗೆ ನೀಡಲು ಬಯಸುವ ನಮ್ಮ ಹಿತೈಷಿಗಳು. ಹೋಗಿ
+    ಮುಂದೆ ಮತ್ತು ಓದಲು!</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">76</context>
+          <context context-type="sourcefile">app/feed/feed.component.html</context>
+          <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="homeBenchMarksSub" datatype="html">
-      
-              <source> Nonprofit advocacy <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          Anonymity if expected <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          Run by group members <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          Online community</source>
-           <target>
-          ಲಾಭರಹಿತ ವಕಾಲತ್ತು <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          ಅನಾಮಧೇಯತೆಯನ್ನು ನಿರೀಕ್ಷಿಸಿದರೆ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          
-ಗುಂಪಿನ ಸದಸ್ಯರು ನಡೆಸುತ್ತಾರೆ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          ಆನ್ಲೈನ್ ​​ಸಮುದಾಯ </target>
+      <trans-unit id="feedFormContent" datatype="html">
+        <source>ನೀವು ಕಥೆಯನ್ನು ಹೊಂದಿದ್ದರೆ, ಹೊಸ ಮಾಹಿತಿ ಅಥವಾ ವಿಷಯವನ್ನು ಹಂಚಿಕೊಳ್ಳಲು
+    ಫೋರಮ್, ದಯವಿಟ್ಟು ಪೋಸ್ಟ್ ಮಾಡಲು ಮುಕ್ತವಾಗಿರಿ, ನೀವು ಅದನ್ನು &lt; ಲಿಂಕ್ನಲ್ಲಿ ವೀಕ್ಷಿಸಬಹುದು
+    ಕಥೆಗಳು&gt;.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    ನೀವು dhvani.life ಕುಟುಂಬದ ಒಂದು ಭಾಗವಾಗಿದೆ, ಎಕ್ಸ್ಪ್ರೆಸ್, ಚರ್ಚಿಸಿ ಮತ್ತು ಬನ್ನಿ
+    ನಿಮ್ಮ ಆಲೋಚನೆಗಳನ್ನು ನಮ್ಮೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ.</source>
+        <target>ನೀವು ಕಥೆಯನ್ನು ಹೊಂದಿದ್ದರೆ, ಹೊಸ ಮಾಹಿತಿ ಅಥವಾ ವಿಷಯವನ್ನು ಹಂಚಿಕೊಳ್ಳಲು
+    ಫೋರಮ್, ದಯವಿಟ್ಟು ಪೋಸ್ಟ್ ಮಾಡಲು ಮುಕ್ತವಾಗಿರಿ, ನೀವು ಅದನ್ನು &lt; ಲಿಂಕ್ನಲ್ಲಿ ವೀಕ್ಷಿಸಬಹುದು
+    ಕಥೆಗಳು &gt;<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    ನೀವು dhvani.life ಕುಟುಂಬದ ಒಂದು ಭಾಗವಾಗಿದೆ, ಎಕ್ಸ್ಪ್ರೆಸ್, ಚರ್ಚಿಸಿ ಮತ್ತು ಬನ್ನಿ
+    ನಿಮ್ಮ ಆಲೋಚನೆಗಳನ್ನು ನಮ್ಮೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">78</context>
+          <context context-type="sourcefile">app/feed-form/feed-form.component.html</context>
+          <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainTitle" datatype="html">
-        <source>Dhvani</source>
-        <target>ದ್ವಾನಿ</target> 
+      <trans-unit id="ContactFormContent" datatype="html">
+        <source>We would love to hear from you. We are open to compliments,
+    comments, opinions, feedback regarding the website or links. Please
+    feel free to contact us.</source>
+    <target>ನಿಮ್ಮಿಂದ ಕೇಳಲು ನಾವು ಉತ್ಸುಕರಾಗಿದ್ದೇವೆ. ನಾವು ಅಭಿನಂದನೆಗಳು,
+    ವೆಬ್ಸೈಟ್ ಅಥವಾ ಲಿಂಕ್ಗಳ ಬಗ್ಗೆ ಕಾಮೆಂಟ್ಗಳು, ಅಭಿಪ್ರಾಯಗಳು, ಪ್ರತಿಕ್ರಿಯೆ. ದಯವಿಟ್ಟು
+    ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಲು ಮುಕ್ತವಾಗಿರಿ.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
-          <context context-type="linenumber">6</context>
+          <context context-type="sourcefile">app/contact-form/contact-form.component.html</context>
+          <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainHome" datatype="html">
-        <source>Dhvani&apos;s Home page<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target>ದ್ವಾನಿಯ ಮುಖಪುಟ</target> <context-group purpose="location">
-          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+      <trans-unit id="DashboardContent" datatype="html">
+        <source>Here are some links to help you start:</source>
+             <target>ಪ್ರಾರಂಭಿಸಲು ನಿಮಗೆ ಸಹಾಯ ಮಾಡಲು ಕೆಲವು ಲಿಂಕ್ಗಳು ​​ಇಲ್ಲಿವೆ:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="CreateNewPostContent" datatype="html">
+        <source>Create new Post</source>
+           <target>ಹೊಸ ಪೋಸ್ಟ್ ರಚಿಸಿ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainMilestones" datatype="html">
-        <source>Milestones </source>
-        <target>
-ಮೈಲಿಗಲ್ಲುಗಳು</target> 
+      <trans-unit id="ViewRealtimeFeedContent" datatype="html">
+        <source>View realtime feed</source>
+              <target>ನೈಜ ಸಮಯದಲ್ಲಿ ಫೀಡ್ ವೀಕ್ಷಿಸಿ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footerContent" datatype="html">
+        <source> © 2019 Copyright: dhvani.life</source>
+          <target> 
+© 2019 ಕೃತಿಸ್ವಾಮ್ಯ: dhvani.life</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+          <trans-unit id="ChatoomContent" datatype="html">
+        <source> This forum is open for discussion between all members and guest
+    users. Talk to us or anyone who is available online. We are here for
+    you.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    We have a public chat room where all current online users can be
+    viewed and you can carry on a conversation or if you prefer a private
+    chat room with selected contacts, that is also possible. The idea is
+    for you to be able discuss or share or speak to one another.</source>
+         <target> ಈ ವೇದಿಕೆ ಎಲ್ಲಾ ಸದಸ್ಯರು ಮತ್ತು ಅತಿಥಿಗಳ ನಡುವೆ ಚರ್ಚೆಗಾಗಿ ತೆರೆದಿರುತ್ತದೆ
+    ಬಳಕೆದಾರರು. ನಮ್ಮೊಂದಿಗೆ ಅಥವಾ ಆನ್ಲೈನ್ನಲ್ಲಿ ಲಭ್ಯವಿರುವ ಯಾರಾದರೂ ಮಾತನಾಡಿ. ನಾವು ಇಲ್ಲಿದ್ದೇವೆ
+    ನೀನು.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    
+ಪ್ರಸ್ತುತ ಎಲ್ಲಾ ಆನ್ಲೈನ್ ​​ಬಳಕೆದಾರರು ಇರುವ ಸಾರ್ವಜನಿಕ ಚಾಟ್ ರೂಮ್ ನಮಗೆ ಇದೆ
+    ವೀಕ್ಷಿಸಲಾಗಿದೆ ಮತ್ತು ನೀವು ಸಂಭಾಷಣೆ ನಡೆಸಬಹುದು ಅಥವಾ ನೀವು ಖಾಸಗಿ ಬಯಸಿದರೆ
+    ಆಯ್ದ ಸಂಪರ್ಕಗಳೊಂದಿಗೆ ಚಾಟ್ ರೂಮ್, ಇದು ಸಾಧ್ಯವಿದೆ. ಕಲ್ಪನೆ
+    ನೀವು ಪರಸ್ಪರ ಚರ್ಚಿಸಲು ಅಥವಾ ಹಂಚಿಕೊಳ್ಳಲು ಅಥವಾ ಮಾತನಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/chatroom/chatroom.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainHome" datatype="html">
+        <source>Home</source>
+          <target>
+ಮುಖಪುಟ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainWhyDhvaniLife" datatype="html">
+        <source>Why dhvani.life?</source>
+         <target>ಏಕೆ dhvani.life?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainAboutGdd" datatype="html">
-        <source>About GDD</source>
-        <target>ಜಿಡಿಡಿ ಬಗ್ಗೆ</target> 
+      <trans-unit id="mainBeAMember" datatype="html">
+        <source>Be a member</source>
+        <target>
+ಸದಸ್ಯರಾಗಿ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainOurBenchmarks" datatype="html">
+        <source>Our benchmarks</source>
+        <target>ನಮ್ಮ ಮಾನದಂಡಗಳು</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainDisclaimer" datatype="html">
+        <source>Disclaimer</source>
+         <target>
+ಹಕ್ಕುತ್ಯಾಗ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainHelpForGdd" datatype="html">
-        <source>Help for gdd</source>
-        <target>
-ಜಿಡಿಡಿ ಗಾಗಿ ಸಹಾಯ</target> 
+      <trans-unit id="mainInspirationForDhvaniLife" datatype="html">
+        <source>Inspiration for dhvani.life</source>
+          <target>Dhvani.life ಗೆ ಪ್ರೇರಣೆ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainGovSchemes" datatype="html">
-        <source>Government schemes</source>
-        <target>
-ಸರ್ಕಾರದ ಯೋಜನೆಗಳು</target> 
+      <trans-unit id="mainMilestones" datatype="html">
+        <source>Milestones</source>
+                <target>ಮೈಲಿಗಲ್ಲುಗಳು</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
           <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainResearchPaper" datatype="html">
-        <source>Research paper</source>
-        <target>
-ಸಂಶೋಧನಾ ಲೇಖನ</target> 
+      <trans-unit id="mainMilestonesForANormalChild" datatype="html">
+        <source>Milestones for a normal child</source>
+         <target>
+ಸಾಮಾನ್ಯ ಮಗುವಿಗೆ ಮೈಲಿಗಲ್ಲುಗಳು</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="MainSpeakToUs" datatype="html">
-        <source>Speak to us</source>
-        <target>ನಮಗೆ ಮಾತನಾಡಿ</target> 
+      <trans-unit id="mainCheckYourMilestones" datatype="html">
+        <source>Check your Milestones</source>
+          <target>
+ನಿಮ್ಮ ಮೈಲಿಗಲ್ಲುಗಳನ್ನು ಪರಿಶೀಲಿಸಿ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainWhereToGo" datatype="html">
-        <source>Where to go</source>
-        <target>
-ಎಲ್ಲಿಗೆ ಹೋಗಬೇಕು</target> 
+      <trans-unit id="mainVaccinateYourChild" datatype="html">
+        <source>Vaccinate your child</source>
+         <target>
+ನಿಮ್ಮ ಮಗುವನ್ನು ವ್ಯಾಕ್ಸಿನೇಟ್ ಮಾಡಿ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainDoctorVisit" datatype="html">
+        <source> Planning your first doctor visit</source>
+                <target> ನಿಮ್ಮ ಮೊದಲ ವೈದ್ಯರು ಭೇಟಿ ಮಾಡಲು ಯೋಜಿಸಿ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainAboutGdd" datatype="html">
+        <source>About GDD</source>
+              <target>ಜಿಡಿಡಿ ಬಗ್ಗೆ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
           <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainDonor" datatype="html">
-        <source>Our donors</source>
-        <target>ನಮ್ಮ ದಾನಿಗಳು</target> 
+    
+        <trans-unit id="mainAboutGDD" datatype="html">
+        <source>What is GDD?</source>
+        <target>ಜಿಡಿಡಿ ಎಂದರೇನು?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainAboutUs" datatype="html">
-        <source>About us</source>
-        <target>
-ನಮ್ಮ ಬಗ್ಗೆ</target> 
+      <trans-unit id="mainTipsForParents" datatype="html">
+        <source>Tips for parents</source>
+          <target>ಪೋಷಕರಿಗೆ ಸಲಹೆಗಳು</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainLanguage" datatype="html">
-        <source>
-           Language<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-       <target>
-ಭಾಷೆ</target>  <context-group purpose="location">
-          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
-          <context context-type="linenumber">49</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="mainKannada" datatype="html">
-        <source>Kannada</source>
-        <target>ಕನ್ನಡ
-</target> 
+      <trans-unit id="mainThingsToKnow" datatype="html">
+        <source>Things you need to know</source>
+        <target>ನೀವು ತಿಳಿಯಬೇಕಾದ ವಿಷಯಗಳು</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
-          <context context-type="linenumber">52</context>
+          <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainEnglish" datatype="html">
-        <source>English</source>
-        <target>ಇಂಗ್ಲಿಷ್</target> 
+      <trans-unit id="mainRehabilation" datatype="html">
+        <source>Rehabilitate</source>
+            <target>
+ಪುನರ್ವಸತಿ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainWHyRehabilitation" datatype="html">
+        <source>Why Rehabilitation</source>
+          <target>
+ಪುನರ್ವಸತಿ ಏಕೆ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainPhysiotherapy" datatype="html">
+        <source>Physiotherapy</source>
+          <target>ಭೌತಚಿಕಿತ್ಸೆಯ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainOccupational" datatype="html">
+        <source>Occupational therapy</source>
+              <target>
+ಔದ್ಯೋಗಿಕ ಚಿಕಿತ್ಸೆ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainSpecial" datatype="html">
+        <source>Special language pathologists</source>
+         <target>ವಿಶೇಷ ಭಾಷೆಯ ರೋಗಶಾಸ್ತ್ರಜ್ಞರು</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainHelpForGdd" datatype="html">
+        <source>Help for GDD</source>
+           <target>GDD ಗಾಗಿ ಸಹಾಯ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
           <context context-type="linenumber">53</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="footerContent" datatype="html">
-        <source> © 2019 Copyright: dhvani.life</source>
-        <target> © 2019 ಕೃತಿಸ್ವಾಮ್ಯ: dhvani.life</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">75</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainFrench" datatype="html">
-        <source>French</source>
-        <target>ಹಿಂದಿ</target> 
+      <trans-unit id="mainGovSchemes" datatype="html">
+        <source>Govt Schemes</source>
+           <target>ಸರ್ಕಾರದ ಯೋಜನೆಗಳು</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
           <context context-type="linenumber">55</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="feedTitle" datatype="html">
-        <source>
-  feed works!
-</source>
-<target>ಫೀಡ್ ಕೃತಿಗಳು!
-</target> 
         <context-group purpose="location">
-          <context context-type="sourcefile">app/feed/feed.component.html</context>
-          <context context-type="linenumber">6</context>
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="templatesTitle" datatype="html">
-        <source>
-	Templates
-</source>
-<target>ಟೆಂಪ್ಲೇಟ್ಗಳು</target> 
+      <trans-unit id="mainResearchPaper" datatype="html">
+        <source>Research paper</source>
+         <target>
+ಸಂಶೋಧನಾ ಲೇಖನ</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/feed/feed.component.html</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">56</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/feed/feed.component.html</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">79</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="introductionHeader" datatype="html">
-        <source>Hello i18n!</source>
+      <trans-unit id="mainmonetary" datatype="html">
+        <source>Additional monetary burden</source>
+               <target>ಹೆಚ್ಚುವರಿ ವಿತ್ತೀಯ ಹೊರೆ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="MainSpeakToUs" datatype="html">
+        <source>Speak to us</source>
+         <target>
+ನಮಗೆ ಮಾತನಾಡಿ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainNewPost" datatype="html">
+        <source>Write a new post</source>
+              <target>ಹೊಸ ಪೋಸ್ಟ್ ಬರೆಯಿರಿ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainCheckStories" datatype="html">
+        <source>Check stories</source>
         <target>
-ಹಲೋ i18n!</target> 
+ಕಥೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/feed/feed.component.html</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">66</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="mainWhereToGo" datatype="html">
+        <source>Where to go???</source>
+         <target>ಎಲ್ಲಿಗೆ ಹೋಗಬೇಕು???</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/feed/feed.component.html</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">67</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="mainChatroom" datatype="html">
+        <source>Chatroom</source>
+           <target>
+ಹರಟೆ ಕೋಣೆ</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/feed/feed.component.html</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">85</context>
         </context-group>
-        <note priority="1" from="description">An introduction header for this sample</note>
+      </trans-unit>
+      <trans-unit id="mainContactUs" datatype="html">
+        <source>Contact Us</source>
+         <target>
+ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+  
+      <trans-unit id="mainOurDonors" datatype="html">
+        <source>Our Donors</source>
+             <target>
+ನಮ್ಮ ದಾನಿಗಳು</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainBecomeADonor" datatype="html">
+        <source>Become a donor</source>
+        <target>
+ದಾನಿ ಆಗಿ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainOurDonorSheet" datatype="html">
+        <source>Our donor sheet</source>
+           <target>ನಮ್ಮ ದಾನಿ ಹಾಳೆ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainAboutUs" datatype="html">
+        <source>About us</source>
+                <target>ನಮ್ಮ ಬಗ್ಗೆ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+         <trans-unit id="mainMeetOurTeam" datatype="html">
+        <source>Meet our team</source>
+         <target>ನಮ್ಮ ತಂಡವನ್ನು ಭೇಟಿ ಮಾಡಿ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainAcknowledgement" datatype="html">
+        <source>Acknowledgement</source>
+            <target>ಸ್ವೀಕೃತಿ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainLanguage" datatype="html">
+        <source>Language</source>
+            <target>ಭಾಷೆ
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainKannada" datatype="html">
+        <source>Kannada</source>
+        <target>ಕನ್ನಡ </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainEnglish" datatype="html">
+        <source>English</source>
+            <target>ಇಂಗ್ಲಿಷ್</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainFrench" datatype="html">
+        <source>Hindi</source>
+             <target>ಹಿಂದಿ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeBenchmarks" datatype="html">
+        <source> Bench marks</source>
+             <target> ಬೆಂಚ್ ಮಾರ್ಕ್ಸ್</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/benchmark/benchmark.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+     
+
+        <trans-unit id="MileStonesForNormalChildContent" datatype="html">
+        <source>
+    When my daughter Ishaani was born, it was our happiest day, she was
+    a bubbly baby. It was a normal delivery and she had cried at birth.
+    Who was to know that by the time she attained one year, things were
+    going to change. Here is a chart for a normal child’s growth milestone.
+    Thank you Dr. Fatima for the chart!</source>
+       <target>
+    
+ನನ್ನ ಮಗಳು ಇಶಾನಿ ಜನಿಸಿದಾಗ, ಅದು ನಮ್ಮ ಸಂತೋಷದ ದಿನವಾಗಿತ್ತು, ಅವಳು
+    ಬಬ್ಲಿ ಬೇಬಿ. ಇದು ಸಾಮಾನ್ಯ ವಿತರಣೆ ಮತ್ತು ಜನ್ಮದಲ್ಲಿ ಅವಳು ಅಳುತ್ತಾನೆ.
+    ಆ ಸಮಯದಲ್ಲಿ ಅವಳು ಒಂದು ವರ್ಷದ ವರೆಗೆ ತಲುಪಿದ್ದೇವೆ ಎಂದು ತಿಳಿದುಕೊಳ್ಳಬೇಕಾಯಿತು
+    ಬದಲಿಸಲು ಹೋಗುತ್ತದೆ. ಸಾಮಾನ್ಯ ಮಗುವಿನ ಬೆಳವಣಿಗೆಯ ಮೈಲಿಗಲ್ಲುಗಾಗಿ ಒಂದು ಚಾರ್ಟ್ ಇಲ್ಲಿದೆ.
+    ಡಾ ಧನ್ಯವಾದಗಳು. ಚಾರ್ಟ್ಗಾಗಿ ಫ್ಯಾಥಿಮಾ!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/milestone-for-normal-child/milestone-for-normal-child.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="DoctorVisitContent" datatype="html">
+        <source>
+  When you do decide to meet the doctor with your child for the first time after you
+notice something different, it would be better if you prepare yourself. Keep some
+things that might help you explain the problem much more easily. I know it helped
+me, in convincing the doctor that we really have a concern and that we need help.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ Do not forget to carry “the booklet” that the maternity hospital provides
+you when you delivered your baby.
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+o Check for head circumference<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>o Length of the baby at birth<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>o Gestation period (how many weeks when you delivered)<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>o Delivery: normal or caesarian<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+ Keeping a notepad/dairy of events/incidents that you might have observed<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ Photographs in chronological order<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ Videos of your child when he/she was (in your opinion) doing things
+normally and when things started changing (in chronological order)<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ Any earlier medical records (if you consulted another doctor earlier)<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+</source>
+<target>
+ನಿಮ್ಮ ಮಗುವಿನೊಂದಿಗೆ ವೈದ್ಯರನ್ನು ಮೊದಲ ಬಾರಿಗೆ ಭೇಟಿಯಾಗಲು ನೀವು ನಿರ್ಧರಿಸಿದಾಗ
+ಬೇರೆ ಯಾವುದನ್ನಾದರೂ ಗಮನಿಸಿ, ನೀವೇ ತಯಾರು ಮಾಡಿದರೆ ಅದು ಉತ್ತಮವಾಗಿರುತ್ತದೆ. ಕೆಲವು ಕೀಪ್
+ಸಮಸ್ಯೆಯನ್ನು ಇನ್ನಷ್ಟು ಸುಲಭವಾಗಿ ವಿವರಿಸಲು ಸಹಾಯ ಮಾಡುವಂತಹ ವಿಷಯಗಳು. ಅದು ನನಗೆ ತಿಳಿದಿದೆ
+ನನಗೆ, ನಾವು ನಿಜವಾಗಿಯೂ ಕಾಳಜಿಯನ್ನು ಹೊಂದಿದ್ದೇವೆ ಮತ್ತು ನಮಗೆ ಸಹಾಯ ಬೇಕು ಎಂದು ವೈದ್ಯರಿಗೆ ಮನವರಿಕೆ ಮಾಡಿಕೊಳ್ಳುತ್ತೇವೆ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+ಮಾತೃತ್ವ ಆಸ್ಪತ್ರೆ ಒದಗಿಸುವ "ಬುಕ್ಲೆಟ್" ಅನ್ನು ಸಾಗಿಸಲು ಮರೆಯಬೇಡಿ
+ನೀನು ನಿನ್ನ ಮಗುವನ್ನು ಬಿಡುಗಡೆ ಮಾಡಿದಾಗ.
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+
+ತಲೆ ಸುತ್ತಳತೆಗಾಗಿ ಪರಿಶೀಲಿಸಿ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>o ಹುಟ್ಟಿನಲ್ಲಿ ಮಗುವಿನ ಉದ್ದ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>o ಗರ್ಭಾವಸ್ಥೆಯ ಅವಧಿ (ಎಷ್ಟು ವಾರಗಳ ನೀವು ವಿತರಿಸಿದಾಗ)<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>o ವಿತರಣೆ: ಸಾಮಾನ್ಯ ಅಥವಾ ಸಾಸೇರಿಯನ್<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+ ನೋಟ್ಪಾಡ್ / ಡೈರಿ ಘಟನೆಗಳು / ಘಟನೆಗಳನ್ನು ನೀವು ಗಮನಿಸಿದಂತೆ ಇರಿಸಿಕೊಳ್ಳಿ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ ಕಾಲಾನುಕ್ರಮದಲ್ಲಿ ಛಾಯಾಚಿತ್ರಗಳು<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ 
+ನಿಮ್ಮ ಮಗುವಿನ ವೀಡಿಯೊಗಳು ಅವನು / ಅವಳು ಆಗಿದ್ದಾಗ (ನಿಮ್ಮ ಅಭಿಪ್ರಾಯದಲ್ಲಿ) ಕೆಲಸಗಳನ್ನು ಮಾಡುತ್ತಿದ್ದಾರೆ
+ಸಾಮಾನ್ಯವಾಗಿ ಮತ್ತು ವಿಷಯಗಳನ್ನು ಬದಲಿಸಲು ಪ್ರಾರಂಭಿಸಿದಾಗ (ಕಾಲಾನುಕ್ರಮದಲ್ಲಿ)<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ 
+ಯಾವುದೇ ಹಿಂದಿನ ವೈದ್ಯಕೀಯ ದಾಖಲೆಗಳು (ನೀವು ಮೊದಲು ಇನ್ನೊಬ್ಬ ವೈದ್ಯರನ್ನು ಸಲಹೆ ಮಾಡಿದರೆ)<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/doctor-visit/doctor-visit.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="DisclaimerContent" datatype="html">
+        <source>
+    “dhvani.life” is not a substitute for the role of the pediatrician, a
+    clinician or a health professional. The function is to support the
+    parent or caretaker of a child with GDD in enabling access to know-
+    how, knowledge and access to funds and resources. Users of this
+    website or dhvani mobile application are therefore urged to use their
+    own judgment to ensure that the child receives the best possible
+    care. We have made reasonable efforts the accuracy of the
+    information we present on this online knowledge resource, we cannot
+    guarantee its correctness and completeness. The information on the
+    website is subject to change and we cannot guarantee that it is up-to-
+    date.
+</source>
+  <target>
+    "Dhvani.life" ಶಿಶುವೈದ್ಯದ ಪಾತ್ರಕ್ಕೆ ಬದಲಿಯಾಗಿಲ್ಲ, a
+    ವೈದ್ಯರು ಅಥವಾ ಆರೋಗ್ಯ ವೃತ್ತಿಪರರು. ಕಾರ್ಯವನ್ನು ಬೆಂಬಲಿಸುವುದು
+    GDD ಯೊಂದಿಗೆ ಮಗುವಿನ ಪೋಷಕರು ಅಥವಾ ಪೋಷಕರಿಗೆ ತಿಳಿದಿರುವ ಪ್ರವೇಶವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವಲ್ಲಿ-
+    ಹೇಗೆ, ಹಣ ಮತ್ತು ಸಂಪನ್ಮೂಲಗಳಿಗೆ ಜ್ಞಾನ ಮತ್ತು ಪ್ರವೇಶ. ಇದರ ಬಳಕೆದಾರರು
+    ವೆಬ್ಸೈಟ್ ಅಥವಾ ಧವಾನಿ ಮೊಬೈಲ್ ಅಪ್ಲಿಕೇಷನ್ ಅನ್ನು ಬಳಸಿಕೊಳ್ಳಲು ಒತ್ತಾಯಿಸಲಾಗುತ್ತದೆ
+    ಮಗುವು ಅತ್ಯುತ್ತಮ ಸಾಧ್ಯತೆಯನ್ನು ಪಡೆಯುವುದನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ಸ್ವಂತ ತೀರ್ಪು
+    ಆರೈಕೆ. ನಾವು ಸಮಂಜಸ ಪ್ರಯತ್ನಗಳನ್ನು ನಿಖರತೆ ಮಾಡಿದ್ದೇವೆ
+    ಈ ಆನ್ಲೈನ್ ​​ಜ್ಞಾನ ಸಂಪನ್ಮೂಲದಲ್ಲಿ ನಾವು ಪ್ರಸ್ತುತಪಡಿಸುವ ಮಾಹಿತಿ, ನಮಗೆ ಸಾಧ್ಯವಿಲ್ಲ
+    ಅದರ ನಿಖರತೆ ಮತ್ತು ಪರಿಪೂರ್ಣತೆಯನ್ನು ಖಾತರಿಪಡಿಸಿಕೊಳ್ಳಿ. ಮಾಹಿತಿಯ ಬಗ್ಗೆ
+    ವೆಬ್ಸೈಟ್ ಬದಲಾವಣೆಗೆ ಒಳಪಟ್ಟಿರುತ್ತದೆ ಮತ್ತು ಇದು ಅಪ್-ಟು-ಟು-
+    ದಿನಾಂಕ.
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/disclaimer/disclaimer.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="checkYourMilestonesContent" datatype="html">
+        <source>
+    It is usually the parent that would be able to do the first level of
+    assessment and I read in an article 1 the doctor mentioned “When a
+    parent is worried, there is a good chance that something needs
+    attention”. So you are doing a good job as a parent if you are looking
+    for the red flags! Red flags indicate warning signs.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+   <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/> <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>A word of caution: <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>It is better to observe and record these
+observations with the exact or approximate date of recording.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Source: 1 Raymond Tervo, 2009. “Red flags and Rules of Thumb: Sorting out
+developmental delay”, A Pediatric perspective, Vol.18, No. 2
+</source>
+ <target>
+
+ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಮೊದಲನೇ ಹಂತವನ್ನು ಮಾಡಲು ಸಾಧ್ಯವಾಗುವ ಪೋಷಕವಾಗಿದೆ
+    ಮೌಲ್ಯಮಾಪನ ಮತ್ತು ನಾನು 1 ನೇ ಲೇಖನದಲ್ಲಿ ಓದುತ್ತಿದ್ದೇನೆ "ಎ
+    ಪೋಷಕರು ಚಿಂತಿತರಾಗಿದ್ದಾರೆ, ಏನಾದರೂ ಅಗತ್ಯವಿರುವ ಉತ್ತಮ ಅವಕಾಶವಿದೆ
+    ಗಮನ ". ಆದ್ದರಿಂದ ನೀವು ಹುಡುಕುತ್ತಿರುವ ವೇಳೆ ಪೋಷಕರಂತೆ ನೀವು ಉತ್ತಮ ಕೆಲಸವನ್ನು ಮಾಡುತ್ತಿದ್ದೀರಿ
+    ಕೆಂಪು ಧ್ವಜಗಳಿಗಾಗಿ! ಕೆಂಪು ಧ್ವಜಗಳು ಎಚ್ಚರಿಕೆ ಚಿಹ್ನೆಗಳನ್ನು ಸೂಚಿಸುತ್ತವೆ.
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+   <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/>
+    <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+   ಎಚ್ಚರಿಕೆಯ ಒಂದು ಪದ:
+    <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+    
+ಇವುಗಳನ್ನು ಗಮನಿಸಿ ಮತ್ತು ದಾಖಲಿಸುವುದು ಉತ್ತಮ
+ರೆಕಾರ್ಡಿಂಗ್ನ ನಿಖರ ಅಥವಾ ಅಂದಾಜು ದಿನಾಂಕದೊಂದಿಗೆ ವೀಕ್ಷಣೆಗಳು.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ಮೂಲ: 1 ರೇಮಂಡ್ Tervo, 2009. "ಕೆಂಪು ಧ್ವಜಗಳು ಮತ್ತು ತಮ್ ನಿಯಮಗಳು: ಔಟ್ ಸಾರ್ಟಿಂಗ್
+ಅಭಿವೃದ್ಧಿ ವಿಳಂಬ ", ಎ ಪೀಡಿಯಾಟ್ರಿಕ್ ದೃಷ್ಟಿಕೋನ, ಸಂಪುಟ .18, ಸಂಖ್ಯೆ 2
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/check-your-milestones/check-your-milestones.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="PhysiotherapistContent" datatype="html">
+        <source>
+    A physiotherapist helps in the management and development of
+    movement skills. Physiotherapy may include exercises to strengthen
+    weak muscles and games to improve coordination and motor skills.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    “Ishaani’s went through intense physiotherapy sessions before we
+    actually took for an assessment for GDD, we were told that she would
+    improve through the PT sessions, as she still had her cognitive
+    abilities intact, we never realized that she was going through
+    regression in phases. She had PT sessions at the hospital”
+</source>
+  <target>
+ಒಂದು ಭೌತಚಿಕಿತ್ಸಕ ನಿರ್ವಹಣೆ ಮತ್ತು ಅಭಿವೃದ್ಧಿಗೆ ನೆರವಾಗುತ್ತದೆ
+    ಚಳುವಳಿ ಕೌಶಲ್ಯಗಳು. ಭೌತಚಿಕಿತ್ಸೆಯು ಬಲಪಡಿಸಲು ವ್ಯಾಯಾಮಗಳನ್ನು ಒಳಗೊಂಡಿರಬಹುದು
+    ದುರ್ಬಲ ಸ್ನಾಯುಗಳು ಮತ್ತು ಆಟಗಳ ಸಂಯೋಜನೆ ಮತ್ತು ಮೋಟಾರ್ ಕೌಶಲ್ಯಗಳನ್ನು ಸುಧಾರಿಸಲು.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+   
+"ಇಶಾನಿಯವರು ಮೊದಲು ತೀವ್ರವಾದ ಭೌತಚಿಕಿತ್ಸೆಯ ಅವಧಿಯೊಳಗೆ ಹೋದರು
+    ವಾಸ್ತವವಾಗಿ ಜಿಡಿಡಿ ಒಂದು ಮೌಲ್ಯಮಾಪನಕ್ಕೆ ತೆಗೆದುಕೊಂಡಿತು, ನಾವು ಅವಳು ಎಂದು ತಿಳಿಸಲಾಯಿತು
+    ಪಿಟಿ ಅಧಿವೇಶನಗಳ ಮೂಲಕ ಸುಧಾರಿಸಿಕೊಳ್ಳಿ, ಏಕೆಂದರೆ ಅವಳು ಇನ್ನೂ ತನ್ನ ಜ್ಞಾನವನ್ನು ಹೊಂದಿದ್ದಳು
+    ಸಾಮರ್ಥ್ಯಗಳು ಸರಿಯಾಗಿಲ್ಲ, ಅವಳು ಹಾದುಹೋಗುವೆ ಎಂದು ನಾವು ಎಂದಿಗೂ ಅರಿತುಕೊಂಡಿಲ್ಲ
+    ಹಂತಗಳಲ್ಲಿ ಹಿಂಜರಿಕೆಯನ್ನು. ಅವರು ಆಸ್ಪತ್ರೆಯಲ್ಲಿ ಪಿಟಿ ಅಧಿವೇಶನಗಳನ್ನು ಹೊಂದಿದ್ದರು "
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/physiotherapy/physiotherapy.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="OccupationalContent" datatype="html">
+        <source>
+    An Occupational Therapist helps children and young people who have
+    difficulties in carrying out everyday tasks. For example, eating,
+    dressing or playing.
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    “ Since I was a working mother and taking Ishaani every day to the
+    hospital was becoming a problem, we organized for OT sessions at
+    home when an OT practitioner would come for a couple of hours”
+</source>
+ <target>
+   
+ಒಂದು ವ್ಯಾವಹಾರಿಕ ಚಿಕಿತ್ಸಕ ಮಕ್ಕಳು ಮತ್ತು ಯುವಜನರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತಾರೆ
+    ದೈನಂದಿನ ಕಾರ್ಯಗಳನ್ನು ಕೈಗೊಳ್ಳುವಲ್ಲಿ ತೊಂದರೆಗಳು. ಉದಾಹರಣೆಗೆ, ತಿನ್ನುವುದು,
+    ಡ್ರೆಸಿಂಗ್ ಅಥವಾ ಪ್ಲೇಯಿಂಗ್.
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  
+"ನಾನು ಕೆಲಸ ಮಾಡುವ ತಾಯಿಯೆಂದೂ ಮತ್ತು ಇಶಾನಿಯನ್ನು ಪ್ರತಿ ದಿನವೂ ತೆಗೆದುಕೊಳ್ಳುತ್ತಿದ್ದೇನೆ
+    ಆಸ್ಪತ್ರೆಯೊಂದು ಸಮಸ್ಯೆಯಾಗುತ್ತಿದೆ, ನಾವು OT ಅಧಿವೇಶನಗಳಿಗಾಗಿ ಆಯೋಜಿಸಿದ್ದೇವೆ
+    OT ವೈದ್ಯರು ಕೆಲವು ಗಂಟೆಗಳ ಕಾಲ ಬಂದಾಗ "
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/occupationaltherapy/occupationaltherapy.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="additionalMonetaryContent" datatype="html">
+        <source>
+    Having a child with developmental delay would mean, an additional
+    burden on the family’s income. Investment in terms of:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Diapers – child may never achieve potty training<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Medicines<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Home nurses/care takers<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Equipment<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Therapists<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Visits to hospitals<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  
+    Go to   <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Contact us<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> if you are a family in need of financial
+    assistance, we will try to find you a donor who could help you. We
+    request you to have patience and wait, till we are able to organize
+    some assistance or help.
+</source>
+  <target>
+  
+ಅಭಿವೃದ್ಧಿಯ ವಿಳಂಬದೊಂದಿಗೆ ಮಗುವನ್ನು ಹೊಂದಿರುವುದು, ಹೆಚ್ಚುವರಿ
+    ಕುಟುಂಬದ ಆದಾಯದ ಮೇಲೆ ಹೊರೆ. ಈ ರೀತಿಯಾಗಿ ಹೂಡಿಕೆಯು:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     ಒರೆಸುವ ಬಟ್ಟೆಗಳು - ಮಗುವಿನ ಕ್ಷುಲ್ಲಕ ತರಬೇತಿ ಸಾಧಿಸಲು ಎಂದಿಗೂ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     ಔಷಧಗಳು<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     
+ಮನೆ ದಾದಿಯರು / ಆರೈಕೆ ಪಡೆಯುವವರು<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     ಉಪಕರಣ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     ಚಿಕಿತ್ಸಕರು<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     ಆಸ್ಪತ್ರೆಗಳಿಗೆ ಭೇಟಿ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  
+    ಹೋಗಿ <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> 
+ನೀವು ಹಣಕಾಸಿನ ಅವಶ್ಯಕತೆ ಇರುವ ಕುಟುಂಬವಾಗಿದ್ದರೆ
+    ಸಹಾಯ, ನಾವು ನಿಮಗೆ ಸಹಾಯ ಮಾಡುವ ದಾನಿ ಹುಡುಕಲು ನಾವು ಪ್ರಯತ್ನಿಸುತ್ತೇವೆ. ನಾವು
+    ನಾವು ಸಂಘಟಿಸಲು ಸಾಧ್ಯವಾಗುವವರೆಗೂ ತಾಳ್ಮೆಯಿಂದಿರಿ ಮತ್ತು ಕಾಯಲು ನಿಮ್ಮನ್ನು ವಿನಂತಿಸುತ್ತೇವೆ
+    ಕೆಲವು ಸಹಾಯ ಅಥವಾ ಸಹಾಯ.
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/additionalmonetary/additionalmonetary.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="BecomeAContent" datatype="html">
+        <source>
+    I believe in the motto “The purpose of life is a life with a purpose”.
+    When I started this project, my only thought was how could I, an
+    ordinary working mother of a child with an undiagnosed condition,
+    make a difference. My family and I worked hard to give Ishaani the
+    quality of life that she deserved. I am lucky to have had the support
+    of my family members in doing that. We were lucky to be working
+    parents who could bear the burden of bringing up, taking care of such
+    a child but there may be parents out there who may be facing
+    financial problems or find it difficult to pay their medical/hospital
+    bills.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    At dhvani.life we felt that we could help reach out to such parents
+    and families. We want to create an awareness of GDD and for this we
+    seek your help. You can choose to donate for either:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    C Sponsoring one hospitalized child, or<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    C Donation for the awareness drive<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    We intend to organize awareness camps across the state of
+    Karnataka, reaching the remote locations as well. To do this, we need
+    your assistance in the form of donations. All payments will go to
+    “dhavni.life fund” and we will provide you the transaction sheets for
+    all the amounts that we receive. As mentioned in our bench marks, we
+    believe in not making a profit out of this. The idea is to connect such
+    families to health care outlets where the child can avail medical
+    facilities.
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    We will extend this facility to other states once we prove ourselves
+    in our initial attempt.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    We thank you for your generosity.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    Click below to make you donations.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    &lt; donor paypal option&gt;
+</source>
+ <target>
+   
+"ಉದ್ದೇಶವುಳ್ಳ ಜೀವನವು ಜೀವನದ ಉದ್ದೇಶ" ಎಂಬ ಧ್ಯೇಯವಾಕ್ಯದಲ್ಲಿ ನಾನು ನಂಬುತ್ತೇನೆ.
+    ನಾನು ಈ ಯೋಜನೆಯನ್ನು ಪ್ರಾರಂಭಿಸಿದಾಗ, ನನ್ನ ಏಕೈಕ ಚಿಂತನೆಯು ಹೇಗೆ ನಾನು, ಎ
+    ಒಂದು ನಿರ್ಧಿಷ್ಟ ಸ್ಥಿತಿಯನ್ನು ಹೊಂದಿರುವ ಮಗುವಿನ ಸಾಮಾನ್ಯ ಕೆಲಸದ ತಾಯಿ,
+    ಒಂದು ವ್ಯತ್ಯಾಸವನ್ನು ಮಾಡಿ. ಇಶಾನಿಯನ್ನು ನೀಡಲು ನನ್ನ ಕುಟುಂಬ ಮತ್ತು ನಾನು ಕಷ್ಟಪಟ್ಟು ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೆ
+    ಅವರು ಅರ್ಹರು ಜೀವನದ ಗುಣಮಟ್ಟ. ನಾನು ಬೆಂಬಲ ಹೊಂದಿದ್ದಕ್ಕೆ ಅದೃಷ್ಟಶಾಲಿ
+    ನನ್ನ ಕುಟುಂಬ ಸದಸ್ಯರು ಇದನ್ನು ಮಾಡುತ್ತಾರೆ. ನಾವು ಕೆಲಸ ಮಾಡಲು ಅದೃಷ್ಟವಂತರು
+    ತಾಯಿಯ ಪೋಷಕರನ್ನು ಹೊಂದುವಂತಹ ಪೋಷಕರು, ಅಂತಹ ಆರೈಕೆಯನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತಾರೆ
+    ಒಂದು ಮಗು ಆದರೆ ಅಲ್ಲಿ ಎದುರಾಗಿರುವ ಪೋಷಕರು ಅಲ್ಲಿಗೆ ಹೋಗಬಹುದು
+    ಹಣಕಾಸಿನ ತೊಂದರೆಗಳು ಅಥವಾ ಅವರ ವೈದ್ಯಕೀಯ / ಆಸ್ಪತ್ರೆಯನ್ನು ಪಾವತಿಸಲು ಕಷ್ಟವಾಗುತ್ತದೆ
+    ಬಿಲ್ಲುಗಳು.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    Dhvani.life ನಲ್ಲಿ ನಾವು ಅಂತಹ ಪೋಷಕರಿಗೆ ತಲುಪಲು ಸಹಾಯ ಮಾಡಬಹುದೆಂದು ಭಾವಿಸಿದ್ದೇವೆ
+    ಮತ್ತು ಕುಟುಂಬಗಳು. ನಾವು ಜಿಡಿಡಿ ಬಗ್ಗೆ ಜಾಗೃತಿ ಮೂಡಿಸಲು ಬಯಸುತ್ತೇವೆ ಮತ್ತು ಇದಕ್ಕಾಗಿ ನಾವು
+    ನಿಮ್ಮ ಸಹಾಯವನ್ನು ಹುಡುಕುವುದು. ನೀವು ಇದಕ್ಕಾಗಿ ದಾನ ಮಾಡಲು ಆಯ್ಕೆ ಮಾಡಬಹುದು:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    C ಆಸ್ಪತ್ರೆಗೆ ಒಳಗಾದ ಮಗುವನ್ನು ಪ್ರಾಯೋಜಿಸುತ್ತಿದೆ, ಅಥವಾ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    C ಜಾಗೃತಿ ಡ್ರೈವ್ಗೆ ಕೊಡುಗೆ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  
+ನಾವು ರಾಜ್ಯದಾದ್ಯಂತ ಜಾಗೃತಿ ಶಿಬಿರಗಳನ್ನು ಸಂಘಟಿಸಲು ಬಯಸುತ್ತೇವೆ
+    ಕರ್ನಾಟಕ, ದೂರದ ಸ್ಥಳಗಳನ್ನು ತಲುಪುತ್ತದೆ. ಇದನ್ನು ಮಾಡಲು, ನಮಗೆ ಬೇಕು
+    ದೇಣಿಗೆ ರೂಪದಲ್ಲಿ ನಿಮ್ಮ ಸಹಾಯ. ಎಲ್ಲಾ ಪಾವತಿಗಳನ್ನು ಹೋಗುತ್ತದೆ
+    "Dhavni.life ನಿಧಿ" ಮತ್ತು ನಾವು ನಿಮಗೆ ವ್ಯವಹಾರದ ಹಾಳೆಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ
+    ನಾವು ಸ್ವೀಕರಿಸುವ ಎಲ್ಲಾ ಪ್ರಮಾಣಗಳು. ನಮ್ಮ ಬೆಂಚ್ ಮಾರ್ಕ್ನಲ್ಲಿ ಹೇಳಿದಂತೆ, ನಾವು
+    ಇದರಿಂದ ಲಾಭವನ್ನು ಗಳಿಸಬಾರದು ಎಂದು ನಂಬುತ್ತಾರೆ. ಅಂತಹ ಸಂಪರ್ಕ ಕಲ್ಪಿಸುವುದು
+    ಮಗುವಿಗೆ ವೈದ್ಯಕೀಯವನ್ನು ಪಡೆಯಬಹುದಾದ ಆರೋಗ್ಯ ಕೇಂದ್ರಗಳಿಗೆ ಕುಟುಂಬಗಳು
+    ಸೌಲಭ್ಯಗಳು.
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  
+ನಾವು ಸಾಬೀತುಪಡಿಸಿದ ನಂತರ ನಾವು ಈ ಸೌಲಭ್ಯವನ್ನು ಇತರ ರಾಜ್ಯಗಳಿಗೆ ವಿಸ್ತರಿಸುತ್ತೇವೆ
+    ನಮ್ಮ ಆರಂಭಿಕ ಪ್ರಯತ್ನದಲ್ಲಿ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+   ನಿಮ್ಮ ಔದಾರ್ಯಕ್ಕಾಗಿ ನಾವು ಧನ್ಯವಾದಗಳು.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+   
+ನಿಮಗೆ ದೇಣಿಗೆ ನೀಡಲು ಕೆಳಗೆ ಕ್ಲಿಕ್ ಮಾಡಿ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    &lt; donor paypal option&gt;
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/become-donor/become-donor.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="DonorSheetContent" datatype="html">
+        <source>
+    This page is dedicated to the kindness bestowed upon us by our
+    donors. We take this opportunity to thank them. We proudly present
+    our donor list:
+</source>
+ <target>
+  
+ಈ ಪುಟ ನಮ್ಮಿಂದ ದಯಪಾಲಿಸಲ್ಪಟ್ಟಿದೆ
+    ದಾನಿಗಳು. ಅವರಿಗೆ ಈ ಅವಕಾಶವನ್ನು ನಾವು ನೀಡುತ್ತೇವೆ. ನಾವು ಹೆಮ್ಮೆಯಿಂದ ಪ್ರಸ್ತುತಪಡಿಸುತ್ತೇವೆ
+    ನಮ್ಮ ದಾನಿ ಪಟ್ಟಿ:
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donor-sheet/donor-sheet.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="acknowledgementContent" datatype="html">
+        <source>
+    First of all, I would like to acknowledge the service and dedication of
+    Dr. Pushpa G Kini’s Unit II and her pediatric team of KMC, Manipal
+    since June 2010. Under her guidance, the team worked on Ishaani’s
+    medical condition and gave us complete support whether it was
+    dealing with emergencies or during her regular hospital visits or when
+    she was admitted in the pediatric ICU.
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    I would also like to give a shout out to the pediatric ICU team of KMC
+    where Ishaani spent many days under the care of all the wonderful
+    nurses who we interacted with on a regular basis. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    I would like to acknowledge the encouragement and constant
+    motivation received from Team MAHE FAIMER in giving this idea a
+    chance to grow, see the end of the tunnel and become a working
+    model.
+</source>
+      <target>
+  ಮೊದಲಿಗೆ, ನಾನು ಸೇವೆ ಮತ್ತು ಸಮರ್ಪಣೆಗಳನ್ನು ಅಂಗೀಕರಿಸಲು ಬಯಸುತ್ತೇನೆ
+    ಡಾ. ಪುಷ್ಪಾ ಜಿ ಕಿನಿಯವರ ಯೂನಿಟ್ II ಮತ್ತು ಅವರ ಮಕ್ಕಳ ತಂಡ ಕೆಎಂಸಿ, ಮಣಿಪಾಲ್
+    ಜೂನ್ 2010 ರಿಂದ. ಅವರ ಮಾರ್ಗದರ್ಶನದಲ್ಲಿ, ಇಶಾನಿಯವರ ತಂಡವು ಕೆಲಸ ಮಾಡಿದೆ
+    ವೈದ್ಯಕೀಯ ಪರಿಸ್ಥಿತಿ ಮತ್ತು ಅದು ನಮಗೆ ಸಂಪೂರ್ಣ ಬೆಂಬಲ ನೀಡಿತು
+    ತುರ್ತುಸ್ಥಿತಿಗಳನ್ನು ಎದುರಿಸುವುದು ಅಥವಾ ಅವರ ಸಾಮಾನ್ಯ ಆಸ್ಪತ್ರೆ ಭೇಟಿಗಳು ಅಥವಾ ಯಾವಾಗ
+    ಅವಳು ಶಿಶುವೈದ್ಯ ICU ನಲ್ಲಿ ದಾಖಲಾದಳು.
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+   ನಾನು KMC ಯ ಮಕ್ಕಳ ICU ತಂಡಕ್ಕೆ ಸಹ ಕೂಗು ನೀಡಲು ಬಯಸುತ್ತೇನೆ
+    ಅಲ್ಲಿ ಇಶಾನಿಯು ಅನೇಕ ದಿನಗಳ ಕಾಲ ಎಲ್ಲ ಅದ್ಭುತಗಳನ್ನು ಕಾಪಾಡಿಕೊಂಡರು
+    ನಾವು ನಿಯಮಿತವಾಗಿ ಸಂವಹನ ಮಾಡಿದ ದಾದಿಯರು.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  ಪ್ರೋತ್ಸಾಹ ಮತ್ತು ಸ್ಥಿರತೆಯನ್ನು ಅಂಗೀಕರಿಸಲು ನಾನು ಬಯಸುತ್ತೇನೆ
+    ಈ ಕಲ್ಪನೆಯನ್ನು ನೀಡುವಲ್ಲಿ ತಂಡ MAHE FAIMER ನಿಂದ ಪಡೆಯಲಾದ ಪ್ರೇರಣೆ
+    ಬೆಳೆಯಲು ಅವಕಾಶ, ಸುರಂಗದ ಕೊನೆಯಲ್ಲಿ ನೋಡಿ ಮತ್ತು ಕೆಲಸ
+    ಮಾದರಿ.
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/acknowledgement/acknowledgement.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+          <trans-unit id="mainWhatAreDevelopmentalMilestones" datatype="html">
+        <source>What are developmental milestones?</source>
+         <target>
+ಅಭಿವೃದ್ಧಿ ಮೈಲಿಗಲ್ಲುಗಳು ಯಾವುವು?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="mainCheckYourMilestone" datatype="html">
+        <source> Check your milestone</source>
+               <target>ನಿಮ್ಮ ಮೈಲಿಗಲ್ಲು ಪರಿಶೀಲಿಸಿ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+        <trans-unit id="VacinateYourChildContent" datatype="html">
+        <source>
+  Regardless of whether your child has developmental delays or not, do not ever
+  forget to immunize your child. Here is the image of the immunization schedule:
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Link to the National Immunization Schedule 2017 (English) (PDF)<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+  <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>Link to article on National Immunization Schedule 2018<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Disclaimer: Always consult your child pediatrician for all your queries<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+</source>
+     <target>
+ 
+ನಿಮ್ಮ ಮಗುವು ಅಭಿವೃದ್ಧಿಯ ವಿಳಂಬಗಳನ್ನು ಹೊಂದಿರಲಿ ಅಥವಾ ಇಲ್ಲದಿರಲಿ, ಎಂದಿಗೂ ಇಲ್ಲ
+  ನಿಮ್ಮ ಮಗುವನ್ನು ಪ್ರತಿರಕ್ಷಿಸಲು ಮರೆಯಬೇಡಿ. ಇಲ್ಲಿ ಪ್ರತಿರಕ್ಷಣೆ ವೇಳಾಪಟ್ಟಿ ಚಿತ್ರ:
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Link to the National Immunization Schedule 2017 (English) (PDF)<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+  <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>Link to article on National Immunization Schedule 2018<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Disclaimer: Always consult your child pediatrician for all your queries<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/vaccinate-your-child/vaccinate-your-child.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      
+       <trans-unit id="aboutGDDContent" datatype="html">
+        <source>We must understand and accept that children develop at their own
+pace, so don&apos;t be alarmed if your child takes a slightly different
+course. Every parent, however, has the right to find out if there is
+something different.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+The first five years of children’s life is most important as it during
+this period when they develop most of the abilities. All children need
+to be encouraged when they achieve these skills by us, their parents.
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+We need to give them love and affection, sing, talk, listen and play
+with them<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Developmental Delay provides an opportunity for provision of services
+and programs based on a child’s strengths and needs, as measured by
+the five developmental areas, when the assessment of a more specific
+disability due to a child’s young age cannot be considered statistically
+reliable or valid.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+The five developmental domains assessed for Developmental Delay
+are:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+1. Physical/Motor coordination: Gross/fine motor skills, jumping,
+hopping, throwing/catching, drawing, stacking<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+2. Cognitive: Thinking, reasoning, problem-solving, understanding<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+3. Communication: Smiling, listening, babbling, talking, pointing to
+things<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+4. Social/Emotional: Initiating peer contact, group play, showing
+affection, copying facial expressions<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+5. Adaptive: Dressing, eating, washing<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+Now when a child has delayed development in two or more of the
+above domains, then the child may have “global developmental
+delay” or GDD.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+A child may just have delay in one specific domain this is not GDD and
+may have a different diagnostic and treatment approach. So, it is
+important that the type of delay is identified as early as possible so
+support for your child can begin and it usually is tailored to your
+child’s specific needs. The earlier support is put in place, the better
+chance of improvement for the child.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Is your child showing signs of developmental delay?<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+
+More often than not, parents are often the first to realize that their
+child is not developing in an expected way or at the same pace as
+their peers.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+A child’s development can be slower than others for various reasons,
+including if they are born prematurely or become ill. If a child
+becomes severely ill they may even appear to regress and no longer be
+able to do things they could before the onset of the illness. For most
+
+children, once they recover, their development will speed up and they
+will catch up.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Family events such as the arrival of a new baby in a family can also
+cause a child to slow down their progress for a short while. If a
+child’s progress slows for a while, and there seems to be a reason for
+this, such as one of the events above, this is not necessarily a cause
+for concern. But if the delay is persistent, or happens for no obvious
+reason, it is important that you seek advice so that any help can be
+given as soon as possible.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Any accident or illness that affects the brain can also impact on a
+child’s development. Some children will be slower in their progress
+because they are born with a medical condition which restricts their
+development. This condition might be diagnosed shortly after their
+birth. However, a child being slow in their development can sometimes
+be the first sign that the child has an underlying medical condition.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Important: If you are worried about your child’s progress you
+should talk to your pediatrician. It is time to make a visit<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+“When I noticed Ishaani wasn’t progressing the way she should, the
+doctor I took her to, didn’t know much about her medical condition,
+she had never such a case but she did refer us to another doctor
+from a bigger hospital” <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Remember: It will take time for the doctors to make the diagnosis<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Specialists will consider all the different areas of concern for your
+child and think about the most likely reasons for their difficulties.
+They might carry out tests to rule out possible causes or to confirm
+what the reasons are. They may even find a name or ‘diagnosis’ for
+the condition. However, different conditions can cause similar
+symptoms and it is not always possible to test for all of these.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+It might be necessary to wait to see if your child makes progress in
+their development, or for other symptoms to appear that will help in
+making a diagnosis.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+If a child has a rare condition it can be even more difficult for
+doctors to identify the reasons, as less is known about the condition
+and the doctor might never have seen someone with that condition
+before.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+Advances in science and genetic testing means new conditions are
+being identified all the time. It is not possible for doctors to know
+about all of these conditions, but this should not prevent them from
+being able to treat your child’s symptoms.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Children can sometimes wait for years for a diagnosis and some never
+get a diagnosis, but support is still available for them even without a
+diagnosis. Some parents can find this a worrying time. Not having a
+diagnosis for a child’s condition can seem worse than knowing and
+parents are often bewildered by what could be the cause.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Not all parents, however, will react in this way. Sometimes parents
+prefer not to have a diagnosis as this helps them focus on the issues
+that are happening rather than compare their child with others with
+the same condition. Even if your child has been diagnosed with a
+condition, it can still be difficult to know how this will affect them as
+the same condition can affect children in different ways.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+In Ishaani’s case, the first few years was a struggle for me, I did not
+know anyone who had a child like her or what her condition was called.
+I constantly was under pressure to finding a name for our daughter’s
+condition and kept researching on this wherever and whenever I
+could. My daughter’s pediatrician listened to everything I said, but
+was helpless as she explained that Ishaani had overlapping symptoms
+and no single name could be given to her condition. Till the end
+Ishaani was undiagnosed and there was no specific name for her
+condition”<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Source:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+https://www.clevelandschools.org/cms/lib/TN01917036/Centricity/D
+omain/277/Developmental%20Delay%20Resource%20Packet.pdf
+
+</source>
+ <target>
+ಮಕ್ಕಳನ್ನು ತಮ್ಮದೇ ಆದ ಅಭಿವೃದ್ಧಿಯಲ್ಲಿ ನಾವು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಬೇಕು ಮತ್ತು ಒಪ್ಪಿಕೊಳ್ಳಬೇಕು
+ವೇಗ, ಆದ್ದರಿಂದ ನಿಮ್ಮ ಮಗುವು ಸ್ವಲ್ಪ ವಿಭಿನ್ನವಾದರೆ ಆಘಾತಕ್ಕೊಳಗಾಗುತ್ತದೆ
+ಕೋರ್ಸ್. ಆದಾಗ್ಯೂ, ಪ್ರತಿ ಪೋಷಕರು, ಇಲ್ಲವೇ ಎಂದು ಕಂಡುಹಿಡಿಯಲು ಹಕ್ಕನ್ನು ಹೊಂದಿದ್ದಾರೆ
+ಸ್ವಲ್ಪ ವಿಭಿನ್ನ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+ಮಕ್ಕಳ ಜೀವನದಲ್ಲಿ ಮೊದಲ ಐದು ವರ್ಷಗಳು ಅದು ಮುಖ್ಯವಾದದ್ದು
+ಈ ಅವಧಿಯು ಅವರು ಹೆಚ್ಚಿನ ಸಾಮರ್ಥ್ಯಗಳನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸಿದಾಗ. ಎಲ್ಲಾ ಮಕ್ಕಳಿಗೆ ಅಗತ್ಯ
+ಅವರು ಈ ಕೌಶಲ್ಯಗಳನ್ನು ನಮಗೆ, ಅವರ ಹೆತ್ತವರು ಸಾಧಿಸಿದಾಗ ಪ್ರೋತ್ಸಾಹಿಸಬೇಕು.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+ನಾವು ಅವರಿಗೆ ಪ್ರೀತಿ ಮತ್ತು ಪ್ರೀತಿಯನ್ನು ನೀಡಬೇಕು, ಹಾಡಲು, ಮಾತನಾಡು, ಕೇಳಲು ಮತ್ತು ನುಡಿಸಬೇಕು
+ಅವರೊಂದಿಗೆ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ಅಭಿವೃದ್ಧಿಯ ವಿಳಂಬವು ಸೇವೆಗಳ ಅವಕಾಶಕ್ಕಾಗಿ ಒಂದು ಅವಕಾಶವನ್ನು ಒದಗಿಸುತ್ತದೆ
+ಮತ್ತು ಮಗುವಿನ ಸಾಮರ್ಥ್ಯ ಮತ್ತು ಅಗತ್ಯತೆಗಳ ಆಧಾರದ ಮೇಲೆ ಕಾರ್ಯಕ್ರಮಗಳು, ಅಳತೆ ಮಾಡಿದಂತೆ
+ಹೆಚ್ಚು ನಿರ್ದಿಷ್ಟವಾದ ಮೌಲ್ಯಮಾಪನ ಮಾಡಿದಾಗ ಐದು ಅಭಿವೃದ್ಧಿ ಪ್ರದೇಶಗಳು
+ಮಗುವಿನ ವಯಸ್ಸಿನ ಕಾರಣದಿಂದ ಅಂಗವೈಕಲ್ಯ ಸಂಖ್ಯಾಶಾಸ್ತ್ರೀಯವಾಗಿ ಪರಿಗಣಿಸಲಾಗುವುದಿಲ್ಲ
+ವಿಶ್ವಾಸಾರ್ಹ ಅಥವಾ ಮಾನ್ಯ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ಅಭಿವೃದ್ಧಿಯ ವಿಳಂಬಕ್ಕೆ ಐದು ಅಭಿವೃದ್ಧಿ ಕ್ಷೇತ್ರಗಳು ಮೌಲ್ಯಮಾಪನ ಮಾಡಿದೆ
+ಇವುಗಳು:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+1. ಶಾರೀರಿಕ / ಮೋಟಾರ್ ಸಮನ್ವಯ: ಒಟ್ಟು / ಉತ್ತಮ ಮೋಟಾರ್ ಕೌಶಲ್ಯಗಳು, ಜಂಪಿಂಗ್,
+ಹಾಪಿಂಗ್, ಎಸೆಯುವುದು / ಹಿಡಿಯುವುದು, ಚಿತ್ರಕಲೆ, ಪೇರಿಸುವುದು<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+2. ಅರಿವಿನ: ಥಿಂಕಿಂಗ್, ತಾರ್ಕಿಕ, ಸಮಸ್ಯೆ-ಪರಿಹರಿಸುವುದು, ತಿಳುವಳಿಕೆ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+3. ಸಂವಹನ: ನಗುತ್ತಿರುವ, ಕೇಳುವ, ಕಳವಳ, ಮಾತನಾಡುವುದು, ತೋರುತ್ತಿರುವಂತೆ
+ವಿಷಯಗಳು<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+4. ಸಾಮಾಜಿಕ / ಭಾವನಾತ್ಮಕ: ಪೀರ್ ಸಂಪರ್ಕ, ಗುಂಪಿನ ಆಟ, ತೋರಿಸುವಿಕೆ
+ಪ್ರೀತಿ, ಮುಖದ ಅಭಿವ್ಯಕ್ತಿಗಳನ್ನು ನಕಲಿಸುವುದು<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+5. ಅಡಾಪ್ಟಿವ್: ಡ್ರೆಸಿಂಗ್, ತಿನ್ನುವುದು, ತೊಳೆಯುವುದು<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+
+ಈಗ ಎರಡು ಅಥವಾ ಹೆಚ್ಚಿನದರಲ್ಲಿ ಮಗುವಿನ ಬೆಳವಣಿಗೆಯನ್ನು ವಿಳಂಬಗೊಳಿಸಿದಾಗ
+ಡೊಮೇನ್ಗಳ ಮೇಲೆ, ನಂತರ ಮಗುವು "ಜಾಗತಿಕ ಬೆಳವಣಿಗೆ" ಹೊಂದಿರಬಹುದು
+ವಿಳಂಬ "ಅಥವಾ ಜಿಡಿಡಿ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ಇದು ಜಿಡಿಡಿ ಅಲ್ಲ ಮತ್ತು ಒಂದು ನಿರ್ದಿಷ್ಟ ಡೊಮೇನ್ನಲ್ಲಿ ಮಗುವಿಗೆ ವಿಳಂಬವಾಗಬಹುದು
+ಬೇರೆ ರೋಗನಿರ್ಣಯ ಮತ್ತು ಚಿಕಿತ್ಸೆ ವಿಧಾನವನ್ನು ಹೊಂದಿರಬಹುದು. ಆದ್ದರಿಂದ, ಅದು
+ವಿಳಂಬದ ವಿಧವನ್ನು ಸಾಧ್ಯವಾದಷ್ಟು ಮುಂಚೆಯೇ ಗುರುತಿಸಲಾಗಿದೆ ಎಂದು ಮುಖ್ಯ
+ನಿಮ್ಮ ಮಗುವಿಗೆ ಬೆಂಬಲವನ್ನು ಪ್ರಾರಂಭಿಸಬಹುದು ಮತ್ತು ಅದು ಸಾಮಾನ್ಯವಾಗಿ ನಿಮ್ಮೊಂದಿಗೆ ಅನುಗುಣವಾಗಿರುತ್ತವೆ
+ಮಗುವಿನ ನಿರ್ದಿಷ್ಟ ಅಗತ್ಯತೆಗಳು. ಮೊದಲಿನ ಬೆಂಬಲವನ್ನು ಉತ್ತಮ ಸ್ಥಳದಲ್ಲಿ ಇರಿಸಲಾಗುತ್ತದೆ
+ಮಗುವಿಗೆ ಸುಧಾರಣೆಗೆ ಅವಕಾಶ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+ನಿಮ್ಮ ಮಗುವಿನ ಬೆಳವಣಿಗೆಯ ವಿಳಂಬದ ಲಕ್ಷಣಗಳನ್ನು ತೋರಿಸುತ್ತಿದೆಯೇ?
+<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+
+
+ಹೆಚ್ಚು ಹೆಚ್ಚಾಗಿ, ಪೋಷಕರು ಹೆಚ್ಚಾಗಿ ತಮ್ಮ ಅರಿತುಕೊಂಡರು
+ಮಗುವಿಗೆ ನಿರೀಕ್ಷಿತ ರೀತಿಯಲ್ಲಿ ಅಥವಾ ಅದೇ ವೇಗದಲ್ಲಿ ಅಭಿವೃದ್ಧಿಯಾಗುತ್ತಿಲ್ಲ
+ಅವರ ಗೆಳೆಯರು.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+ವಿವಿಧ ಕಾರಣಗಳಿಗಾಗಿ ಮಗುವಿನ ಬೆಳವಣಿಗೆ ಇತರರಿಗಿಂತ ನಿಧಾನವಾಗಿರಬಹುದು,
+ಅವರು ಅಕಾಲಿಕವಾಗಿ ಜನಿಸಿದರೆ ಅಥವಾ ಅನಾರೋಗ್ಯಕ್ಕೆ ಒಳಗಾಗುತ್ತಾರೆ. ಮಗುವಿನಿದ್ದರೆ
+ತೀವ್ರವಾಗಿ ಅನಾರೋಗ್ಯಕ್ಕೊಳಗಾಗುತ್ತದೆ ಅವರು ಹಿಮ್ಮೆಟ್ಟಿಸಲು ಕಾಣಿಸಿಕೊಳ್ಳಬಹುದು ಮತ್ತು ಇನ್ನು ಮುಂದೆ ಇರುವುದಿಲ್ಲ
+ಅನಾರೋಗ್ಯಕ್ಕೆ ಮುಂಚೆಯೇ ಅವರು ಮಾಡುವ ಕೆಲಸಗಳನ್ನು ಮಾಡಲು ಸಾಧ್ಯವಾಯಿತು. ಹೆಚ್ಚು
+
+ಮಕ್ಕಳು, ಅವರು ಚೇತರಿಸಿಕೊಂಡ ನಂತರ, ಅವರ ಅಭಿವೃದ್ಧಿ ವೇಗವಾಗಿ ಮತ್ತು ಅವು
+ಹಿಡಿಯಿರಿ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+ಒಂದು ಕುಟುಂಬದಲ್ಲಿ ಒಂದು ಹೊಸ ಮಗುವಿನ ಆಗಮನದಂತಹ ಕುಟುಂಬ ಘಟನೆಗಳು ಕೂಡಾ ಮಾಡಬಹುದು
+ಸ್ವಲ್ಪ ಸಮಯದವರೆಗೆ ತಮ್ಮ ಪ್ರಗತಿಯನ್ನು ನಿಧಾನಗೊಳಿಸಲು ಮಗುವಿಗೆ ಕಾರಣವಾಗುತ್ತದೆ. ಒಂದು ವೇಳೆ
+ಮಗುವಿನ ಪ್ರಗತಿಯು ಸ್ವಲ್ಪ ಕಾಲ ನಿಧಾನವಾಗಿ ನಿಲ್ಲುತ್ತದೆ ಮತ್ತು ಇದಕ್ಕೆ ಕಾರಣವೆಂದು ತೋರುತ್ತದೆ
+ಮೇಲಿನ ಘಟನೆಗಳಲ್ಲೊಂದಾದ, ಇದು ಅಗತ್ಯವಾಗಿಲ್ಲ
+ಕಾಳಜಿಗಾಗಿ. ಆದರೆ ವಿಳಂಬ ನಿರಂತರವಾಗಿದ್ದರೆ, ಅಥವಾ ಸ್ಪಷ್ಟವಾಗಿಲ್ಲದಿದ್ದರೆ ಸಂಭವಿಸುತ್ತದೆ
+ಕಾರಣ, ಯಾವುದೇ ಸಲಹೆಯಿಲ್ಲದೆ ನೀವು ಸಲಹೆ ಪಡೆಯಲು ಮುಖ್ಯವಾಗಿರುತ್ತದೆ
+ಸಾಧ್ಯವಾದಷ್ಟು ಬೇಗ ನೀಡಲಾಗಿದೆ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ಮಿದುಳಿನ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುವ ಯಾವುದೇ ಅಪಘಾತ ಅಥವಾ ಅನಾರೋಗ್ಯದ ಮೇಲೆ ಕೂಡಾ ಪರಿಣಾಮ ಬೀರಬಹುದು
+ಮಗುವಿನ ಬೆಳವಣಿಗೆ. ಕೆಲವು ಮಕ್ಕಳು ತಮ್ಮ ಪ್ರಗತಿಯಲ್ಲಿ ನಿಧಾನವಾಗಿರುತ್ತಾರೆ
+ಏಕೆಂದರೆ ಅವರು ವೈದ್ಯಕೀಯ ಸ್ಥಿತಿಯಿಂದ ಹುಟ್ಟಿದವರು ತಮ್ಮನ್ನು ನಿರ್ಬಂಧಿಸುತ್ತದೆ
+ಅಭಿವೃದ್ಧಿ. ಈ ಸ್ಥಿತಿಯನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಅವರ ಬಳಿಕ ರೋಗನಿರ್ಣಯ ಮಾಡಬಹುದಾಗಿದೆ
+ಜನ್ಮ. ಆದಾಗ್ಯೂ, ಒಂದು ಮಗುವಿನ ಬೆಳವಣಿಗೆಯಲ್ಲಿ ನಿಧಾನವಾಗಿರಬಹುದು ಕೆಲವೊಮ್ಮೆ
+ಮಗುವು ಆಧಾರವಾಗಿರುವ ವೈದ್ಯಕೀಯ ಸ್ಥಿತಿಯನ್ನು ಹೊಂದಿರುವ ಮೊದಲ ಸಂಕೇತವಾಗಿದೆ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ಪ್ರಮುಖವಾದದ್ದು: ನಿಮ್ಮ ಮಗುವಿನ ಪ್ರಗತಿಯ ಬಗ್ಗೆ ನೀವು ಚಿಂತೆ ಮಾಡುತ್ತಿದ್ದರೆ
+ನಿಮ್ಮ ಮಕ್ಕಳ ವೈದ್ಯರೊಂದಿಗೆ ಮಾತನಾಡಬೇಕು. ಇದು ಭೇಟಿ ಮಾಡಲು ಸಮಯ<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+"ನಾನು ಗಮನಿಸಿದಾಗ ಇಶಾನಿಯು ಅವಳು ಮಾಡಬೇಕಾದ ರೀತಿಯಲ್ಲಿ ಮುಂದುವರಿಯುತ್ತಿಲ್ಲ
+ವೈದ್ಯರು ನಾನು ಅವಳನ್ನು ಕರೆದೊಯ್ಯಿದ್ದೆವು, ಅವರ ವೈದ್ಯಕೀಯ ಸ್ಥಿತಿಯ ಬಗ್ಗೆ ಹೆಚ್ಚು ತಿಳಿದಿರಲಿಲ್ಲ,
+ಆಕೆ ಎಂದಿಗೂ ಅಂತಹ ಪ್ರಕರಣವನ್ನು ಹೊಂದಿರಲಿಲ್ಲ ಆದರೆ ಅವಳು ನಮ್ಮನ್ನು ಮತ್ತೊಂದು ವೈದ್ಯರಿಗೆ ಉಲ್ಲೇಖಿಸಿದ್ದಳು
+ದೊಡ್ಡ ಆಸ್ಪತ್ರೆಯಿಂದ " <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+ನೆನಪಿಡಿ: ವೈದ್ಯರು ರೋಗನಿರ್ಣಯ ಮಾಡಲು ಇದು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+ತಜ್ಞರು ನಿಮ್ಮ ಎಲ್ಲ ಕಳವಳದ ಪ್ರದೇಶಗಳನ್ನು ಪರಿಗಣಿಸುತ್ತಾರೆ
+ಮಗು ಮತ್ತು ಅವರ ತೊಂದರೆಗಳಿಗೆ ಹೆಚ್ಚಾಗಿ ಕಾರಣಗಳಿಗಾಗಿ ಯೋಚಿಸುತ್ತಾರೆ.
+ಸಂಭವನೀಯ ಕಾರಣಗಳನ್ನು ತಳ್ಳಿಹಾಕಲು ಅಥವಾ ದೃಢೀಕರಿಸಲು ಅವರು ಪರೀಕ್ಷೆಗಳನ್ನು ಕೈಗೊಳ್ಳಬಹುದು
+ಕಾರಣಗಳು ಯಾವುವು. ಅವರು ಹೆಸರು ಅಥವಾ 'ರೋಗನಿರ್ಣಯವನ್ನು' ಹುಡುಕಬಹುದು
+ಪರಿಸ್ಥಿತಿ. ಹೇಗಾದರೂ, ವಿವಿಧ ಪರಿಸ್ಥಿತಿಗಳು ಹೋಲುವಂತಾಗಬಹುದು
+ರೋಗಲಕ್ಷಣಗಳು ಮತ್ತು ಇವುಗಳೆಲ್ಲವನ್ನೂ ಪರೀಕ್ಷಿಸಲು ಯಾವಾಗಲೂ ಸಾಧ್ಯವಿಲ್ಲ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ನಿಮ್ಮ ಮಗುವು ಪ್ರಗತಿ ಸಾಧಿಸುತ್ತದೆಯೇ ಎಂದು ನೋಡಲು ಕಾಯಬೇಕಾಗಬಹುದು
+ಅವರ ಅಭಿವೃದ್ಧಿ, ಅಥವಾ ಇತರ ರೋಗಲಕ್ಷಣಗಳು ಗೋಚರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ
+ಒಂದು ರೋಗನಿರ್ಣಯ ಮಾಡುವ.
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+ಒಂದು ಮಗುವಿಗೆ ಅಪರೂಪದ ಸ್ಥಿತಿಯನ್ನು ಹೊಂದಿದ್ದರೆ ಅದನ್ನು ಇನ್ನಷ್ಟು ಕಷ್ಟವಾಗಬಹುದು
+ಕಾರಣಗಳನ್ನು ಗುರುತಿಸಲು ವೈದ್ಯರು, ಪರಿಸ್ಥಿತಿಯ ಬಗ್ಗೆ ಕಡಿಮೆ ತಿಳಿದಿರುವಂತೆ
+ಮತ್ತು ವೈದ್ಯರು ಆ ಸ್ಥಿತಿಯನ್ನು ಯಾರೊಬ್ಬರನ್ನೂ ನೋಡದೆ ಇರಬಹುದು
+ಮೊದಲು.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+ವಿಜ್ಞಾನ ಮತ್ತು ಆನುವಂಶಿಕ ಪರೀಕ್ಷೆಯಲ್ಲಿನ ಅಡ್ವಾನ್ಸಸ್ಗಳು ಹೊಸ ನಿಯಮಗಳು
+ಸಾರ್ವಕಾಲಿಕ ಗುರುತಿಸಲಾಗಿದೆ. ವೈದ್ಯರು ತಿಳಿದುಕೊಳ್ಳಲು ಸಾಧ್ಯವಿಲ್ಲ
+ಈ ಎಲ್ಲಾ ಷರತ್ತುಗಳ ಬಗ್ಗೆ, ಆದರೆ ಇದು ಅವುಗಳನ್ನು ತಡೆಯುವುದಿಲ್ಲ
+ನಿಮ್ಮ ಮಗುವಿನ ರೋಗಲಕ್ಷಣಗಳನ್ನು ಗುಣಪಡಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+ಮಕ್ಕಳು ಕೆಲವೊಮ್ಮೆ ರೋಗನಿರ್ಣಯಕ್ಕಾಗಿ ಕೆಲವು ವರ್ಷಗಳವರೆಗೆ ಕಾಯಬಹುದಾಗಿರುತ್ತದೆ ಮತ್ತು ಕೆಲವರು ಎಂದಿಗೂ ಆಗುವುದಿಲ್ಲ
+ರೋಗನಿರ್ಣಯವನ್ನು ಪಡೆದುಕೊಳ್ಳಿ, ಆದರೆ ಬೆಂಬಲವಿಲ್ಲದೆ ಸಹ ಅವರಿಗೆ ಲಭ್ಯವಿದೆ
+ರೋಗನಿರ್ಣಯ. ಕೆಲವು ಪೋಷಕರು ಇದನ್ನು ಚಿಂತಿಸುವ ಸಮಯವನ್ನು ಕಾಣಬಹುದು. ಒಂದು ಇಲ್ಲ
+ಮಗುವಿನ ಪರಿಸ್ಥಿತಿಗಾಗಿ ರೋಗನಿರ್ಣಯವು ತಿಳಿವಳಿಕೆಗಿಂತ ಕೆಟ್ಟದಾಗಿ ತೋರುತ್ತದೆ
+ಪೋಷಕರು ಆಗಾಗ್ಗೆ ಕಾರಣವಾಗಬಹುದು ಎಂಬುದರ ಮೂಲಕ ದಿಗ್ಭ್ರಮೆಗೊಂಡರು.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+ಆದಾಗ್ಯೂ ಎಲ್ಲಾ ಪೋಷಕರು ಈ ರೀತಿ ಪ್ರತಿಕ್ರಿಯಿಸುವುದಿಲ್ಲ. ಕೆಲವೊಮ್ಮೆ ಪೋಷಕರು
+ರೋಗನಿರ್ಣಯವನ್ನು ಹೊಂದಿರಬಾರದು ಎಂದು ಆದ್ಯತೆ ನೀಡುವುದರಿಂದ ಇದು ಸಮಸ್ಯೆಗಳ ಮೇಲೆ ಕೇಂದ್ರೀಕರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ
+ಅವರ ಮಗುವನ್ನು ಇತರರೊಂದಿಗೆ ಹೋಲಿಸುವುದಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿ ನಡೆಯುತ್ತಿದೆ
+ಅದೇ ಪರಿಸ್ಥಿತಿ. ನಿಮ್ಮ ಮಗುವಿಗೆ ರೋಗನಿರ್ಣಯ ಮಾಡಿದ್ದರೂ ಸಹ
+ಸ್ಥಿತಿ, ಇದು ಅವುಗಳನ್ನು ಹೇಗೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ ಎಂದು ತಿಳಿಯುವುದು ಕಷ್ಟವಾಗಬಹುದು
+ಅದೇ ಸ್ಥಿತಿಯು ಮಕ್ಕಳನ್ನು ವಿವಿಧ ರೀತಿಯಲ್ಲಿ ಪರಿಣಾಮ ಬೀರಬಹುದು.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+
+ಇಶಾನಿಯವರ ಪ್ರಕರಣದಲ್ಲಿ, ಮೊದಲ ಕೆಲವು ವರ್ಷಗಳು ನನಗೆ ಹೋರಾಟವಾಗಿತ್ತು, ನಾನು ಮಾಡಲಿಲ್ಲ
+ಮಗುವನ್ನು ಹೊಂದಿದ ಯಾರಿಗಾದರೂ ಅಥವಾ ಅವಳ ಸ್ಥಿತಿಯನ್ನು ಕರೆಯಲಾಗಿದ್ದ ಯಾರಿಗಾದರೂ ತಿಳಿಯಿರಿ.
+ನಮ್ಮ ಮಗಳ ಹೆಸರನ್ನು ಹುಡುಕುವಲ್ಲಿ ನಾನು ನಿರಂತರವಾಗಿ ಒತ್ತಡದಲ್ಲಿದ್ದೇವೆ
+ಪರಿಸ್ಥಿತಿ ಮತ್ತು ಎಲ್ಲಿಯಾದರೂ ಮತ್ತು ಯಾವಾಗ ನಾನು ಈ ಬಗ್ಗೆ ಸಂಶೋಧನೆ ಇದ್ದರು
+ಸಾಧ್ಯವೋ. ನನ್ನ ಮಗಳು ಮಗುವಿನ ವೈದ್ಯ ನಾನು ಹೇಳಿದ ಎಲ್ಲವನ್ನೂ ಕೇಳುತ್ತಿದ್ದೆ
+ಇಶಾನಿ ರೋಗಲಕ್ಷಣಗಳನ್ನು ಅತಿಕ್ರಮಿಸುತ್ತಿದ್ದಾರೆ ಎಂದು ವಿವರಿಸಿದ ಕಾರಣ ಅಸಹಾಯಕವಾಗಿತ್ತು
+ಮತ್ತು ಅವಳ ಸ್ಥಿತಿಗೆ ಯಾವುದೇ ಹೆಸರನ್ನು ನೀಡಲಾಗುವುದಿಲ್ಲ. ಮುಗಿಯುವವರೆಗೂ
+ಇಶಾನಿಯನ್ನು ಕಂಡುಹಿಡಿಯಲಾಗಲಿಲ್ಲ ಮತ್ತು ಅವಳಿಗೆ ಯಾವುದೇ ನಿರ್ದಿಷ್ಟ ಹೆಸರು ಇರಲಿಲ್ಲ
+ಪರಿಸ್ಥಿತಿ "<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Source:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+https://www.clevelandschools.org/cms/lib/TN01917036/Centricity/D
+omain/277/Developmental%20Delay%20Resource%20Packet.pdf
+
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/about-gdd/about-gdd.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="rehabilateContent" datatype="html">
+        <source>
+    Once you know that child may have some development delays, it is
+    advisable, with consent from your pediatrician to ensure your child
+    has regular sessions with the physiotherapist, occupational therapist
+    or speech language pathologist. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    “Like I mentioned before I felt that getting a name for Ishaani’s
+    condition would help us when explaining to others what was wrong, but
+    in the end it didn’t really matter. All the health professionals involved
+    needed to know was what the immediate difficulties were, so the
+    right.”
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    These health professionals are likely to ask questions about how your
+    child has developed since birth and may want to spend time observing
+    and possibly giving them one or more developmental assessments.
+    Professionals are likely to be interested in how your child moves, how
+    many words your child understands and how they play with toys and
+    other people. If you have been recording your child’s progress in their
+    Personal Child Health record, they will find this information useful.
+    The specialists might suggest ways to help your child make more
+    progress. For example, activities to improve movement and
+    coordination or ways to help your child develop their speech and
+    communication. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    They might ask you to keep a record of your child’s development, to
+    note their achievements and areas for improvement.
+</source>
+     <target>
+    
+ಆ ಮಗು ಕೆಲವು ಅಭಿವೃದ್ಧಿ ವಿಳಂಬಗಳನ್ನು ಹೊಂದಿರಬಹುದು ಎಂದು ನಿಮಗೆ ತಿಳಿದ ನಂತರ, ಅದು
+    ನಿಮ್ಮ ಮಗುವಿಗೆ ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ನಿಮ್ಮ ಮಗುವಿನಿಂದ ಒಪ್ಪಿಗೆಯೊಂದಿಗೆ ಸಲಹೆ ನೀಡಬಹುದು
+    ಫಿಸಿಯೋಥೆರಪಿಸ್ಟ್, ಔದ್ಯೋಗಿಕ ಚಿಕಿತ್ಸಕನೊಂದಿಗಿನ ನಿಯಮಿತ ಅವಧಿಗಳನ್ನು ಹೊಂದಿದೆ
+    ಅಥವಾ ಭಾಷಣ ಭಾಷೆ ರೋಗಶಾಸ್ತ್ರಜ್ಞ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+   
+"ಇಶಾನಿಯವರ ಹೆಸರನ್ನು ಪಡೆದುಕೊಳ್ಳುವ ಮೊದಲು ನಾನು ಹೇಳಿದಂತೆ
+    ಪರಿಸ್ಥಿತಿ ಯಾವುದು ತಪ್ಪು ಎಂದು ಇತರರಿಗೆ ವಿವರಿಸುವಾಗ ನಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ, ಆದರೆ
+    ಕೊನೆಯಲ್ಲಿ ಇದು ನಿಜವಾಗಿಯೂ ವಿಷಯವಲ್ಲ. ಎಲ್ಲಾ ಆರೋಗ್ಯ ವೃತ್ತಿಪರರು ಭಾಗವಹಿಸಿದ್ದಾರೆ
+    ತಕ್ಷಣದ ತೊಂದರೆಗಳು ಏನೆಂದು ತಿಳಿದುಕೊಳ್ಳಬೇಕಾದ ಅಗತ್ಯವಿದೆ, ಆದ್ದರಿಂದ
+    ಸರಿ. "
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  ಈ ಆರೋಗ್ಯ ವೃತ್ತಿಪರರು ಹೇಗೆ ನಿಮ್ಮ ಬಗ್ಗೆ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳಲು ಸಾಧ್ಯತೆಗಳಿವೆ
+    ಜನ್ಮದಿಂದ ಮಗುವನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸಲಾಗಿದೆ ಮತ್ತು ಅವಲೋಕಿಸುವ ಸಮಯವನ್ನು ಕಳೆಯಲು ಬಯಸಬಹುದು
+    ಮತ್ತು ಪ್ರಾಯಶಃ ಅವರಿಗೆ ಒಂದು ಅಥವಾ ಹೆಚ್ಚು ಅಭಿವೃದ್ಧಿ ಮೌಲ್ಯಮಾಪನಗಳನ್ನು ನೀಡಲಾಗುತ್ತದೆ.
+    ನಿಮ್ಮ ಮಗು ಹೇಗೆ ಚಲಿಸುತ್ತದೆ ಎಂಬುದರ ಬಗ್ಗೆ ವೃತ್ತಿಪರರು ಆಸಕ್ತಿ ಹೊಂದಿರುತ್ತಾರೆ
+    ನಿಮ್ಮ ಮಗು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವ ಮತ್ತು ಅವರು ಗೊಂಬೆಗಳೊಂದಿಗೆ ಆಡುವ ಮತ್ತು ಹೇಗೆ ಅನೇಕ ಪದಗಳನ್ನು
+    ಬೇರೆಯವರು. ನಿಮ್ಮ ಮಗುವಿನ ಪ್ರಗತಿಯನ್ನು ನೀವು ಅವರಲ್ಲಿ ರೆಕಾರ್ಡ್ ಮಾಡುತ್ತಿದ್ದರೆ
+    ವೈಯಕ್ತಿಕ ಮಕ್ಕಳ ಆರೋಗ್ಯ ದಾಖಲೆ, ಅವರು ಈ ಮಾಹಿತಿಯನ್ನು ಉಪಯುಕ್ತವೆಂದು ಕಾಣುತ್ತಾರೆ.
+    ನಿಮ್ಮ ಮಗುವಿಗೆ ಇನ್ನಷ್ಟು ಸಹಾಯ ಮಾಡಲು ತಜ್ಞರು ಸಲಹೆ ನೀಡಬಹುದು
+    ಪ್ರಗತಿ. ಉದಾಹರಣೆಗೆ, ಚಲನೆಯನ್ನು ಸುಧಾರಿಸಲು ಚಟುವಟಿಕೆಗಳು ಮತ್ತು
+    ನಿಮ್ಮ ಮಗುವಿಗೆ ಅವರ ಭಾಷಣವನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸಲು ಮತ್ತು ಸಹಾಯ ಮಾಡಲು ಸಹಕಾರ ಅಥವಾ ವಿಧಾನಗಳು
+    ಸಂವಹನ. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+ಅವರು ನಿಮ್ಮ ಮಗುವಿನ ಬೆಳವಣಿಗೆಯ ದಾಖಲೆಯನ್ನು ಇರಿಸಿಕೊಳ್ಳಲು ಕೇಳಬಹುದು
+    ಸುಧಾರಣೆಗಾಗಿ ಅವರ ಸಾಧನೆಗಳು ಮತ್ತು ಪ್ರದೇಶಗಳನ್ನು ಗಮನಿಸಿ.
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/rehabilate/rehabilate.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+
+       <trans-unit id="speechTherapyContent" datatype="html">
+        <source>
+    Speech and language therapy helps children learn to communicate,
+    either through speech or other methods. Speech and language
+    therapists can also help if there are problems with eating, drinking
+    and swallowing.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/> “During the initial phase when I began to suspect that something was
+    off in Ishaani’s developmental chart, we had her examined by the
+    department of speech and audiology when a speech language
+    pathologist had a few sessions with her. Later on when she lost her
+    skills, communication was the least of our problems.”
+    <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+      <target>
+  ಮಾತುಕತೆ ಮತ್ತು ಭಾಷೆ ಚಿಕಿತ್ಸೆಯು ಮಕ್ಕಳನ್ನು ಸಂವಹನ ಮಾಡಲು ಕಲಿಯಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ,
+    ಭಾಷಣ ಅಥವಾ ಇತರ ವಿಧಾನಗಳ ಮೂಲಕ. ಭಾಷಣ ಮತ್ತು ಭಾಷೆ
+    ತಿನ್ನುವ, ಕುಡಿಯುವ ಸಮಸ್ಯೆಗಳಿದ್ದರೆ ಚಿಕಿತ್ಸಕರು ಸಹ ಸಹಾಯ ಮಾಡಬಹುದು
+    ಮತ್ತು ನುಂಗಲು.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/> "ಆರಂಭಿಕ ಹಂತದಲ್ಲಿ ನಾನು ಏನೋ ಎಂದು ಅನುಮಾನಿಸಲು ಆರಂಭಿಸಿದಾಗ
+    ಇಶಾನಿಯ ಬೆಳವಣಿಗೆಯ ಚಾರ್ಟ್ನಲ್ಲಿ ಆಫ್, ನಾವು ಅವರಿಂದ ಪರಿಶೀಲಿಸಿದ್ದೇವೆ
+    ಭಾಷಣ ಮತ್ತು ಆಡಿಯೋಲಾಜಿ ಇಲಾಖೆ ಭಾಷಣ ಭಾಷೆ
+    ರೋಗಶಾಸ್ತ್ರಜ್ಞರು ಅವಳೊಂದಿಗೆ ಕೆಲವು ಸೆಷನ್ಗಳನ್ನು ಹೊಂದಿದ್ದರು. ನಂತರ ಆಕೆಯನ್ನು ಕಳೆದುಕೊಂಡಾಗ
+    ಕೌಶಲಗಳು, ಸಂವಹನವು ನಮ್ಮ ಸಮಸ್ಯೆಗಳ ಪೈಕಿ ಅತೀ ಕಡಿಮೆ. "
+    <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/speechtherapy/speechtherapy.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="whereToGoContent" datatype="html">
+        <source>I live in Manipal and I have access to one of the best pediatric
+    departments in this part of Karnataka. Ishaani was under the care,
+    treatment and observation of an amazing team lead by Dr Pushpa G
+    Kini at Kasturba Medical hospital, Manipal. We were very fortunate to
+    have her to care for our daughter.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    “dhvani.life” gives you the search option to look for hospitals nearby
+    your locations. Just type the location you are looking for and wait for
+    the results.</source>
+     <target>ನಾನು ಮಣಿಪಾಲ್ನಲ್ಲಿ ವಾಸಿಸುತ್ತಿದ್ದೇನೆ ಮತ್ತು ನಾನು ಅತ್ಯುತ್ತಮ ಮಕ್ಕಳಲ್ಲಿ ಒಂದಕ್ಕೆ ಪ್ರವೇಶವನ್ನು ಹೊಂದಿದ್ದೇನೆ
+    ಕರ್ನಾಟಕದ ಈ ಭಾಗದಲ್ಲಿ ಇಲಾಖೆಗಳು. ಇಶಾನಿಯು ಆರೈಕೆಯಲ್ಲಿದ್ದಳು,
+    ಆಶ್ಚರ್ಯಕರ ತಂಡದ ಚಿಕಿತ್ಸೆ ಮತ್ತು ವೀಕ್ಷಣೆ ಡಾ. ಪುಷ್ಪಾ ಜಿ ಅವರ ನೇತೃತ್ವ
+    ಕಸ್ತೂರ್ಬಾ ಮೆಡಿಕಲ್ ಆಸ್ಪತ್ರೆಯಲ್ಲಿ ಕಿಣಿ, ಮಣಿಪಾಲ್. ನಾವು ಬಹಳ ಅದೃಷ್ಟಶಾಲಿಯಾಗಿದ್ದೇವೆ
+    ನಮ್ಮ ಮಗಳನ್ನು ಕಾಳಜಿ ವಹಿಸಬೇಕು<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ 
+"Dhvani.life" ನಿಮಗೆ ಸಮೀಪದ ಆಸ್ಪತ್ರೆಗಳನ್ನು ನೋಡಲು ಹುಡುಕಾಟ ಆಯ್ಕೆಯನ್ನು ನೀಡುತ್ತದೆ
+    ನಿಮ್ಮ ಸ್ಥಳಗಳು. ನೀವು ಹುಡುಕುತ್ತಿರುವ ಸ್ಥಳವನ್ನು ಟೈಪ್ ಮಾಡಿ ಮತ್ತು ನಿರೀಕ್ಷಿಸಿ
+    ಫಲಿತಾಂಶಗಳು.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/where-to-go/where-to-go.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="aboutUsContent" datatype="html">
+        <source>This website would not have been possible without the work and
+    contribution of so many people.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> I have listed them down here.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    I take this opportunity to thank each one of them for helping me out
+    to get this to where it is today.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Thank you!</source>
+     <target>Tಅವರ ವೆಬ್ಸೈಟ್ ಕೆಲಸವಿಲ್ಲದೆಯೇ ಮತ್ತು ಸಾಧ್ಯವಿರಲಿಲ್ಲ
+    ಅನೇಕ ಜನರ ಕೊಡುಗೆ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>ನಾನು ಅವರನ್ನು ಇಲ್ಲಿ ಕೆಳಗೆ ಪಟ್ಟಿ ಮಾಡಿದ್ದೇನೆ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+   
+ನನಗೆ ಸಹಾಯ ಮಾಡಲು ನಾನು ಪ್ರತಿಯೊಬ್ಬರಿಗೂ ಧನ್ಯವಾದ ಹೇಳಲು ಈ ಅವಕಾಶವನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತೇನೆ
+    ಇಂದು ಅದು ಎಲ್ಲಿದೆ ಎಂದು ತಿಳಿದುಕೊಳ್ಳಲು.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Thank you!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/about-us/about-us.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="WhatAreDevelopmentalMilestonesContent" datatype="html">
+        <source>
+    The excitement of parents when they notice their children making
+    eye contact, showing attachment to certain people, trying to babble,
+    saying their first words, pointing at things, handling toys, rolling over
+    on their tummy, crawling, sitting or walking. These actions are the
+    important skills they develop, as they grow and happen at age
+    intervals that most of us are aware. These skills are known as
+    ‘developmental milestones’. These milestones provide important
+    information regarding your child&apos;s early development. So you could
+    say that “Developmental milestones” are physical or behavioral signs
+    of development of infants and children.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    Usually, a child with developmental delay is much slower in reaching
+    one or more of these milestones than expected. This delay can occur
+    for a variety of reasons and some children eventually catch up.
+    Development delay sometimes occurs because the child is born with a
+    medical condition which restricts their development.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    
+    Milestones are different for each age range. These milestones are
+    behaviors that emerge over time, forming the building blocks for
+    growth and continued learning.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    
+    Source:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    1. https://www.chop.edu/conditions-diseases/developmental-
+    milestones
+    2. Sheila Davis, 2015, “Developmental Delay: A guide for families
+    in England, Northern Ireland, Scotland and Wales”. Available
+    [online] at www.cafamily.org.uk/publicationlist
+</source>
+<target>
+   ಪೋಷಕರು ತಮ್ಮ ಮಕ್ಕಳು ಮಾಡುವ ಗಮನಕ್ಕೆ ಬಂದಾಗ ಅವರ ಉತ್ಸಾಹ
+    ಕಣ್ಣಿನ ಸಂಪರ್ಕ, ಕೆಲವು ಜನರಿಗೆ ಲಗತ್ತನ್ನು ತೋರಿಸುವುದು, ಶಿಶುವಿಹಾರ ಮಾಡಲು ಪ್ರಯತ್ನಿಸುವುದು,
+    ತಮ್ಮ ಮೊದಲ ಪದಗಳನ್ನು ಹೇಳುವುದು, ವಿಷಯಗಳನ್ನು ತೋರಿಸುವುದು, ಗೊಂಬೆಗಳನ್ನು ನಿರ್ವಹಿಸುವುದು, ಸುತ್ತಿಕೊಳ್ಳುವುದು
+    ತಮ್ಮ tummy, ಕ್ರಾಲ್, ಕುಳಿತು ಅಥವಾ ವಾಕಿಂಗ್. ಈ ಕ್ರಮಗಳು
+    ಅವರು ಬೆಳೆಯುವ ಮತ್ತು ವಯಸ್ಸಿನಲ್ಲಿ ಸಂಭವಿಸಿದಾಗ ಅವರು ಅಭಿವೃದ್ಧಿಪಡಿಸುವ ಪ್ರಮುಖ ಕೌಶಲ್ಯಗಳು
+    ಮಧ್ಯದಲ್ಲಿ ನಮಗೆ ಹೆಚ್ಚು ತಿಳಿದಿದೆ. ಈ ಕೌಶಲಗಳನ್ನು ಕರೆಯಲಾಗುತ್ತದೆ
+    'ಅಭಿವೃದ್ಧಿ ಮೈಲಿಗಲ್ಲುಗಳು'. ಈ ಮೈಲಿಗಲ್ಲುಗಳು ಮುಖ್ಯವಾದವು
+    ನಿಮ್ಮ ಮಗುವಿನ ಮತ್ತು ಆರಂಭಿಕ ಬೆಳವಣಿಗೆಯ ಬಗ್ಗೆ ಮಾಹಿತಿ. ಆದ್ದರಿಂದ ನೀವು ಸಾಧ್ಯವೋ
+    "ಅಭಿವೃದ್ಧಿ ಮೈಲಿಗಲ್ಲುಗಳು" ದೈಹಿಕ ಅಥವಾ ವರ್ತನೆಯ ಚಿಹ್ನೆಗಳಾಗಿವೆ ಎಂದು ಹೇಳುತ್ತಾರೆ
+    ಶಿಶುಗಳು ಮತ್ತು ಮಕ್ಕಳ ಅಭಿವೃದ್ಧಿ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+   ಸಾಮಾನ್ಯವಾಗಿ, ಬೆಳವಣಿಗೆಯ ವಿಳಂಬವನ್ನು ಹೊಂದಿರುವ ಮಗುವಿಗೆ ತಲುಪುವಲ್ಲಿ ನಿಧಾನವಾಗಿರುತ್ತದೆ
+    ನಿರೀಕ್ಷಿಸಿದಕ್ಕಿಂತ ಈ ಒಂದು ಮೈಲಿಗಲ್ಲುಗಳಲ್ಲಿ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಅಥವಾ ಹೆಚ್ಚು. ಈ ವಿಳಂಬ ಸಂಭವಿಸಬಹುದು
+    ವಿವಿಧ ಕಾರಣಗಳಿಗಾಗಿ ಮತ್ತು ಕೆಲವು ಮಕ್ಕಳು ಅಂತಿಮವಾಗಿ ಹಿಡಿಯುತ್ತಾರೆ.
+    ಮಗುವಿನೊಂದಿಗೆ ಜನಿಸಿದ ಕಾರಣ ಅಭಿವೃದ್ಧಿ ವಿಳಂಬವು ಕೆಲವೊಮ್ಮೆ ಸಂಭವಿಸುತ್ತದೆ
+    ವೈದ್ಯಕೀಯ ಸ್ಥಿತಿ ತಮ್ಮ ಬೆಳವಣಿಗೆಯನ್ನು ನಿರ್ಬಂಧಿಸುತ್ತದೆ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    
+  
+ಮೈಲಿಗಲ್ಲುಗಳು ಪ್ರತಿ ವಯಸ್ಸಿನ ಶ್ರೇಣಿಗೆ ವಿಭಿನ್ನವಾಗಿವೆ. ಈ ಮೈಲಿಗಲ್ಲುಗಳು
+    ಕಾಲಾನಂತರದಲ್ಲಿ ಹೊರಹೊಮ್ಮುವ ನಡವಳಿಕೆಗಳು, ಬಿಲ್ಡಿಂಗ್ ಬ್ಲಾಕ್ಸ್ ರಚನೆಗೆ
+    ಬೆಳವಣಿಗೆ ಮತ್ತು ಮುಂದುವರಿದ ಕಲಿಕೆ.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    
+    Source:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    1. https://www.chop.edu/conditions-diseases/developmental-
+    milestones
+    2. Sheila Davis, 2015, “Developmental Delay: A guide for families
+    in England, Northern Ireland, Scotland and Wales”. Available
+    [online] at www.cafamily.org.uk/publicationlist
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/what-are-milestones/what-are-milestones.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="BenchMarksSub" datatype="html">
+        <source> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Nonprofit advocacy: <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>We do not believe in making profits or money out of this. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Anonymity if expected:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> We respect that you do not want to disclose your identity. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Run by group members:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Only the administrator and group members are part of this
+website development team. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Online community:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Our aim is to build an online support group</source>
+<target> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>ಲಾಭರಹಿತ ವಕಾಲತ್ತು: <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+ಇದರ ಲಾಭ ಅಥವಾ ಹಣವನ್ನು ಮಾಡುವಲ್ಲಿ ನಾವು ನಂಬುವುದಿಲ್ಲ. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+ಅನಾಮಧೇಯತೆಯನ್ನು ನಿರೀಕ್ಷಿಸಿದರೆ:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> ನಿಮ್ಮ ಗುರುತನ್ನು ಬಹಿರಂಗಪಡಿಸಲು ನೀವು ಬಯಸುವುದಿಲ್ಲ ಎಂದು ನಾವು ಗೌರವಿಸುತ್ತೇವೆ. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+ಗುಂಪಿನ ಸದಸ್ಯರು ನಡೆಸುತ್ತಾರೆ:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 
+ನಿರ್ವಾಹಕರು ಮತ್ತು ಗುಂಪು ಸದಸ್ಯರು ಮಾತ್ರ ಇದರ ಭಾಗವಾಗಿದೆ
+ವೆಬ್ಸೈಟ್ ಅಭಿವೃದ್ಧಿ ತಂಡ. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>ಆನ್ಲೈನ್ ​​ಸಮುದಾಯ:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>ಆನ್ಲೈನ್ ​​ಬೆಂಬಲ ಗುಂಪನ್ನು ನಿರ್ಮಿಸುವುದು ನಮ್ಮ ಗುರಿಯಾಗಿದೆ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/benchmark/benchmark.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>

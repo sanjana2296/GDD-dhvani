@@ -47,7 +47,7 @@
     We have a public chat room where all current online users can be
     viewed and you can carry on a conversation or if you prefer a private
     chat room with selected contacts, that is also possible. The idea is
-    for you to be able discuss or share or speak to one another.</p>
+    for you to be able discuss or share or speak to one another.</p><br/>
 <div class="App">
     <aside class="sidebar left-sidebar">
       <section *ngIf="!currentUser.id" class="join-chat">
@@ -75,7 +75,7 @@
   
     <main class="chat-window">
       <header class="chat-header">
-        <h4 *ngIf="!currentRoom.name; else roomName">Chat</h4>
+        <h4 *ngIf="!currentRoom.name; else roomName">Dhvani's Chat</h4>
         <ng-template #roomName>
           <h4>{{ currentRoom.name }}</h4>
         </ng-template>

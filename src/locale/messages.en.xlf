@@ -2,237 +2,1357 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-       <trans-unit id="homeDhvani" datatype="html">
+      <trans-unit id="homeDhvani" datatype="html">
         <source>Team@dhvani.life</source>
-          <target>Team@dhvani.life</target>
+         <target>Team@dhvani.life</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">54</context>
+          <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homeContent" datatype="html">
-        <source>Dear Visitor,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+        <source> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Hi Visitor,<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>Dear <x id="INTERPOLATION" equiv-text="{{currentUser.firstName}}"/>,<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 
             Namaste!<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
             
-            If you’ve reached here, I’m thinking it’s either because you have googled “GDD” or “Global Development Delay.” Are you doing the right thing looking for help. Yes, you are doing the right thing to learn more of what may seem different in your child as compared to his/her age group.
+            If you’ve reached here, I’m thinking it’s either because you have googled “GDD”
+or “Global Development Delay” or “developmental delay”. Are you doing the right
+thing looking for help? Yes, <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>you are<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> doing the right thing! You want to learn more
+of what may seem different in your child as compared to children in his/her age
+group, so that I feel “is a step in the right direction!.” 
+            <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>This website “dhvani.life” is a forum, for connecting parents of children with GDD.
+            I designed this website as a support system for parents especially mothers of such
+            innocent angels. I consider <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>“support”<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> a necessity and I believe a strong and “aware”
+            mother will help the entire family (which may include other normal siblings and
+            the father) to carry on as a normal family. Every mother hopes that her child is
+            growing according to the milestones of a normal child. But what do you do if you
+            notice a delay?
             
-            <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>This website “dhvani.life” is an application for connecting parents of children with GDD. I designed this website as a support system for parents especially mothers of such innocent angels. I consider “support” a necessity and I believe a strong and “aware” mother will help the family (which may include other normal siblings and the father) to carry on as a normal family. Every mother hopes that her child is growing according to milestones of a normal child. But what do you do if you notice a delay?
-            
-              <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Being a mother of a child with a generic name for her condition called “degenerative neuroregression” I can completely empathize with this constant need to become aware, to know more and to find a way to help our bundle of joy.
-                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>We (my team and I) have tried to include resources that will benefit you and your loved ones. In India especially, there is a lack of awareness of rare conditions such as the one my daughter suffered from, I wish that mothers like me do not have to struggle as I did with no direction on how to manage my child.
-      
-                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Please feel free to sharing real life stories via images, videos or blogs. If you request anonymity, we will honor that. Let’s build a community that respects and helps one another. Come become a group member!
-                 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-         <target>Dear Visitor,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              <x id="START_TAG_SPAN_3" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Being a mother of a child with a generic name for her condition called “degenerative neuroregression” I can completely empathize with this constant need to become aware, to know more and to find a way to help our bundle of joy.
+                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>We (my team and I) have tried to include resources that will benefit you and your
+                loved ones. In India especially, there is a lack of <x id="START_TAG_SPAN_2" ctype="x-span" equiv-text="&lt;span&gt;"/>awareness of rare conditions such
+                as the one my daughter, Ishaani had been categorized under.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> I wish that the other mothers unlike
+                me do not have to struggle as much as I did with no information or direction on
+                how to manage such a child. My daughter is no more with us, she passed away on
+                June 4th, 2019 at 10 years and 2 months. She was a “fighter” and fought her way
+                during the years she was with us. She brought serenity, joy and love to all those
+                who had the chance to be with her. She is my inspiration and my strength along
+                with my son, her elder brother.
+                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> I hope that this website will help some of you mothers out there, if not all, to know
+                that there are others just like you. You are not alone. Most of the content that you
+                will find here is based on my personal experience that I would like to share with
+                you.
+                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                Those of you, who have arrived at this website <x id="START_TAG_SPAN_2" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>and are not parents or are casual
+visitors,<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> help us in reaching out to those who need help.
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Please feel free to share your real life stories via images, videos or blogs. If you
+request anonymity, we will honor that. Let’s build a community that respects and
+helps one another by becoming a member!
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+We have also created social media outlets via Facebook, Twitter and Instagram
+(links are below in the footer), I request you to share these links with your family
+and friends.
+                 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> <x id="START_TAG_SPAN_4" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>Ishaani’s<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> mother,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                  Poornima<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+                  <target> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Hi Visitor,<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>Dear <x id="INTERPOLATION" equiv-text="{{currentUser.firstName}}"/>,<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 
             Namaste!<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
             
-            If you’ve reached here, I’m thinking it’s either because you have googled “GDD” or “Global Development Delay.” Are you doing the right thing looking for help. Yes, you are doing the right thing to learn more of what may seem different in your child as compared to his/her age group.
+            If you’ve reached here, I’m thinking it’s either because you have googled “GDD”
+or “Global Development Delay” or “developmental delay”. Are you doing the right
+thing looking for help? Yes, <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>you are<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> doing the right thing! You want to learn more
+of what may seem different in your child as compared to children in his/her age
+group, so that I feel “is a step in the right direction!.” 
+            <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>This website “dhvani.life” is a forum, for connecting parents of children with GDD.
+            I designed this website as a support system for parents especially mothers of such
+            innocent angels. I consider <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>“support”<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> a necessity and I believe a strong and “aware”
+            mother will help the entire family (which may include other normal siblings and
+            the father) to carry on as a normal family. Every mother hopes that her child is
+            growing according to the milestones of a normal child. But what do you do if you
+            notice a delay?
             
-            <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>This website “dhvani.life” is an application for connecting parents of children with GDD. I designed this website as a support system for parents especially mothers of such innocent angels. I consider “support” a necessity and I believe a strong and “aware” mother will help the family (which may include other normal siblings and the father) to carry on as a normal family. Every mother hopes that her child is growing according to milestones of a normal child. But what do you do if you notice a delay?
-            
-              <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Being a mother of a child with a generic name for her condition called “degenerative neuroregression” I can completely empathize with this constant need to become aware, to know more and to find a way to help our bundle of joy.
-                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>We (my team and I) have tried to include resources that will benefit you and your loved ones. In India especially, there is a lack of awareness of rare conditions such as the one my daughter suffered from, I wish that mothers like me do not have to struggle as I did with no direction on how to manage my child.
-      
-                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Please feel free to sharing real life stories via images, videos or blogs. If you request anonymity, we will honor that. Let’s build a community that respects and helps one another. Come become a group member!
-                 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+              <x id="START_TAG_SPAN_3" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Being a mother of a child with a generic name for her condition called “degenerative neuroregression” I can completely empathize with this constant need to become aware, to know more and to find a way to help our bundle of joy.
+                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>We (my team and I) have tried to include resources that will benefit you and your
+                loved ones. In India especially, there is a lack of <x id="START_TAG_SPAN_2" ctype="x-span" equiv-text="&lt;span&gt;"/>awareness of rare conditions such
+                as the one my daughter, Ishaani had been categorized under.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> I wish that the other mothers unlike
+                me do not have to struggle as much as I did with no information or direction on
+                how to manage such a child. My daughter is no more with us, she passed away on
+                June 4th, 2019 at 10 years and 2 months. She was a “fighter” and fought her way
+                during the years she was with us. She brought serenity, joy and love to all those
+                who had the chance to be with her. She is my inspiration and my strength along
+                with my son, her elder brother.
+                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> I hope that this website will help some of you mothers out there, if not all, to know
+                that there are others just like you. You are not alone. Most of the content that you
+                will find here is based on my personal experience that I would like to share with
+                you.
+                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                Those of you, who have arrived at this website <x id="START_TAG_SPAN_2" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>and are not parents or are casual
+visitors,<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> help us in reaching out to those who need help.
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Please feel free to share your real life stories via images, videos or blogs. If you
+request anonymity, we will honor that. Let’s build a community that respects and
+helps one another by becoming a member!
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+We have also created social media outlets via Facebook, Twitter and Instagram
+(links are below in the footer), I request you to share these links with your family
+and friends.
+                 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> <x id="START_TAG_SPAN_4" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>Ishaani’s<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> mother,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                  Poornima<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="homeBenchmarks" datatype="html">
-        <source> Bench marks</source>
-           <target> Bench marks</target>
+       <trans-unit id="feedContent" datatype="html">
+        <source>This page has the stories of “dhvani.life” members, other families,
+    our well-wishers who wish to contribute to the growing community. Go
+    ahead and have a read!</source>
+    <target>This page has the stories of “dhvani.life” members, other families,
+    our well-wishers who wish to contribute to the growing community. Go
+    ahead and have a read!</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">76</context>
+          <context context-type="sourcefile">app/feed/feed.component.html</context>
+          <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="homeBenchMarksSub" datatype="html">
-        <source> Nonprofit advocacy <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          Anonymity if expected <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          Run by group members <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          Online community</source>
-            <target> Nonprofit advocacy <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          Anonymity if expected <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          Run by group members <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          Online community</target>
+      <trans-unit id="feedFormContent" datatype="html">
+        <source>If you have a story, new information or content to share on the
+    forum, please feel free to post it, you can view it on the &lt;link Check
+    Stories&gt;.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    You are a part of the dhvani.life family, come express, discuss and
+    share your thoughts with us.</source>
+        <target>If you have a story, new information or content to share on the
+    forum, please feel free to post it, you can view it on the &lt;link Check
+    Stories&gt;.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    You are a part of the dhvani.life family, come express, discuss and
+    share your thoughts with us.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/home/home.component.html</context>
-          <context context-type="linenumber">78</context>
+          <context context-type="sourcefile">app/feed-form/feed-form.component.html</context>
+          <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainHome" datatype="html">
-        <source>Dhvani&apos;s Home page<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target>Home</target> <context-group purpose="location">
-          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+      <trans-unit id="ContactFormContent" datatype="html">
+        <source>We would love to hear from you. We are open to compliments,
+    comments, opinions, feedback regarding the website or links. Please
+    feel free to contact us.</source>
+    <target>We would love to hear from you. We are open to compliments,
+    comments, opinions, feedback regarding the website or links. Please
+    feel free to contact us.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/contact-form/contact-form.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="DashboardContent" datatype="html">
+        <source>Here are some links to help you start:</source>
+             <target>Here are some links to help you start:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="CreateNewPostContent" datatype="html">
+        <source>Create new Post</source>
+           <target>Create new Post</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainMilestones" datatype="html">
-        <source>Milestones </source>
-        <target>
-Milestones</target> 
+      <trans-unit id="ViewRealtimeFeedContent" datatype="html">
+        <source>View realtime feed</source>
+              <target>View realtime feed</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footerContent" datatype="html">
+        <source> © 2019 Copyright: dhvani.life</source>
+          <target> © 2019 Copyright: dhvani.life</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+          <trans-unit id="ChatoomContent" datatype="html">
+        <source> This forum is open for discussion between all members and guest
+    users. Talk to us or anyone who is available online. We are here for
+    you.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    We have a public chat room where all current online users can be
+    viewed and you can carry on a conversation or if you prefer a private
+    chat room with selected contacts, that is also possible. The idea is
+    for you to be able discuss or share or speak to one another.</source>
+         <target> This forum is open for discussion between all members and guest
+    users. Talk to us or anyone who is available online. We are here for
+    you.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    We have a public chat room where all current online users can be
+    viewed and you can carry on a conversation or if you prefer a private
+    chat room with selected contacts, that is also possible. The idea is
+    for you to be able discuss or share or speak to one another.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/chatroom/chatroom.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainHome" datatype="html">
+        <source>Home</source>
+          <target>Home</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainWhyDhvaniLife" datatype="html">
+        <source>Why dhvani.life?</source>
+         <target>Why dhvani.life?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-       <trans-unit id="footerContent" datatype="html">
-        <source> © 2019 Copyright: dhvani.life</source>
-        <target> © 2019 Copyright: dhvani.life</target>
+      <trans-unit id="mainBeAMember" datatype="html">
+        <source>Be a member</source>
+        <target>Be a member</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainAboutGdd" datatype="html">
-        <source>About GDD</source>
-        <target>About GDD</target> 
+      <trans-unit id="mainOurBenchmarks" datatype="html">
+        <source>Our benchmarks</source>
+        <target>Our benchmarks</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainDisclaimer" datatype="html">
+        <source>Disclaimer</source>
+         <target>Disclaimer</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainHelpForGdd" datatype="html">
-        <source>Help for GDD</source>
-        <target>
-Help for GDD</target> 
+      <trans-unit id="mainInspirationForDhvaniLife" datatype="html">
+        <source>Inspiration for dhvani.life</source>
+          <target>Inspiration for dhvani.life</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainGovSchemes" datatype="html">
-        <source>Government schemes</source>
-        <target>
-Government schemes</target> 
+      <trans-unit id="mainMilestones" datatype="html">
+        <source>Milestones</source>
+                <target>Milestones</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
           <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainResearchPaper" datatype="html">
-        <source>Research paper</source>
-        <target>
-Research paper</target> 
+      <trans-unit id="mainMilestonesForANormalChild" datatype="html">
+        <source>Milestones for a normal child</source>
+         <target>Milestones for a normal child</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="MainSpeakToUs" datatype="html">
-        <source>Speak to us</source>
-        <target>Speak to us</target> 
+      
+      <trans-unit id="mainVaccinateYourChild" datatype="html">
+        <source>Vaccinate your child</source>
+         <target>Vaccinate your child</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
-          <context context-type="linenumber">32</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainWhereToGo" datatype="html">
-        <source>Where to go</source>
-        <target>
-Where to go</target> 
+      <trans-unit id="mainDoctorVisit" datatype="html">
+        <source> Planning your first doctor visit</source>
+                <target> Planning your first doctor visit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainAboutGdd" datatype="html">
+        <source>About GDD</source>
+              <target>About GDD</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
           <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainDonor" datatype="html">
-        <source>Our donors</source>
-        <target>Our Donors</target> 
+     
+        <trans-unit id="mainAboutGDD" datatype="html">
+        <source>What is GDD?</source>
+        <target>What is GDD?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">40</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainAboutUs" datatype="html">
-        <source>About us</source>
-        <target>
-About us</target> 
+      <trans-unit id="mainTipsForParents" datatype="html">
+        <source>Tips for parents</source>
+          <target>Tips for parents</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainLanguage" datatype="html">
-        <source>
-           Language<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-       <target>
-Language</target>  <context-group purpose="location">
-          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
-          <context context-type="linenumber">49</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="mainKannada" datatype="html">
-        <source>Kannada</source>
-        <target>Kannada
-</target> 
+      <trans-unit id="mainThingsToKnow" datatype="html">
+        <source>Things you need to know</source>
+        <target>Things you need to know</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
-          <context context-type="linenumber">52</context>
+          <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="mainEnglish" datatype="html">
-        <source>English</source>
-        <target>English</target> 
+      <trans-unit id="mainRehabilation" datatype="html">
+        <source>Rehabilitate</source>
+            <target>Rehabilitate</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainWHyRehabilitation" datatype="html">
+        <source>Why Rehabilitation</source>
+          <target>Why Rehabilitation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainPhysiotherapy" datatype="html">
+        <source>Physiotherapy</source>
+          <target>Physiotherapy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainOccupational" datatype="html">
+        <source>Occupational therapy</source>
+              <target>Occupational therapy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainSpecial" datatype="html">
+        <source>Special language pathologists</source>
+         <target>Special language pathologists</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainHelpForGdd" datatype="html">
+        <source>Help for GDD</source>
+           <target>Help for GDD</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
           <context context-type="linenumber">53</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="mainFrench" datatype="html">
-        <source>French</source>
-        <target>Hindi</target> 
+      <trans-unit id="mainGovSchemes" datatype="html">
+        <source>Govt Schemes</source>
+           <target>Govt Schemes</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
           <context context-type="linenumber">55</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
       </trans-unit>
-      <trans-unit id="feedTitle" datatype="html">
+      <trans-unit id="mainResearchPaper" datatype="html">
+        <source>Research paper</source>
+         <target>Research paper</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainmonetary" datatype="html">
+        <source>Additional monetary burden</source>
+               <target>Additional monetary burden</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="MainSpeakToUs" datatype="html">
+        <source>Speak to us</source>
+         <target>Speak to us</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainNewPost" datatype="html">
+        <source>Write a new post</source>
+              <target>Write a new post</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainCheckStories" datatype="html">
+        <source>Check stories</source>
+        <target>Check stories</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+   
+      <trans-unit id="mainChatroom" datatype="html">
+        <source>Chatroom</source>
+           <target>Chatroom</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainContactUs" datatype="html">
+        <source>Contact Us</source>
+         <target>Contact Us</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="mainWhereToGo" datatype="html">
+        <source>Where to go???</source>
+         <target>Where to go???</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainOurDonors" datatype="html">
+        <source>Our Donors</source>
+             <target>Our Donors</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainBecomeADonor" datatype="html">
+        <source>Become a donor</source>
+        <target>Become a donor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainOurDonorSheet" datatype="html">
+        <source>Our donor sheet</source>
+           <target>Our donor sheet</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainAboutUs" datatype="html">
+        <source>About us</source>
+                <target>About us</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+         <trans-unit id="mainMeetOurTeam" datatype="html">
+        <source>Meet our team</source>
+         <target>Meet our team</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainAcknowledgement" datatype="html">
+        <source>Acknowledgement</source>
+            <target>Acknowledgement</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainLanguage" datatype="html">
+        <source>Language</source>
+            <target>Language</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainKannada" datatype="html">
+        <source>Kannada</source>
+        <target>Kannada</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainEnglish" datatype="html">
+        <source>English</source>
+            <target>English</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainFrench" datatype="html">
+        <source>Hindi</source>
+             <target>Hindi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeBenchmarks" datatype="html">
+        <source> Bench marks</source>
+             <target> Bench marks</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/benchmark/benchmark.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+    
+
+        <trans-unit id="MileStonesForNormalChildContent" datatype="html">
         <source>
-  feed works!
-</source>
-<target>feed works!
-</target> 
+    When my daughter Ishaani was born, it was our happiest day, she was
+    a bubbly baby. It was a normal delivery and she had cried at birth.
+    Who was to know that by the time she attained one year, things were
+    going to change. Here is a chart for a normal child’s growth milestone.
+    Thank you Dr. Fatima for the chart!</source>
+       <target>
+    When my daughter Ishaani was born, it was our happiest day, she was
+    a bubbly baby. It was a normal delivery and she had cried at birth.
+    Who was to know that by the time she attained one year, things were
+    going to change. Here is a chart for a normal child’s growth milestone.
+    Thank you Dr. Fatima for the chart!</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/feed/feed.component.html</context>
-          <context context-type="linenumber">6</context>
+          <context context-type="sourcefile">app/milestone-for-normal-child/milestone-for-normal-child.component.html</context>
+          <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="templatesTitle" datatype="html">
+      <trans-unit id="DoctorVisitContent" datatype="html">
         <source>
-	Templates
+  When you do decide to meet the doctor with your child for the first time after you
+notice something different, it would be better if you prepare yourself. Keep some
+things that might help you explain the problem much more easily. I know it helped
+me, in convincing the doctor that we really have a concern and that we need help.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ Do not forget to carry “the booklet” that the maternity hospital provides
+you when you delivered your baby.
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+o Check for head circumference<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>o Length of the baby at birth<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>o Gestation period (how many weeks when you delivered)<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>o Delivery: normal or caesarian<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+ Keeping a notepad/dairy of events/incidents that you might have observed<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ Photographs in chronological order<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ Videos of your child when he/she was (in your opinion) doing things
+normally and when things started changing (in chronological order)<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ Any earlier medical records (if you consulted another doctor earlier)<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 </source>
-<target>	Templates</target> 
+<target>
+  When you do decide to meet the doctor with your child for the first time after you
+notice something different, it would be better if you prepare yourself. Keep some
+things that might help you explain the problem much more easily. I know it helped
+me, in convincing the doctor that we really have a concern and that we need help.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ Do not forget to carry “the booklet” that the maternity hospital provides
+you when you delivered your baby.
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+o Check for head circumference<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>o Length of the baby at birth<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>o Gestation period (how many weeks when you delivered)<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>o Delivery: normal or caesarian<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+ Keeping a notepad/dairy of events/incidents that you might have observed<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ Photographs in chronological order<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ Videos of your child when he/she was (in your opinion) doing things
+normally and when things started changing (in chronological order)<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+ Any earlier medical records (if you consulted another doctor earlier)<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/feed/feed.component.html</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/feed/feed.component.html</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="sourcefile">app/doctor-visit/doctor-visit.component.html</context>
+          <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="introductionHeader" datatype="html">
-        <source>Hello i18n!</source>
-        <target>
-Hello i18n!</target> 
+      <trans-unit id="DisclaimerContent" datatype="html">
+        <source>
+    “dhvani.life” is not a substitute for the role of the pediatrician, a
+    clinician or a health professional. The function is to support the
+    parent or caretaker of a child with GDD in enabling access to know-
+    how, knowledge and access to funds and resources. Users of this
+    website or dhvani mobile application are therefore urged to use their
+    own judgment to ensure that the child receives the best possible
+    care. We have made reasonable efforts the accuracy of the
+    information we present on this online knowledge resource, we cannot
+    guarantee its correctness and completeness. The information on the
+    website is subject to change and we cannot guarantee that it is up-to-
+    date.
+</source>
+  <target>
+    “dhvani.life” is not a substitute for the role of the pediatrician, a
+    clinician or a health professional. The function is to support the
+    parent or caretaker of a child with GDD in enabling access to know-
+    how, knowledge and access to funds and resources. Users of this
+    website or dhvani mobile application are therefore urged to use their
+    own judgment to ensure that the child receives the best possible
+    care. We have made reasonable efforts the accuracy of the
+    information we present on this online knowledge resource, we cannot
+    guarantee its correctness and completeness. The information on the
+    website is subject to change and we cannot guarantee that it is up-to-
+    date.
+</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/feed/feed.component.html</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="sourcefile">app/disclaimer/disclaimer.component.html</context>
+          <context context-type="linenumber">1</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="checkYourMilestonesContent" datatype="html">
+        <source>
+    It is usually the parent that would be able to do the first level of
+    assessment and I read in an article 1 the doctor mentioned “When a
+    parent is worried, there is a good chance that something needs
+    attention”. So you are doing a good job as a parent if you are looking
+    for the red flags! Red flags indicate warning signs.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+   <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/> <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>A word of caution: <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>It is better to observe and record these
+observations with the exact or approximate date of recording.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Source: 1 Raymond Tervo, 2009. “Red flags and Rules of Thumb: Sorting out
+developmental delay”, A Pediatric perspective, Vol.18, No. 2
+</source>
+ <target>
+    It is usually the parent that would be able to do the first level of
+    assessment and I read in an article 1 the doctor mentioned “When a
+    parent is worried, there is a good chance that something needs
+    attention”. So you are doing a good job as a parent if you are looking
+    for the red flags! Red flags indicate warning signs.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+   <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/> <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>A word of caution: <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>It is better to observe and record these
+observations with the exact or approximate date of recording.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Source: 1 Raymond Tervo, 2009. “Red flags and Rules of Thumb: Sorting out
+developmental delay”, A Pediatric perspective, Vol.18, No. 2
+</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/feed/feed.component.html</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="sourcefile">app/check-your-milestones/check-your-milestones.component.html</context>
+          <context context-type="linenumber">1</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="PhysiotherapistContent" datatype="html">
+        <source>
+    A physiotherapist helps in the management and development of
+    movement skills. Physiotherapy may include exercises to strengthen
+    weak muscles and games to improve coordination and motor skills.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    “Ishaani’s went through intense physiotherapy sessions before we
+    actually took for an assessment for GDD, we were told that she would
+    improve through the PT sessions, as she still had her cognitive
+    abilities intact, we never realized that she was going through
+    regression in phases. She had PT sessions at the hospital”
+</source>
+  <target>
+    A physiotherapist helps in the management and development of
+    movement skills. Physiotherapy may include exercises to strengthen
+    weak muscles and games to improve coordination and motor skills.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    “Ishaani’s went through intense physiotherapy sessions before we
+    actually took for an assessment for GDD, we were told that she would
+    improve through the PT sessions, as she still had her cognitive
+    abilities intact, we never realized that she was going through
+    regression in phases. She had PT sessions at the hospital”
+</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/feed/feed.component.html</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="sourcefile">app/physiotherapy/physiotherapy.component.html</context>
+          <context context-type="linenumber">1</context>
         </context-group>
-        <note priority="1" from="description">An introduction header for this sample</note>
+      </trans-unit>
+      <trans-unit id="OccupationalContent" datatype="html">
+        <source>
+    An Occupational Therapist helps children and young people who have
+    difficulties in carrying out everyday tasks. For example, eating,
+    dressing or playing.
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    “ Since I was a working mother and taking Ishaani every day to the
+    hospital was becoming a problem, we organized for OT sessions at
+    home when an OT practitioner would come for a couple of hours”
+</source>
+ <target>
+    An Occupational Therapist helps children and young people who have
+    difficulties in carrying out everyday tasks. For example, eating,
+    dressing or playing.
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    “ Since I was a working mother and taking Ishaani every day to the
+    hospital was becoming a problem, we organized for OT sessions at
+    home when an OT practitioner would come for a couple of hours”
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/occupationaltherapy/occupationaltherapy.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="additionalMonetaryContent" datatype="html">
+        <source>
+    Having a child with developmental delay would mean, an additional
+    burden on the family’s income. Investment in terms of:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Diapers – child may never achieve potty training<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Medicines<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Home nurses/care takers<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Equipment<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Therapists<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Visits to hospitals<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  
+    Go to   <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Contact us<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> if you are a family in need of financial
+    assistance, we will try to find you a donor who could help you. We
+    request you to have patience and wait, till we are able to organize
+    some assistance or help.
+</source>
+  <target>
+    Having a child with developmental delay would mean, an additional
+    burden on the family’s income. Investment in terms of:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Diapers – child may never achieve potty training<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Medicines<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Home nurses/care takers<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Equipment<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Therapists<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+     Visits to hospitals<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  
+    Go to   <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Contact us<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> if you are a family in need of financial
+    assistance, we will try to find you a donor who could help you. We
+    request you to have patience and wait, till we are able to organize
+    some assistance or help.
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/additionalmonetary/additionalmonetary.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="BecomeAContent" datatype="html">
+        <source>
+    I believe in the motto “The purpose of life is a life with a purpose”.
+    When I started this project, my only thought was how could I, an
+    ordinary working mother of a child with an undiagnosed condition,
+    make a difference. My family and I worked hard to give Ishaani the
+    quality of life that she deserved. I am lucky to have had the support
+    of my family members in doing that. We were lucky to be working
+    parents who could bear the burden of bringing up, taking care of such
+    a child but there may be parents out there who may be facing
+    financial problems or find it difficult to pay their medical/hospital
+    bills.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    At dhvani.life we felt that we could help reach out to such parents
+    and families. We want to create an awareness of GDD and for this we
+    seek your help. You can choose to donate for either:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    C Sponsoring one hospitalized child, or<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    C Donation for the awareness drive<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    We intend to organize awareness camps across the state of
+    Karnataka, reaching the remote locations as well. To do this, we need
+    your assistance in the form of donations. All payments will go to
+    “dhavni.life fund” and we will provide you the transaction sheets for
+    all the amounts that we receive. As mentioned in our bench marks, we
+    believe in not making a profit out of this. The idea is to connect such
+    families to health care outlets where the child can avail medical
+    facilities.
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    We will extend this facility to other states once we prove ourselves
+    in our initial attempt.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    We thank you for your generosity.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    Click below to make you donations.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    &lt; donor paypal option&gt;
+</source>
+ <target>
+    I believe in the motto “The purpose of life is a life with a purpose”.
+    When I started this project, my only thought was how could I, an
+    ordinary working mother of a child with an undiagnosed condition,
+    make a difference. My family and I worked hard to give Ishaani the
+    quality of life that she deserved. I am lucky to have had the support
+    of my family members in doing that. We were lucky to be working
+    parents who could bear the burden of bringing up, taking care of such
+    a child but there may be parents out there who may be facing
+    financial problems or find it difficult to pay their medical/hospital
+    bills.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    At dhvani.life we felt that we could help reach out to such parents
+    and families. We want to create an awareness of GDD and for this we
+    seek your help. You can choose to donate for either:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    C Sponsoring one hospitalized child, or<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    C Donation for the awareness drive<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    We intend to organize awareness camps across the state of
+    Karnataka, reaching the remote locations as well. To do this, we need
+    your assistance in the form of donations. All payments will go to
+    “dhavni.life fund” and we will provide you the transaction sheets for
+    all the amounts that we receive. As mentioned in our bench marks, we
+    believe in not making a profit out of this. The idea is to connect such
+    families to health care outlets where the child can avail medical
+    facilities.
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    We will extend this facility to other states once we prove ourselves
+    in our initial attempt.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    We thank you for your generosity.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    Click below to make you donations.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    &lt; donor paypal option&gt;
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/become-donor/become-donor.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="DonorSheetContent" datatype="html">
+        <source>
+    This page is dedicated to the kindness bestowed upon us by our
+    donors. We take this opportunity to thank them. We proudly present
+    our donor list:
+</source>
+ <target>
+    This page is dedicated to the kindness bestowed upon us by our
+    donors. We take this opportunity to thank them. We proudly present
+    our donor list:
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/donor-sheet/donor-sheet.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="acknowledgementContent" datatype="html">
+        <source>
+    First of all, I would like to acknowledge the service and dedication of
+    Dr. Pushpa G Kini’s Unit II and her pediatric team of KMC, Manipal
+    since June 2010. Under her guidance, the team worked on Ishaani’s
+    medical condition and gave us complete support whether it was
+    dealing with emergencies or during her regular hospital visits or when
+    she was admitted in the pediatric ICU.
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    I would also like to give a shout out to the pediatric ICU team of KMC
+    where Ishaani spent many days under the care of all the wonderful
+    nurses who we interacted with on a regular basis. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    I would like to acknowledge the encouragement and constant
+    motivation received from Team MAHE FAIMER in giving this idea a
+    chance to grow, see the end of the tunnel and become a working
+    model.
+</source>
+      <target>
+    First of all, I would like to acknowledge the service and dedication of
+    Dr. Pushpa G Kini’s Unit II and her pediatric team of KMC, Manipal
+    since June 2010. Under her guidance, the team worked on Ishaani’s
+    medical condition and gave us complete support whether it was
+    dealing with emergencies or during her regular hospital visits or when
+    she was admitted in the pediatric ICU.
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    I would also like to give a shout out to the pediatric ICU team of KMC
+    where Ishaani spent many days under the care of all the wonderful
+    nurses who we interacted with on a regular basis. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    I would like to acknowledge the encouragement and constant
+    motivation received from Team MAHE FAIMER in giving this idea a
+    chance to grow, see the end of the tunnel and become a working
+    model.
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/acknowledgement/acknowledgement.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="mainWhatAreDevelopmentalMilestones" datatype="html">
+        <source>What are developmental milestones?</source>
+         <target>What are developmental milestones?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="mainCheckYourMilestone" datatype="html">
+        <source> Check your milestone</source>
+               <target> Check your milestone</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/main-nav/main-nav.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+        <trans-unit id="VacinateYourChildContent" datatype="html">
+        <source>
+  Regardless of whether your child has developmental delays or not, do not ever
+  forget to immunize your child. Here is the image of the immunization schedule:
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Link to the National Immunization Schedule 2017 (English) (PDF)<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+  <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>Link to article on National Immunization Schedule 2018<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Disclaimer: Always consult your child pediatrician for all your queries<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+</source>
+     <target>
+  Regardless of whether your child has developmental delays or not, do not ever
+  forget to immunize your child. Here is the image of the immunization schedule:
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>Link to the National Immunization Schedule 2017 (English) (PDF)<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+  <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>Link to article on National Immunization Schedule 2018<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Disclaimer: Always consult your child pediatrician for all your queries<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/vaccinate-your-child/vaccinate-your-child.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      
+       <trans-unit id="aboutGDDContent" datatype="html">
+        <source>We must understand and accept that children develop at their own
+pace, so don&apos;t be alarmed if your child takes a slightly different
+course. Every parent, however, has the right to find out if there is
+something different.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+The first five years of children’s life is most important as it during
+this period when they develop most of the abilities. All children need
+to be encouraged when they achieve these skills by us, their parents.
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+We need to give them love and affection, sing, talk, listen and play
+with them<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Developmental Delay provides an opportunity for provision of services
+and programs based on a child’s strengths and needs, as measured by
+the five developmental areas, when the assessment of a more specific
+disability due to a child’s young age cannot be considered statistically
+reliable or valid.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+The five developmental domains assessed for Developmental Delay
+are:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+1. Physical/Motor coordination: Gross/fine motor skills, jumping,
+hopping, throwing/catching, drawing, stacking<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+2. Cognitive: Thinking, reasoning, problem-solving, understanding<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+3. Communication: Smiling, listening, babbling, talking, pointing to
+things<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+4. Social/Emotional: Initiating peer contact, group play, showing
+affection, copying facial expressions<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+5. Adaptive: Dressing, eating, washing<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+Now when a child has delayed development in two or more of the
+above domains, then the child may have “global developmental
+delay” or GDD.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+A child may just have delay in one specific domain this is not GDD and
+may have a different diagnostic and treatment approach. So, it is
+important that the type of delay is identified as early as possible so
+support for your child can begin and it usually is tailored to your
+child’s specific needs. The earlier support is put in place, the better
+chance of improvement for the child.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Is your child showing signs of developmental delay?<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+
+More often than not, parents are often the first to realize that their
+child is not developing in an expected way or at the same pace as
+their peers.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+A child’s development can be slower than others for various reasons,
+including if they are born prematurely or become ill. If a child
+becomes severely ill they may even appear to regress and no longer be
+able to do things they could before the onset of the illness. For most
+
+children, once they recover, their development will speed up and they
+will catch up.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Family events such as the arrival of a new baby in a family can also
+cause a child to slow down their progress for a short while. If a
+child’s progress slows for a while, and there seems to be a reason for
+this, such as one of the events above, this is not necessarily a cause
+for concern. But if the delay is persistent, or happens for no obvious
+reason, it is important that you seek advice so that any help can be
+given as soon as possible.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Any accident or illness that affects the brain can also impact on a
+child’s development. Some children will be slower in their progress
+because they are born with a medical condition which restricts their
+development. This condition might be diagnosed shortly after their
+birth. However, a child being slow in their development can sometimes
+be the first sign that the child has an underlying medical condition.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Important: If you are worried about your child’s progress you
+should talk to your pediatrician. It is time to make a visit<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+“When I noticed Ishaani wasn’t progressing the way she should, the
+doctor I took her to, didn’t know much about her medical condition,
+she had never such a case but she did refer us to another doctor
+from a bigger hospital” <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Remember: It will take time for the doctors to make the diagnosis<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Specialists will consider all the different areas of concern for your
+child and think about the most likely reasons for their difficulties.
+They might carry out tests to rule out possible causes or to confirm
+what the reasons are. They may even find a name or ‘diagnosis’ for
+the condition. However, different conditions can cause similar
+symptoms and it is not always possible to test for all of these.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+It might be necessary to wait to see if your child makes progress in
+their development, or for other symptoms to appear that will help in
+making a diagnosis.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+If a child has a rare condition it can be even more difficult for
+doctors to identify the reasons, as less is known about the condition
+and the doctor might never have seen someone with that condition
+before.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+Advances in science and genetic testing means new conditions are
+being identified all the time. It is not possible for doctors to know
+about all of these conditions, but this should not prevent them from
+being able to treat your child’s symptoms.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Children can sometimes wait for years for a diagnosis and some never
+get a diagnosis, but support is still available for them even without a
+diagnosis. Some parents can find this a worrying time. Not having a
+diagnosis for a child’s condition can seem worse than knowing and
+parents are often bewildered by what could be the cause.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Not all parents, however, will react in this way. Sometimes parents
+prefer not to have a diagnosis as this helps them focus on the issues
+that are happening rather than compare their child with others with
+the same condition. Even if your child has been diagnosed with a
+condition, it can still be difficult to know how this will affect them as
+the same condition can affect children in different ways.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+In Ishaani’s case, the first few years was a struggle for me, I did not
+know anyone who had a child like her or what her condition was called.
+I constantly was under pressure to finding a name for our daughter’s
+condition and kept researching on this wherever and whenever I
+could. My daughter’s pediatrician listened to everything I said, but
+was helpless as she explained that Ishaani had overlapping symptoms
+and no single name could be given to her condition. Till the end
+Ishaani was undiagnosed and there was no specific name for her
+condition”<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Source:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+https://www.clevelandschools.org/cms/lib/TN01917036/Centricity/D
+omain/277/Developmental%20Delay%20Resource%20Packet.pdf
+
+</source>
+ <target>We must understand and accept that children develop at their own
+pace, so don&apos;t be alarmed if your child takes a slightly different
+course. Every parent, however, has the right to find out if there is
+something different.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+The first five years of children’s life is most important as it during
+this period when they develop most of the abilities. All children need
+to be encouraged when they achieve these skills by us, their parents.
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+We need to give them love and affection, sing, talk, listen and play
+with them<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Developmental Delay provides an opportunity for provision of services
+and programs based on a child’s strengths and needs, as measured by
+the five developmental areas, when the assessment of a more specific
+disability due to a child’s young age cannot be considered statistically
+reliable or valid.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+The five developmental domains assessed for Developmental Delay
+are:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+1. Physical/Motor coordination: Gross/fine motor skills, jumping,
+hopping, throwing/catching, drawing, stacking<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+2. Cognitive: Thinking, reasoning, problem-solving, understanding<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+3. Communication: Smiling, listening, babbling, talking, pointing to
+things<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+4. Social/Emotional: Initiating peer contact, group play, showing
+affection, copying facial expressions<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+5. Adaptive: Dressing, eating, washing<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+Now when a child has delayed development in two or more of the
+above domains, then the child may have “global developmental
+delay” or GDD.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+A child may just have delay in one specific domain this is not GDD and
+may have a different diagnostic and treatment approach. So, it is
+important that the type of delay is identified as early as possible so
+support for your child can begin and it usually is tailored to your
+child’s specific needs. The earlier support is put in place, the better
+chance of improvement for the child.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Is your child showing signs of developmental delay?<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+
+More often than not, parents are often the first to realize that their
+child is not developing in an expected way or at the same pace as
+their peers.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+A child’s development can be slower than others for various reasons,
+including if they are born prematurely or become ill. If a child
+becomes severely ill they may even appear to regress and no longer be
+able to do things they could before the onset of the illness. For most
+
+children, once they recover, their development will speed up and they
+will catch up.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Family events such as the arrival of a new baby in a family can also
+cause a child to slow down their progress for a short while. If a
+child’s progress slows for a while, and there seems to be a reason for
+this, such as one of the events above, this is not necessarily a cause
+for concern. But if the delay is persistent, or happens for no obvious
+reason, it is important that you seek advice so that any help can be
+given as soon as possible.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Any accident or illness that affects the brain can also impact on a
+child’s development. Some children will be slower in their progress
+because they are born with a medical condition which restricts their
+development. This condition might be diagnosed shortly after their
+birth. However, a child being slow in their development can sometimes
+be the first sign that the child has an underlying medical condition.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Important: If you are worried about your child’s progress you
+should talk to your pediatrician. It is time to make a visit<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+“When I noticed Ishaani wasn’t progressing the way she should, the
+doctor I took her to, didn’t know much about her medical condition,
+she had never such a case but she did refer us to another doctor
+from a bigger hospital” <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Remember: It will take time for the doctors to make the diagnosis<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Specialists will consider all the different areas of concern for your
+child and think about the most likely reasons for their difficulties.
+They might carry out tests to rule out possible causes or to confirm
+what the reasons are. They may even find a name or ‘diagnosis’ for
+the condition. However, different conditions can cause similar
+symptoms and it is not always possible to test for all of these.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+It might be necessary to wait to see if your child makes progress in
+their development, or for other symptoms to appear that will help in
+making a diagnosis.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+If a child has a rare condition it can be even more difficult for
+doctors to identify the reasons, as less is known about the condition
+and the doctor might never have seen someone with that condition
+before.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+
+Advances in science and genetic testing means new conditions are
+being identified all the time. It is not possible for doctors to know
+about all of these conditions, but this should not prevent them from
+being able to treat your child’s symptoms.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Children can sometimes wait for years for a diagnosis and some never
+get a diagnosis, but support is still available for them even without a
+diagnosis. Some parents can find this a worrying time. Not having a
+diagnosis for a child’s condition can seem worse than knowing and
+parents are often bewildered by what could be the cause.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Not all parents, however, will react in this way. Sometimes parents
+prefer not to have a diagnosis as this helps them focus on the issues
+that are happening rather than compare their child with others with
+the same condition. Even if your child has been diagnosed with a
+condition, it can still be difficult to know how this will affect them as
+the same condition can affect children in different ways.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/>
+In Ishaani’s case, the first few years was a struggle for me, I did not
+know anyone who had a child like her or what her condition was called.
+I constantly was under pressure to finding a name for our daughter’s
+condition and kept researching on this wherever and whenever I
+could. My daughter’s pediatrician listened to everything I said, but
+was helpless as she explained that Ishaani had overlapping symptoms
+and no single name could be given to her condition. Till the end
+Ishaani was undiagnosed and there was no specific name for her
+condition”<x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/>
+<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+Source:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+https://www.clevelandschools.org/cms/lib/TN01917036/Centricity/D
+omain/277/Developmental%20Delay%20Resource%20Packet.pdf
+
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/about-gdd/about-gdd.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+
+      <trans-unit id="rehabilateContent" datatype="html">
+        <source>
+    Once you know that child may have some development delays, it is
+    advisable, with consent from your pediatrician to ensure your child
+    has regular sessions with the physiotherapist, occupational therapist
+    or speech language pathologist. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    “Like I mentioned before I felt that getting a name for Ishaani’s
+    condition would help us when explaining to others what was wrong, but
+    in the end it didn’t really matter. All the health professionals involved
+    needed to know was what the immediate difficulties were, so the
+    right.”
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    These health professionals are likely to ask questions about how your
+    child has developed since birth and may want to spend time observing
+    and possibly giving them one or more developmental assessments.
+    Professionals are likely to be interested in how your child moves, how
+    many words your child understands and how they play with toys and
+    other people. If you have been recording your child’s progress in their
+    Personal Child Health record, they will find this information useful.
+    The specialists might suggest ways to help your child make more
+    progress. For example, activities to improve movement and
+    coordination or ways to help your child develop their speech and
+    communication. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    They might ask you to keep a record of your child’s development, to
+    note their achievements and areas for improvement.
+</source>
+     <target>
+    Once you know that child may have some development delays, it is
+    advisable, with consent from your pediatrician to ensure your child
+    has regular sessions with the physiotherapist, occupational therapist
+    or speech language pathologist. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    “Like I mentioned before I felt that getting a name for Ishaani’s
+    condition would help us when explaining to others what was wrong, but
+    in the end it didn’t really matter. All the health professionals involved
+    needed to know was what the immediate difficulties were, so the
+    right.”
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    These health professionals are likely to ask questions about how your
+    child has developed since birth and may want to spend time observing
+    and possibly giving them one or more developmental assessments.
+    Professionals are likely to be interested in how your child moves, how
+    many words your child understands and how they play with toys and
+    other people. If you have been recording your child’s progress in their
+    Personal Child Health record, they will find this information useful.
+    The specialists might suggest ways to help your child make more
+    progress. For example, activities to improve movement and
+    coordination or ways to help your child develop their speech and
+    communication. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    They might ask you to keep a record of your child’s development, to
+    note their achievements and areas for improvement.
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/rehabilate/rehabilate.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+
+       <trans-unit id="speechTherapyContent" datatype="html">
+        <source>
+    Speech and language therapy helps children learn to communicate,
+    either through speech or other methods. Speech and language
+    therapists can also help if there are problems with eating, drinking
+    and swallowing.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/> “During the initial phase when I began to suspect that something was
+    off in Ishaani’s developmental chart, we had her examined by the
+    department of speech and audiology when a speech language
+    pathologist had a few sessions with her. Later on when she lost her
+    skills, communication was the least of our problems.”
+    <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+      <target>
+    Speech and language therapy helps children learn to communicate,
+    either through speech or other methods. Speech and language
+    therapists can also help if there are problems with eating, drinking
+    and swallowing.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/> “During the initial phase when I began to suspect that something was
+    off in Ishaani’s developmental chart, we had her examined by the
+    department of speech and audiology when a speech language
+    pathologist had a few sessions with her. Later on when she lost her
+    skills, communication was the least of our problems.”
+    <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/speechtherapy/speechtherapy.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="whereToGoContent" datatype="html">
+        <source>I live in Manipal and I have access to one of the best pediatric
+    departments in this part of Karnataka. Ishaani was under the care,
+    treatment and observation of an amazing team lead by Dr Pushpa G
+    Kini at Kasturba Medical hospital, Manipal. We were very fortunate to
+    have her to care for our daughter.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    “dhvani.life” gives you the search option to look for hospitals nearby
+    your locations. Just type the location you are looking for and wait for
+    the results.</source>
+     <target>I live in Manipal and I have access to one of the best pediatric
+    departments in this part of Karnataka. Ishaani was under the care,
+    treatment and observation of an amazing team lead by Dr Pushpa G
+    Kini at Kasturba Medical hospital, Manipal. We were very fortunate to
+    have her to care for our daughter.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    “dhvani.life” gives you the search option to look for hospitals nearby
+    your locations. Just type the location you are looking for and wait for
+    the results.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/where-to-go/where-to-go.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="aboutUsContent" datatype="html">
+        <source>This website would not have been possible without the work and
+    contribution of so many people.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> I have listed them down here.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    I take this opportunity to thank each one of them for helping me out
+    to get this to where it is today.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Thank you!</source>
+     <target>This website would not have been possible without the work and
+    contribution of so many people.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> I have listed them down here.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    I take this opportunity to thank each one of them for helping me out
+    to get this to where it is today.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Thank you!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/about-us/about-us.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="WhatAreDevelopmentalMilestonesContent" datatype="html">
+        <source>
+    The excitement of parents when they notice their children making
+    eye contact, showing attachment to certain people, trying to babble,
+    saying their first words, pointing at things, handling toys, rolling over
+    on their tummy, crawling, sitting or walking. These actions are the
+    important skills they develop, as they grow and happen at age
+    intervals that most of us are aware. These skills are known as
+    ‘developmental milestones’. These milestones provide important
+    information regarding your child&apos;s early development. So you could
+    say that “Developmental milestones” are physical or behavioral signs
+    of development of infants and children.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    Usually, a child with developmental delay is much slower in reaching
+    one or more of these milestones than expected. This delay can occur
+    for a variety of reasons and some children eventually catch up.
+    Development delay sometimes occurs because the child is born with a
+    medical condition which restricts their development.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    
+    Milestones are different for each age range. These milestones are
+    behaviors that emerge over time, forming the building blocks for
+    growth and continued learning.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    
+    Source:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    1. https://www.chop.edu/conditions-diseases/developmental-
+    milestones
+    2. Sheila Davis, 2015, “Developmental Delay: A guide for families
+    in England, Northern Ireland, Scotland and Wales”. Available
+    [online] at www.cafamily.org.uk/publicationlist
+</source>
+<target>
+    The excitement of parents when they notice their children making
+    eye contact, showing attachment to certain people, trying to babble,
+    saying their first words, pointing at things, handling toys, rolling over
+    on their tummy, crawling, sitting or walking. These actions are the
+    important skills they develop, as they grow and happen at age
+    intervals that most of us are aware. These skills are known as
+    ‘developmental milestones’. These milestones provide important
+    information regarding your child&apos;s early development. So you could
+    say that “Developmental milestones” are physical or behavioral signs
+    of development of infants and children.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    Usually, a child with developmental delay is much slower in reaching
+    one or more of these milestones than expected. This delay can occur
+    for a variety of reasons and some children eventually catch up.
+    Development delay sometimes occurs because the child is born with a
+    medical condition which restricts their development.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    
+    Milestones are different for each age range. These milestones are
+    behaviors that emerge over time, forming the building blocks for
+    growth and continued learning.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    
+    Source:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    1. https://www.chop.edu/conditions-diseases/developmental-
+    milestones
+    2. Sheila Davis, 2015, “Developmental Delay: A guide for families
+    in England, Northern Ireland, Scotland and Wales”. Available
+    [online] at www.cafamily.org.uk/publicationlist
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/what-are-milestones/what-are-milestones.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="BenchMarksSub" datatype="html">
+        <source> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Nonprofit advocacy: <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>We do not believe in making profits or money out of this. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Anonymity if expected:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> We respect that you do not want to disclose your identity. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Run by group members:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Only the administrator and group members are part of this
+website development team. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Online community:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Our aim is to build an online support group</source>
+    <target> <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Nonprofit advocacy: <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>We do not believe in making profits or money out of this. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Anonymity if expected:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> We respect that you do not want to disclose your identity. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+  <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Run by group members:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Only the administrator and group members are part of this
+website development team. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Online community:<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Our aim is to build an online support group</target>    <context-group purpose="location">
+          <context context-type="sourcefile">app/benchmark/benchmark.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>

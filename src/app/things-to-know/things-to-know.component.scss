@@ -97,3 +97,11 @@ nav > .nav.nav-tabs{
   font-family: 'corbel';
 text-align: justify;
 }
+
+
+li:before {
+  //content: '\1F95E';
+  content:'👶🏻';
+  margin-left: -20px;
+  margin-right: 10px;
+  }

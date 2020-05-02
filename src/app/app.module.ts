@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { LayoutModule } from '@angular/cdk/layout';
 import {MatInputModule} from '@angular/material/input';
 // used to create fake backend
+import {NgxPaginationModule} from 'ngx-pagination'; 
 import { fakeBackendProvider } from './_helpers';
 import {MatSelectModule} from '@angular/material/select';
 import { HomeComponent } from './home/home.component';
@@ -102,12 +103,34 @@ import { GstGetComponent } from './gst-get/gst-get.component';
 import { GstEditComponent } from './gst-edit/gst-edit.component';
 import { SlimLoadingBarModule } from 'ng2-slim-loading-bar';
 import { BusinessService } from './business.service';
-
+import { PhotoGalleryComponent } from './photo-gallery/photo-gallery.component';
+import {InfiniteScrollModule} from 'ngx-infinite-scroll';
+import { Picture } from './components/picture/picture';
+import { PictureUpload } from './components/picture_upload/picture_upload';
+import { CosmicConfigService } from './services/cosmic_config';
+import { OrdersComponent } from './orders/orders.component';
+import { OrderListComponent } from './order-list/order-list.component';
+import { OrdersService } from "./shared/orders.service";
+import { AngularFireModule } from "@angular/fire";
+import { AngularFirestoreModule } from "@angular/fire/firestore";
+import { environment } from "src/environments/environment";
+import { IonicStorageModule } from '@ionic/storage';
+import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
+import { RouterModule, RouteReuseStrategy, Routes } from '@angular/router';
+import { SplashScreen } from '@ionic-native/splash-screen/ngx';
+import { StatusBar } from '@ionic-native/status-bar/ngx';
+import { StoryFeedComponent } from './story-feed/story-feed.component';
+import { StoryComponent } from './story/story.component';
+import { QuicknotesComponent } from './quicknotes/quicknotes.component';
+import { EmojiPickerModule } from 'ng-emoji-picker';
 @NgModule({
     imports: [
         
         BrowserModule,
         AppRoutingModule,
+        
+    IonicModule.forRoot(),
+    IonicStorageModule.forRoot(),
         ReactiveFormsModule,
         HttpClientModule,
         routing,
@@ -115,6 +138,7 @@ import { BusinessService } from './business.service';
         WavesModule,
         ButtonsModule,
         InputsModule,
+        EmojiPickerModule,
         LayoutModule,
         FormsModule,
       //  ChatroomComponent,
@@ -128,10 +152,19 @@ import { BusinessService } from './business.service';
     MatCardModule, 
     MatTabsModule,
     MatTableModule,
+    NgxPaginationModule,
     MatSelectModule,
+    MatSnackBarModule,
+    MatButtonModule,
+MatCheckboxModule,
+MatCardModule,
+MatInputModule,
     BrowserAnimationsModule,
     GoogleChartsModule,
-    SlimLoadingBarModule
+    SlimLoadingBarModule,
+    InfiniteScrollModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFirestoreModule
     ],
     declarations: [
         HomeComponent,
@@ -174,13 +207,24 @@ import { BusinessService } from './business.service';
         TipsForParentsComponent,
         GstAddComponent,
         GstGetComponent,
-        GstEditComponent],
+        GstEditComponent,
+        PhotoGalleryComponent,
+        Picture,
+        PictureUpload,
+        OrdersComponent,
+        OrderListComponent,
+        StoryFeedComponent,
+        StoryComponent,
+        QuicknotesComponent],
        
         
-    providers: [BusinessService,
+    providers: [BusinessService,CosmicConfigService,OrdersService,
         { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
         { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
-        { provide: LOCALE_ID, useValue: 'fr' }
+        { provide: LOCALE_ID, useValue: 'fr' },
+        StatusBar,
+        SplashScreen,
+        { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
       
         // provider used to create fake backend
        // fakeBackendProvider

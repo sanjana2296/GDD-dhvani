@@ -1,4 +1,4 @@
-<div id="tab0"></div>
+<!--<div id="tab0"></div>
 <div id="tab1"><mat-card style="width:6%;margin-top:51%;margin-right:-4%;background-color:rgb(109, 46, 95)"><br/>4<br/>Years</mat-card><img style="width:40%" class="babymile" src="./assets/sl6.jpg">
 	<ul class="list-group" style=" float:right;margin-right:2%;margin-top:5%" >
     <li class="list-group-item list-group-item-primary">Uses full sentences</li>
@@ -79,4 +79,32 @@
   </div>
 
 <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
-</form><br/><br/>
+</form><br/><br/>-->
+
+<div id="content" #content>  
+    <mat-card>  
+        
+      <div class="alert alert-info">  
+          <strong>Check your milestone</strong>  
+      </div>  
+      
+    </mat-card>  
+  </div>  
+
+  <input mdbBtn  color="primary" mdbWavesEffect type="button" value="Download your note" (click)="captureScreen()"/>  
+      
+    <div id="contentToConvert" style="padding-top: 20px">
+        <textarea id="story" name="story" style="margin-left:1%"
+        rows="5" cols="33">
+3 months..
+</textarea>
+        <button mdbBtn id="newnotebutton" type="button" color="primary" mdbWavesEffect (click)="addTextarea()">Add New Note</button>
+        <form>
+            <div *ngFor="let textarea of textAreasList; let textarea_index= index">
+                <textarea name="{{textarea}}"></textarea>
+                <button id="removenotebutton" mdbBtn type="button" color="primary" mdbWavesEffect (click)="removeTextArea(textarea_index)">Remove Note</button>
+            </div>
+        </form>
+        <div>  
+               </div>  
+        </div>

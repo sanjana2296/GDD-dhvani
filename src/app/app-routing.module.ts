@@ -37,6 +37,11 @@ import { AcknowledgementComponent } from './acknowledgement/acknowledgement.comp
 import { GstAddComponent } from './gst-add/gst-add.component';
 import { GstEditComponent } from './gst-edit/gst-edit.component';
 import { GstGetComponent } from './gst-get/gst-get.component';
+import { PhotoGalleryComponent } from './photo-gallery/photo-gallery.component';
+
+import { StoryFeedComponent } from './story-feed/story-feed.component';
+import { StoryComponent } from './story/story.component';
+import { QuicknotesComponent } from './quicknotes/quicknotes.component';
 
 const routes: Routes = [ 
 { path: 'home', component: HomeComponent },
@@ -68,12 +73,16 @@ const routes: Routes = [
 { path: 'become-donor', component: BecomeDonorComponent },
 { path: 'donor-sheet', component: DonorSheetComponent },
 { path: 'acknowledgement', component: AcknowledgementComponent },
+{ path: 'quicknotes', component: QuicknotesComponent },
 {
   path:'inspiration', component:InspirationComponent
 },
 {path:'disclaimer', component:DisclaimerComponent},
 {path:'check-milestone', component:CheckYourMilestonesComponent},
 {path:'what-are-mailestones', component:WhatAreMilestonesComponent},
+{path:'photo', component:PhotoGalleryComponent},
+{path:'story-feed', component:StoryFeedComponent},
+{path:'story', component:StoryComponent},
 {
   path: 'feed',
   component: FeedComponent,

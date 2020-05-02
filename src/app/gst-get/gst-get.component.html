@@ -2,8 +2,8 @@
   <thead>
   <tr>
       <td>Person Name</td>
-      <td>Business Name</td>
-      <td>GST Number</td>
+      <td>Child Name</td>
+      <td>Age of the child</td>
       <td colspan="2">Actions</td>
   </tr>
   </thead>
@@ -13,7 +13,7 @@
       <td>{{ business.person_name }}</td>
       <td>{{ business.business_name }}</td>
       <td>{{ business.business_gst_number }}</td>
-      <td><a [routerLink]="['edit', business._id]" class="btn btn-primary">Edit</a></td>
+    <!--  <td><a [routerLink]="['edit', business._id]" class="btn btn-primary">Edit</a></td>-->
       <td><a (click) = "deleteBusiness(business._id)" class="btn btn-danger">Delete</a></td>
 </tr>
   </tbody>

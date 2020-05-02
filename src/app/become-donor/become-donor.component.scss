@@ -1,4 +1,4 @@
-p {
+.div1 {
     padding: 2%;
     background: #fff9c6;
     color: #9b8652;
@@ -10,4 +10,11 @@ p {
   margin:0 auto 0 auto;
   margin-top:2%;
   width:70%;
+  }
+
+  
+li:before {
+  content: '\1F95E';
+  margin-left: -20px;
+  margin-right: 10px;
   }

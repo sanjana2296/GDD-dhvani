@@ -2,7 +2,7 @@
   <div class="card-body">
     <form [formGroup]="angForm" novalidate>
       <div class="form-group">
-        <label class="col-md-4">Person Name</label>
+        <label class="col-md-4">Username</label>
         <input type="text" class="form-control" formControlName="person_name" #person_name />
       </div>
       <div *ngIf="angForm.controls['person_name'].invalid && (angForm.controls['person_name'].dirty || angForm.controls['person_name'].touched)" class="alert alert-danger">
@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="form-group">
-        <label class="col-md-4">Business Name </label>
+        <label class="col-md-4">Child Name </label>
         <input type="text" class="form-control" formControlName="business_name" #business_name />
       </div>
       <div *ngIf="angForm.controls['business_name'].invalid && (angForm.controls['business_name'].dirty || angForm.controls['business_name'].touched)" class="alert alert-danger">
@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="form-group">
-        <label class="col-md-4">Business GST Number </label>
+        <label class="col-md-4">Age of the child </label>
         <input type="text" class="form-control" formControlName="business_gst_number" #business_gst_number />
       </div>
       <div *ngIf="angForm.controls['business_gst_number'].invalid && (angForm.controls['business_gst_number'].dirty || angForm.controls['business_gst_number'].touched)" class="alert alert-danger">

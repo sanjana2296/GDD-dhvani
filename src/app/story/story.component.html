@@ -1,0 +1,84 @@
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item" *ngFor="let order of coffeeOrders | paginate: { itemsPerPage: 5, currentPage: p }">
+      <div class="card">
+          <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"></div>
+        <div class="card_content" >
+           
+          <h2 class="card_title">{{ order.payload.doc.data().parentType }}</h2>
+          <p class="card_text">{{ order.payload.doc.data().DOB }}</p><br/>
+         <!--<button class="btn card_btn">Read More</button>--> 
+        </div>
+       
+      </div>
+    </li><br/><br/>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+  </ul>
+</div>
+<!--
+<table id="customers">
+    <thead>
+      <tr>
+        <th>UserName</th>
+        <th>Title</th>
+        <th>Content</th>
+       <!-- <th>Age</th>
+        <th>No. of children</th>
+        <th>Marital</th>
+        <th>Child Name</th>
+        <th>Child DOB</th>
+        <th>Child Age</th>
+        <th>Symtoms</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Country</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+  
+    <tbody >
+      <tr *ngFor="let order of coffeeOrders">
+        <td>
+          {{ order.payload.doc.data().userName }}
+        </td>
+        <td>{{ order.payload.doc.data().parentType }}</td>
+        
+            <td>
+                {{ order.payload.doc.data().DOB }}
+              </td>
+            <!--<td>
+                {{ order.payload.doc.data().age }}
+              </td>
+              <td>{{ order.payload.doc.data().NoOfChildren }}</td>
+              <td>{{ order.payload.doc.data().Marital }}</td>
+              <td>{{ order.payload.doc.data().childName }}</td>
+              <td>{{ order.payload.doc.data().childDOB }}</td>
+              <td>{{ order.payload.doc.data().childage }}</td>
+              <td>{{ order.payload.doc.data().symtoms }}</td>
+              <td>{{ order.payload.doc.data().city }}</td>
+              <td>{{ order.payload.doc.data().state }}</td>
+              <td>{{ order.payload.doc.data().country }}</td>-->
+            <!--  <td>
+          <span *ngFor="let coffee of order.payload.doc.data().coffeeOrder">
+            {{ coffee }}
+          </span>
+        </td>
+        <td
+          [hidden]="order.payload.doc.data().completed"
+          (click)="markCompleted(order)"
+        >
+          <i class="material-icons">check</i>
+        </td>
+        <td
+          [hidden]="order.payload.doc.data().completed"
+          (click)="deleteOrder(order)"
+        >
+          <i class="material-icons">delete</i>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <ul>
+    <li></li>
+  </ul>-->

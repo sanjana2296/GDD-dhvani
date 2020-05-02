@@ -3,6 +3,7 @@ import { Subscription } from 'rxjs';
 import { first } from 'rxjs/operators';
 import {ChatroomComponent} from '../chatroom/chatroom.component';
 import { User } from '../_models';
+import {OrdersComponent} from '../orders/orders.component';
 import { UserService, AuthenticationService } from '../_services';
 import {SlimLoadingBarService} from 'ng2-slim-loading-bar';
 import { NavigationCancel,
@@ -29,6 +30,7 @@ constructor( private authenticationService: AuthenticationService,
  this.currentUserSubscription = this.authenticationService.currentUser.subscribe(user => {
 this.currentUser = user;
 ChatroomComponent.user=this.currentUser.firstName;
+OrdersComponent.user=this.currentUser.firstName;
 console.log("firstname:"+ChatroomComponent.user);
 }); 
  this._router.events.subscribe((event: Event) => {
