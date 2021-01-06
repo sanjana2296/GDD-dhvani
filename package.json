@@ -37,7 +37,7 @@
     "angular-bootstrap-md": "^7.5.2",
     "angular-font-awesome": "^3.1.2",
     "angular-google-charts": "^0.1.3",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
     "cosmicjs": "^3.2.17",
