@@ -51,7 +51,7 @@
     "ng2-slim-loading-bar": "^4.0.0",
     "ngx-infinite-scroll": "^7.1.0",
     "ngx-pagination": "^3.3.1",
-    "nodemailer": "^6.1.1",
+    "nodemailer": "^6.4.16",
     "process": "^0.11.10",
     "pusher": "^2.2.0",
     "pusher-js": "^4.4.0",
