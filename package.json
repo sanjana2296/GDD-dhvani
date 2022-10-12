@@ -45,7 +45,7 @@
     "font-awesome": "^4.7.0",
     "hammerjs": "^2.0.8",
     "html2canvas": "^1.0.0-rc.3",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.5.1",
     "mdbootstrap": "^4.8.0",
     "ng-emoji-picker": "^6.0.1",
     "ng2-slim-loading-bar": "^4.0.0",
