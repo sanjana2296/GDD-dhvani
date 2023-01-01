@@ -40,7 +40,7 @@
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
-    "cosmicjs": "^3.2.17",
+    "cosmicjs": "^3.4.4",
     "firebase": "^6.0.4",
     "font-awesome": "^4.7.0",
     "hammerjs": "^2.0.8",
@@ -60,7 +60,7 @@
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.13.3",
+    "@angular-devkit/build-angular": "^15.0.4",
     "@angular/cli": "~7.0.3",
     "@angular/compiler-cli": "^7.2.6",
     "@angular/language-service": "~7.0.0",
